@@ -74,6 +74,7 @@ coffeeStat = false
 ## Default social card image, recommended resolution: 1200 x 630px
 # images = "example.com/img/social-share.jpg" 
 
+
 ## Author information
 [params.author]
 name = 'Dik Tam'

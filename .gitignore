@@ -68,5 +68,5 @@ node_modules/
 # dataconnect generated files
 .dataconnect
 
-*.lock
+.hugo_build.lock
 public/

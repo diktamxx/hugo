@@ -277,9 +277,13 @@
             </div>
         </section>
         <footer>
+            <!-- diktam 
             <span class="readingTime">
                 {{- printf "%d %s" .page.ReadingTime (i18n "readingTime" .page.ReadingTime | lower ) }}
             </span>
+            -->
+            
+
             <!-- hfill -->
             {{- if .page.Params.tags }}
                 {{ partial "terms.html" (dict "taxonomy" "tags" "class" "rounded invert ldots" "page" .page) }}
