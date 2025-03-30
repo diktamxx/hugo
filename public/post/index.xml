@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on D</title>
+    <link>https://diktam.me/post/</link>
+    <description>最近文章 发布于 Posts 在 D</description>
+    <generator>Hugo 0.145.0</generator>
+    <language>zh</language>
+    <managingEditor>Dik Tam</managingEditor>
+    
+      <webMaster>Dik Tam</webMaster>
+    <lastBuildDate>Sun, 30 Mar 2025 16:19:15 +0800</lastBuildDate>
+    <atom:link href="https://diktam.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Test</title>
+      <link>https://diktam.me/post/markdown-test/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Dik Tam</author>
+      <guid>https://diktam.me/post/markdown-test/</guid>
+      <description></description>
+      <enclosure url="https://diktam.me/post/markdown-test/cover.jpg" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>

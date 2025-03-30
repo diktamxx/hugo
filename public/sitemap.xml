@@ -1,0 +1,64 @@
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://diktam.me/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/categories/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/tags/ddd/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/post/markdown-test/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/post/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/tags/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/categories/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/tags/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/footer/</loc>
+    
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/author/</loc>
+    
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/author/dik-tam/</loc>
+    
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://diktam.me/slide/</loc>
+    
+    <changefreq>always</changefreq>
+    </url>
+</urlset>

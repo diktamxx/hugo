@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 没有这页面</title>
+    <meta http-equiv="refresh" content="15;url=https://diktam.me/">
+    <!-- css.html -->
+        <link rel="stylesheet" href="https://diktam.me/css/hugo-brewm.min.css" integrity="sha256-TLbuENcdewMir5n&#43;/6aQ1Edc6sjy35xYytH2xLmaYd4=" crossorigin="anonymous"><style>
+        h1 {--anm: fade 15s forwards;-webkit-animation: var(--anm);-moz-animation: var(--anm);-o-animation: var(--anm);animation: var(--anm);font-size: 5rem;}
+        h1::after {font-size: 2rem}
+        @keyframes fade {0% {opacity: 1} 100% {opacity: 0}}
+        @-webkit-keyframes fade {0% {opacity: 1} 100% {opacity: 0}}
+    </style>
+</head>
+<body id="page404">
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true"></div>
+    
+    <nav aria-label="绕过">
+        <a id="to-content" class="underline" href="#list-posts" aria-label="跳到主要内容">
+            <span>跳到主要内容</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+        <a id="logo" href="https://diktam.me/" aria-label="D">
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="28pt">
+            <text id="logotype__text" y="19.5pt" x="0">D</text>
+        </svg>
+        </a>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t t2">导航</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="顶部">
+            <!-- menu.html -->
+<details id="has-main-menu" class="presentation" open>
+    <summary  class="hide"  aria-label="主菜单">
+        <span>主菜单</span>
+    </summary>
+        
+        <nav id="main-menu" aria-label="主菜单">
+            <ul class="l1 " role="presentation" tabindex="-1" >
+                
+    
+        <li role="presentation">
+    <a   class=on-deck href=/post/>
+        
+            <span>所有内容</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=on-deck href=/tags/>
+        
+            <span>地图</span>
+    </a>
+        </li>
+        <li role="presentation">
+    <a   class=on-deck href=/author/>
+        
+            <span>作者</span>
+    </a>
+        </li>
+            </ul>
+        </nav>
+</details>
+            
+            <!-- menu.html -->
+            <!-- i18n.html -->
+
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+</header>
+    <main class="pagewidth" style="display: flex; flex-direction: column;">
+        <div class="textwidth" style="margin:auto;">
+            <h1 class="has-aria-label" aria-label="没有这页面">404</h1>
+            <p role="alert">此页面故意重定向 <a href="/" class="loading">返回首页</a></p>
+        </div>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background" role="presentation"></div>
+    <!-- focusMode.html -->
+    <div id="focusMode" class="hide">
+        <input
+            id="defocusAuxElement"
+            accesskey="d" type="checkbox"
+            onclick="focusMode()"
+            aria-keyshortcuts="d"
+            aria-label="专注模式"
+            >
+            <label id="focusModeButton" for="defocusAuxElement" aria-label="专注模式">
+                ⦿ <span class="t" role="tooltip">专注模式</span>
+            </label>
+    </div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
+    <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
+        <span>&nbsp;无障碍</span>
+        <kbd class="key" aria-hidden="true">a</kbd>
+    </summary>
+    <!-- a11y console -->
+    <fieldset id="a11y" role="region" disabled>
+        <!-- brightness & contrast -->
+        <div id="setColorScheme" role="group" aria-label="颜色设置">
+            <!-- darkMode.html -->
+    <input
+        id="lightSwitch"
+        type="checkbox"
+        onclick="setColor()"
+        aria-label="深色模式"
+        >
+        <label for="lightSwitch">
+            <div class="has-aria-label off" role="status" aria-label="浅色"></div>
+            <div class="has-aria-label on" role="status" aria-label="深色"></div>
+            <div id="lightSwitchIndicator" aria-hidden="true"></div>
+        </label>
+            <!-- contrast.html -->
+    <fieldset id="setContrast">
+        <legend>对比度</legend>
+        <input
+            id="lessContrast"
+            type="radio" name="setContrast" value="less"
+            onclick="setColor()"
+            >
+            <label for="lessContrast">
+                <span>低</span>
+            </label>
+        <input
+            id="defaultContrast"
+            type="radio" name="setContrast" value="default"
+            onclick="setColor()"
+            >
+            <label for="defaultContrast">
+                <span>默认</span>
+            </label>
+        <input
+            id="moreContrast"
+            type="radio" name="setContrast" value="more"
+            onclick="setColor()"
+            >
+            <label for="moreContrast">
+                <span>高</span>
+            </label>
+    </fieldset>
+        </div>
+        <!-- colorPalette.html -->
+    <div id="setColorPalette" style="display:none;">
+        <label for="colorPalette">调色板</label>
+        <select id="colorPalette" name="colorPalette" oninput="setColorPalette()" aria-label="调色板">
+            <option value="defaultColor">默认</option>
+            <option value="deuteranopia">绿色盲</option>
+            <option value="protanopia">红色盲</option>
+            <option value="tritanopia">蓝色盲</option>
+            <option value="monochrome">单色</option>
+        </select>
+    </div>
+        <!-- fontsize.html -->
+    <div class="has-aria-label-top" aria-label="字体大小">
+        <label class="range" for="fontSize" aria-label="字体大小">
+            <input
+                id="fontSize"
+                type="range" min="8" max="12" step="0.5"
+                oninput="setFontSize()">
+            <output
+                id="fontSizeState"
+                onclick="resetFontSize()"
+                aria-live="polite"
+                >10</output>
+        </label>
+    </div>
+        <!-- baselineStretch.html -->
+    <div id="setBaselineStretch" class="has-aria-label-top" aria-label="基线拉伸">
+        <label class="range" for="baselineStretch">
+            <input
+                id="baselineStretch"
+                type="range" min="0.8" max="1.2" step="0.05"
+                oninput="setStretch()"
+                >
+            <output
+                id="baselineStretchState"
+                onclick="resetStretch()"
+                aria-live="polite"
+                >1</output>
+        </label>
+    </div>
+        <!-- OpenDyslexic.html -->
+    <div id="setOpenDyslexic">
+        <input
+            id="OpenDyslexic"
+            type="checkbox"
+            onclick="useOpenDyslexic()"
+            aria-label="使用OpenDyslexic字体"
+            >
+            <label
+                class="has-aria-label-top"
+                for="OpenDyslexic"
+                aria-label="使用OpenDyslexic字体"
+                >
+                <span id="OpenDyslexicState" aria-hidden="true">
+                    <span id="OpenDyslexicIndicator"></span>
+                </span>
+            </label>
+    </div>
+        <!-- menu.html -->
+    <menu
+        id="a11y-menu"
+        class="hide"
+        role="toolbar"
+        aria-label="无障碍菜单控制"
+        >
+        <button
+            id="saveButton" class="reverse"
+            onclick="saveA11y()"
+            disabled>保存
+        </button>
+        <button
+            id="resetButton" class="has-aria-label"
+            onclick="resetA11y()"
+            aria-label="重置"
+            disabled>
+        </button>
+        <button
+            id="closeButton" class="has-aria-label"
+            onclick="closeA11yConsole()"
+            aria-label="关闭"
+            >
+        </button>
+    </menu>
+        <noscript>
+            <center id="noScript" role="alert">哎呀……Javascript被禁用！</center>
+        </noscript>
+        <center id="noLocalStorage" class="hide" role="alert">您的浏览器不支持LocalStorage，设置将不会保存。</center>
+    </fieldset>
+    <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+</details>
+
+
+    <!-- bionread.html -->
+    <div id="useBionRead" class="hide">
+        <input
+            id="bionReadSwitch"
+            accesskey="b" type="checkbox"
+            onclick="bionRead()"
+            aria-keyshortcuts="b"
+            aria-label="BionRead模式"
+            >
+            <label id="bionReadButton" for="bionReadSwitch">
+                <span><strong>Bion</strong>Read</span>
+                <kbd class="key" aria-hidden="true">b</kbd>
+            </label>
+    </div>
+    <!-- [top] bypass block -->
+    <nav aria-label="绕过">
+        <a id="to-top" href="#top" title="回到内容顶部" accesskey="c" aria-keyshortcuts="c" aria-label="回到内容顶部">
+            <kbd class="key" aria-hidden="true">c</kbd>
+        </a>
+    </nav>
+</footer>
+    <div id="background-body" role="presentation"></div>
+</body>
+</html>

@@ -1,0 +1,231 @@
+[404PageNotFound]
+other = "没有这页面"
+[404Alert]
+other = "此页面故意重定向"
+[404ReturnHome]
+other = "返回首页"
+[accessibility]
+other = "无障碍"
+[accessTime]
+other = "此页面访问于"
+[allPosts]
+other = "所有文章"
+[appearance]
+other = "外观"
+[articles]
+one = "文章"
+other = "文章"
+[author]
+one = "作者"
+other = "作者"
+[back]
+other = "返回"
+[baselineStretch]
+other = "基线拉伸"
+[bionRead]
+other = "BionRead模式"
+[breadcrumb]
+other = "面包屑导航"
+[buildTime]
+other = "此页面构建于"
+[bypass]
+other = "绕过"
+[categories]
+one = "分类"
+other = "分类"
+[close]
+other = "关闭"
+[coffeeStat]
+other = "咖啡统计"
+[coffeeCount]
+other = "制作这个网站至少耗费了"
+[coffeeCountPost]
+other = "，如果不是更多的话。"
+[colophon]
+other = "版权页"
+[colorPalette]
+other = "调色板"
+[colorSettings]
+other = "颜色设置"
+[comments]
+other = "讨论"
+[contrast]
+other = "对比度"
+[contrib]
+other = "贡献"
+[contribAskReader]
+other = "喜欢这篇文章吗？"
+[contribAskReaderResponse]
+other = "太棒了！"
+[contribAskReaderToContribute]
+other = "您还可以通过以下方式支持我："
+[contribCoffeeStat]
+other = "您知道吗，"
+[contribCoffeeStatPost]
+other = "帮助我写了这篇文章？"
+[copy]
+other = "复制URL"
+[copying]
+other = "复制中..."
+[ctaComments]
+other = "加入讨论"
+[cup]
+one = "杯咖啡"
+other = "杯咖啡"
+[dark]
+other = "深色"
+[darkMode]
+other = "深色模式"
+[date_long]
+other = "2006年1月2日"
+[defaultColor]
+other = "默认"
+[defaultContrast]
+other = "默认"
+[deuteranopia]
+other = "绿色盲"
+[discover]
+other = "探索话题"
+[editedBy]
+other = "编辑者"
+[email]
+other = "电子邮件"
+[featuredImg]
+other = "特色图片"
+[fediverseBluesky]
+other = "使用Bluesky回复"
+[fediverseErr]
+other = "加载评论时出错"
+[fediverseIsLoading]
+other = "正在加载Fediverse上的评论"
+[fediverseReplies]
+one = "回复"
+other = "回复"
+[fediverseReblogs]
+one = "转发"
+other = "转发"
+[fediverseFavourites]
+one = "收藏"
+other = "收藏"
+[focusMode]
+other = "专注模式"
+[followRSS]
+other = "通过RSS关注"
+[fontSize]
+other = "字体大小"
+[home]
+other = "首页"
+[in]
+other = "发布于"
+[inNewTab]
+other = "在新标签中"
+[keepInTouch]
+other = "保持联系！"
+[lessContrast]
+other = "低"
+[light]
+other = "浅色"
+[main]
+other = "主菜单"
+[marginpar]
+other = "附加笔记"
+[menuControls]
+other = "无障碍菜单控制"
+[modified]
+other = "修改于"
+[monochrome]
+other = "单色"
+[more]
+other = "更多菜单"
+[moreContrast]
+other = "高"
+[next]
+other = "下一页"
+[nav]
+other = "导航"
+[noArticle]
+other = "没有内容可以展示。"
+[noArticlePost]
+# other = "看来我们的作者咖啡喝完了……别急，我们马上泡一杯！"
+[noComment]
+other = "没有评论可显示。"
+[noScript]
+other = "哎呀……Javascript被禁用！"
+[noLocalStorage]
+other = "您的浏览器不支持LocalStorage，设置将不会保存。"
+[note]
+other = "笔记"
+[on]
+other = "在"
+[OpenDyslexic]
+other = "使用OpenDyslexic字体"
+[pages]
+one = "页面"
+other = "页面"
+[pagination]
+other = "分页"
+[posts]
+one = "文章"
+other = "文章"
+[postsBy]
+other = "作者的文章"
+[postsOn]
+other = "所有内容"
+[prev]
+other = "上一页"
+[print]
+other = "打印"
+[protanopia]
+other = "红色盲"
+[published]
+other = "发布于"
+[readingTime]
+other = "分钟阅读"
+[recent]
+other = "最近文章"
+[redactionHistory]
+other = "编辑历史"
+[redactionNotes]
+other = "部分信息可能会随时间变化，我们会保持编辑更新。"
+[related]
+other = "您可能还喜欢"
+[reset]
+other = "重置"
+[reviewedBy]
+other = "审稿人"
+[save]
+other = "保存"
+[search]
+other = "搜索"
+[seeAll]
+other = "查看全部"
+[seeMore]
+other = "探索更多话题"
+[section]
+other = "部分"
+[selectLang]
+other = "语言选择"
+[series]
+other = "系列"
+[share]
+other = "分享"
+[shareOn]
+other = "分享到"
+[slide]
+one = "幻灯片"
+other = "幻灯片"
+[switchLangTo]
+other = "切换语言到"
+[TableOfContents]
+other = "目录"
+[tags]
+one = "标签"
+other = "标签"
+[toContent]
+other = "跳到主要内容"
+[toTop]
+other = "回到内容顶部"
+[top-nav]
+other = "顶部"
+[tritanopia]
+other = "蓝色盲"
