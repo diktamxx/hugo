@@ -4,7 +4,7 @@
 # theme = 'hugo-brewm'
 
 ## Base URL for the site
-baseURL = 'https://diktam.me'
+baseURL = 'diktam.me'
 ## Site title
 title = 'D'
 ## Use hugo-brewm theme
@@ -23,6 +23,10 @@ enableRobotsTXT = true
 sectionPagesMenu = 'main'
 ## Files to ignore when building site
 ignoreFiles = ['\.redacted', '\.old', '\.bak', '\.tmp', '\.swp', '\.DS_Store']
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
 
 
 [[menu.main]]
