@@ -1,3 +1,4 @@
-[submodule "themes/hugo-brewm"]
-	path = themes/hugo-brewm
-	url = https://github.com/foxihd/hugo-brewm
+[submodule "themes/congo"]
+	path = themes/congo
+	url = https://github.com/jpanther/congo.git
+	branch = stable

@@ -1,0 +1,42 @@
+# -- Main Menu --
+[[main]]
+  name = "主页"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "博客"
+  pageRef = "posts"
+  weight = 2
+
+[[main]]
+  name = "分类&标签"
+  pageRef = "tags"
+  weight = 3
+
+[[main]]
+  identifier = "搜寻"
+  weight = 4
+  [main.params]
+    action = "search"
+
+# -- Footer Menu --
+[[footer]]
+  name = "主页"
+  url = "/"
+  weight = 1
+
+[[footer]]
+  name = "博客"
+  pageRef = "posts"
+  weight = 2
+
+# [[footer]]
+#   name = "分类"
+#   pageRef = "categories"
+#   weight = 3
+
+[[footer]]
+  name = "分类&标签"
+  pageRef = "tags"
+  weight = 3

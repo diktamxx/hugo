@@ -1,0 +1,35 @@
+# -- Theme Options --
+colorScheme = "Cherry"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+
+enableSearch = true
+enableImageLazyLoading = true
+enableImageWebp = true
+
+[header]
+  showTitle = false
+
+[footer]
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+
+[homepage]
+  layout = "profile" # valid options: page, profile, custom
+  showRecent = true
+  recentLimit = 5
+
+[article]
+  showDate = false
+  showDateUpdated = false
+  showReadingTime = false
+  showDraftLabel = true
+  showTableOfContents = false
+  showHeadingAnchors = false
+  showComments = true
+
+[taxonomy]
+  showTermCount = false
+
+[list]
+  showSummary = true
