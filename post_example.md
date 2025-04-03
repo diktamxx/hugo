@@ -3,8 +3,8 @@ title: ""
 categories: [""]
 tags: [""]
 date: 2020-08-14
-cover: ""
-thumbnail: ""
+cover: "images/cover.png"
+thumbnail: "images/cover.png"
 draft: false
 summary: "" # 优先级没有<!--more-->高
 showTableOfContents: true
