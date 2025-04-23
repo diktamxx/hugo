@@ -1,8 +1,8 @@
 ---
-title: "异步并发问题的解决思路"
+title: "异步并发的解决思路"
 categories: ["Java"]
 tags: ["Java","并发编程"]
-date: 2024-03-16
+date: "2023-04-18"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 draft: false

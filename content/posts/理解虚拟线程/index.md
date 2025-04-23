@@ -2,11 +2,11 @@
 title: "理解虚拟线程（JDK 21 Virtual Threads）"
 categories: ["Java"]
 tags: ["Java","并发编程"]
-date: 2024-05-12
+date: "2024-08-12"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 draft: false
-summary: "最好的性能调优就是升级你的JDK"
+summary: "最好的性能调优就是升级你的JDK。"
 ---
 
 虚拟线程（Virtual Threads，简称：VT）最大的优势在于**I/O处理**。因为不会阻塞（平台线程），所以能够使**I/O密集型系统**拥有更大的吞吐量。这无疑是一种相当可观的性能提升。

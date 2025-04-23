@@ -2,7 +2,7 @@
 title: "不要把你的分布式单体叫做微服务"
 categories: ["软件架构"]
 tags: ["软件架构","微服务"]
-date: 2024-04-22
+date: "2024-04-22"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 draft: false

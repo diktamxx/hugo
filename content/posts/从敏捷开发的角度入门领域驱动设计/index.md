@@ -2,7 +2,7 @@
 title: "从敏捷开发的角度入门领域驱动设计（Domain-Driven Design，简称DDD）"
 categories: ["领域驱动设计"]
 tags: ["领域驱动设计","DDD","敏捷开发"]
-date: 2024-02-25
+date: "2024-02-25"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 draft: false
