@@ -5,7 +5,7 @@
   weight = 1
 
 [[main]]
-  name = "博客"
+  name = "所有内容"
   pageRef = "posts"
   weight = 2
 
@@ -15,8 +15,13 @@
   weight = 3
 
 [[main]]
-  identifier = "搜寻"
+  name = "推荐读物"
+  pageRef = "readings"
   weight = 4
+
+[[main]]
+  identifier = "搜寻"
+  weight = 5
   [main.params]
     action = "search"
 
@@ -27,16 +32,16 @@
   weight = 1
 
 [[footer]]
-  name = "博客"
+  name = "所有内容"
   pageRef = "posts"
   weight = 2
-
-# [[footer]]
-#   name = "分类"
-#   pageRef = "categories"
-#   weight = 3
 
 [[footer]]
   name = "分类&标签"
   pageRef = "tags"
   weight = 3
+
+[[footer]]
+  name = "推荐读物"
+  pageRef = "readings"
+  weight = 4
