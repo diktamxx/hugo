@@ -70,11 +70,11 @@ class Example {
 * 对象没有保持状态的属性，如果有那么属性本身也应该是无状态的。或者属性本身就是不可变的。
 
 
-[^1]: https://en.wikipedia.org/wiki/Lamport_timestamp
-[^2]: https://en.wikipedia.org/wiki/Memory_barrier
-[^3]: http://www.catb.org/jargon/html/A/aliasing-bug.html
+[^1]: [Lamport timestamp](https://en.wikipedia.org/wiki/Lamport_timestamp)
+[^2]: [Memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
+[^3]: [aliasing bug](http://www.catb.org/jargon/html/A/aliasing-bug.html)
 
 ## 参考
-* https://en.wikipedia.org/wiki/Happened-before
-* https://en.wikipedia.org/wiki/Java_memory_model
-* https://en.wikipedia.org/wiki/Critical_section
+* [Happened before](https://en.wikipedia.org/wiki/Happened-before)
+* [Java memory model](https://en.wikipedia.org/wiki/Java_memory_model)
+* [Critical section](https://en.wikipedia.org/wiki/Critical_section)

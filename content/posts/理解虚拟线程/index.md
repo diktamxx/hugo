@@ -6,7 +6,7 @@ date: "2024-08-12"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 draft: false
-summary: "最好的性能调优就是升级你的JDK。"
+summary: "最好的性能调优就是升级JDK。"
 ---
 
 虚拟线程（Virtual Threads，简称：VT）最大的优势在于**I/O处理**。因为不会阻塞（平台线程），所以能够使**I/O密集型系统**拥有更大的吞吐量。这无疑是一种相当可观的性能提升。
@@ -47,12 +47,12 @@ Java Runtime 并不会因为载体被**固定**而增加并行度（。其并行
 
 
 ## 拓展
-- Netflix 就曾经遇到过载体无法卸载 VT 的情况 https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d
-- JVM 处理 VT 阻塞 https://stackoverflow.com/questions/70174468/project-loom-what-happens-when-virtual-thread-makes-a-blocking-system-call
+- Netflix 就曾经遇到过载体无法卸载 VT 的情况: [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d)
+- JVM 处理 VT 阻塞: [Project loom, what happens when virtual thread makes a blocking system call?](https://stackoverflow.com/questions/70174468/project-loom-what-happens-when-virtual-thread-makes-a-blocking-system-call)
 - VT 的出现是否让**反应式编程**变得无关紧要？答案是否定的。反应式编程本质上只是一种编程范式（由[反应式宣言](https://www.reactivemanifesto.org/zh-CN)规范）。它主张的是**即时响应**、**弹性（如背压）**、**消息驱动**等价值观。而 VT 只是异步编程技术的一种实现。在命令式编程中，你依然需要有意识地使用 VT，但在反应式编程中默认就是异步的（，当然你也可以使用 VT 来实现反应式编程）
 
 
 ## 参考
-- https://en.wikipedia.org/wiki/Busy_waiting
-- https://tomcat.apache.org/tomcat-9.0-doc/changelog.html
-- https://openjdk.org/jeps/491
+- [Busy waiting](https://en.wikipedia.org/wiki/Busy_waiting)
+- [Tomcat 9.0 changelog](https://tomcat.apache.org/tomcat-9.0-doc/changelog.html)
+- [JEP 491: Synchronize Virtual Threads without Pinning](https://openjdk.org/jeps/491)

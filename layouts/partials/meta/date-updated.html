@@ -1,0 +1,5 @@
+<time datetime="{{ . }}">
+  <!-- 更新：{{- i18n "article.date_updated" (dict "Date" (partial "functions/date.html" .)) | markdownify | emojify -}} -->
+  更新：{{- (partial "functions/date.html" .) | markdownify | emojify -}}
+</time>
+{{- /* Trim EOF */ -}}

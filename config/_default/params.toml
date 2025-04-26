@@ -21,8 +21,8 @@ enableImageWebp = true
   recentLimit = 5
 
 [article]
-  showDate = false
-  showDateUpdated = false
+  showDate = true
+  showDateUpdated = true
   showDraftLabel = true # 在使用 --buildDrafts 构建站点时，在文章旁边显示草稿标签
   showTableOfContents = false
   showHeadingAnchors = false

@@ -1,0 +1,5 @@
+<time datetime="{{ . }}">
+  <!-- 发布：{{- i18n "article.date" (dict "Date" (partial "functions/date.html" .)) | markdownify | emojify -}} -->
+  发布：{{- (partial "functions/date.html" .) | markdownify | emojify -}}
+</time>
+{{- /* Trim EOF */ -}}

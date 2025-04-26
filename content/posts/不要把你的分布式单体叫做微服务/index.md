@@ -49,7 +49,7 @@ showTableOfContents: false
 >
 > 如果有 N 个人的小组在实现一个 COBOL 编译器，那么就会有 N−1 遍式的编译器，小组中必须有人担任经理。-- Raymond
 
-康威定律描述了这么一个问题。*企业/组织*最终开发出来的系统，只是其内部**沟通状况**的缩影。例如，当一个企业中存在多个开发团队时，假设需要他们共同参与开发一款新系统；那么做出来成品系统，通常会包含等同于团队数的服务组件数。乍眼一看，只是在描述团队数和务组件数的关系。并非如此。（针对例子上下文）康威定律内在的含义是，团队之间有着天然的“沟通屏障”。他们通常有各自的处事方式，所以潜意识上，即便是共同参与项目，他们都会选择极力地维持住自己的处事方式（譬如尽可能减少对其他团队的依赖性，以避免不必要的工作麻烦）。而这种情况就是康威定律中描述的**沟通结构（或状况）限制（亦是可以将其作为实践微服务“自主性”的天然催化剂）**。此外，还可以换一个角度来理解康威定律。即“**沟通越紧密，开发出来的系统耦合性就越高**”。因为越是沟通紧密，就越容易依赖对方的代码实现。原因是清楚知道可以复用其他人代码，加上对耦合性不敏感的话，久而久之就会导系统中的各个部分缠绕在一起。而这正正是大部份开发团队目前所面临的困境，因为很容易就催生出分布式单体。
+康威定律描述了这么一个问题。*企业/组织*最终开发出来的系统，只是其内部**沟通状况**的映射。例如，当一个企业中存在多个开发团队时，假设需要他们共同参与开发一款新系统；那么做出来成品系统，通常会包含等同于团队数的服务组件数。乍眼一看，只是在描述团队数和务组件数的关系。并非如此。（针对例子上下文）康威定律内在的含义是，团队之间有着天然的“沟通屏障”。他们通常有各自的处事方式，所以潜意识上，即便是共同参与项目，他们都会选择极力地维持住自己的处事方式（譬如尽可能减少对其他团队的依赖性，以避免不必要的工作麻烦）。而这种情况就是康威定律中描述的**沟通结构（或状况）限制（亦是可以将其作为实践微服务“自主性”的天然催化剂）**。此外，还可以换一个角度来理解康威定律。即“**沟通越紧密，开发出来的系统耦合性就越高**”。因为越是沟通紧密，就越容易依赖对方的代码实现。原因是清楚知道可以复用其他人代码，加上对耦合性不敏感的话，久而久之就会导系统中的各个部分缠绕在一起。而这正正是大部份开发团队目前所面临的困境，因为很容易就催生出分布式单体。
 
 基于康威定律的启示，一些从业人员开始反思各种**存在问题的组织划分方式（例如按<u>软件层（前端、后端、数据库）</u>或<u>生命周期活动（分析、设计、编码、测试、运维）</u>来划分）**，然后得出了一些应对康威定律的策略。
 
@@ -64,9 +64,9 @@ showTableOfContents: false
 
 
 
-[^1]: https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns
+[^1]: [Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
 [^2]: 微服务社区并不认同“微服务就是SOA”这种论调，因为两者截然不同。SOA专注于传统行业；透过运用ESB（企业服务总线，一个中心化组件）将各个异构系统打通以解决企业系统信息孤岛[^5]问题。而微服务则是一种面向产品的架构风格。
-[^3]: https://en.wikipedia.org/wiki/Domain-driven_design 
-[^4]: https://en.wikipedia.org/wiki/Conway%27s_law 
-[^5]: https://en.wikipedia.org/wiki/Information_silo
-[^6]: https://www.thoughtworks.com/insights/blog/customer-experience/inverse-conway-maneuver-product-development-teams
+[^3]: [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
+[^4]: [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
+[^5]: [Information silo](https://en.wikipedia.org/wiki/Information_silo)
+[^6]: [Inverse-Conway-Maneuver: How to speed up product development teams successfully](https://www.thoughtworks.com/insights/blog/customer-experience/inverse-conway-maneuver-product-development-teams)

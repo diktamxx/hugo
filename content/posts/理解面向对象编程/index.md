@@ -33,7 +33,7 @@ showTableOfContents: true
 
 ## 3. 面向对象的3大特性
 对象其实就是将**状态属性**和**行为**捆绑在一起，然后对**状态属性**进行访问控制。这就是**封装**。其目的是避免**不变性**遭受外界破坏。有个典型的Bug叫“aliasing bug[^2]”，可以了理解一下。
-[^2]: http://www.catb.org/jargon/html/A/aliasing-bug.html
+[^2]: [aliasing bug](http://www.catb.org/jargon/html/A/aliasing-bug.html)
 
 在**OOP**中**行为**才是重要的，而不是属性或者数据。因为**封装**特性的缘故，外界不能（亦不应该）直接访问对象的内部的属性，而只能是透过**行为**来改变对象的状态。因此，在对**继承结构**进行**抽象**时，更推荐以**行为**作为优先考量因素。但要想得到一个良好的继承结构绝非易事，因为一不小心可能就会加重代码的耦合性。建议参考“IS-A原则”和“里氏替换原则”。
 
@@ -87,7 +87,7 @@ book.borrow(user.userId())
 **函数式编程（FP）**和**OOP**两个并不冲突，可以结合使用。**FP**只是强调**引用透明性（如纯函数）**、**依赖运行时进行赋值操作**、**高阶函数**、**闭包**等特性。
 
 ## 参考
-* https://en.m.wikipedia.org/wiki/Message_passing
-* https://www.scaler.com/topics/oops-concepts-in-cpp
+* [Message passing](https://en.m.wikipedia.org/wiki/Message_passing)
+* [What is Message Passing in C++?](https://www.scaler.com/topics/oops-concepts-in-cpp)
 * https://news.ycombinator.com/item?id=19417893
-* https://www.quora.com/What-is-the-significance-of-a-message-passing-in-OOP
+* [What is the significance of a message passing in OOP?](https://www.quora.com/What-is-the-significance-of-a-message-passing-in-OOP)

@@ -1,6 +1,7 @@
 ---
 showComments: false
 showAuthor: false
+showDate: false
 ---
 
 #### / 开发人员的自我修养 /

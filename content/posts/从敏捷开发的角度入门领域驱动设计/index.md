@@ -134,15 +134,15 @@ DDD中有四个重要的概念，分别是**领域专家**、**统一语言（Ub
 此时常见做法是根据业务情况将其中某个模型排除到BC之外。因为Ubiquitous Language冲突通常是因为存在多个BC（而你之前可能并没有察觉到它的存在）。
 
 
-[^3]: https://agilemanifesto.org/iso/zhchs/manifesto.html
+[^3]: [敏捷软件开发宣言](https://agilemanifesto.org/iso/zhchs/manifesto.html)
 [^4]: Ubiquitous Language 被翻译为“统一语言”或“通用语言”，但个人认为前者更能表达其含义
-[^5]: https://en.wikipedia.org/wiki/Murphy%27s_law
-[^6]: https://hermanpeeren.nl/varia/why-i-dont-need-a-bounded-context
+[^5]: [Murphy's law](https://en.wikipedia.org/wiki/Murphy%27s_law)
+[^6]: [Why I don't need a Bounded Context
+](https://hermanpeeren.nl/varia/why-i-dont-need-a-bounded-context)
 
 
 ## 参考
-* https://en.wikipedia.org/wiki/Software_engineering
-* https://en.wikipedia.org/wiki/Application_software
-* https://en.wikipedia.org/wiki/Software_development_process
-* https://en.wikipedia.org/wiki/Waterfall_model
-* https://martinfowler.com/bliki/UbiquitousLanguage.html
+* [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
+* [Application software](https://en.wikipedia.org/wiki/Application_software)
+* [Software development process](https://en.wikipedia.org/wiki/Software_development_process)
+* [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model)
