@@ -1,7 +1,7 @@
 ---
 title: "正确使用内存数据库（Redis）"
 categories: ["NoSQL"]
-tags: ["NoSQL","Redis"]
+tags: ["NoSQL","Redis","数据建模"]
 date: "2024-09-24"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"

@@ -1,7 +1,7 @@
 ---
 title: "突破网络审查"
-categories: ["突破网络审查"]
-tags: ["突破网络审查", "翻墙"]
+categories: ["翻墙"]
+tags: ["翻墙"]
 date: "2025-01-17"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
