@@ -73,7 +73,7 @@ AOF 理论上可以（通过设置 appendfsync always）做到每条指令都确
 一旦锁状态丢失就会破坏*锁语义*（即*同步机制被破坏*），进而导致不一致。这对于大部分系统来说都是无法容忍的。即便官方提议使用[RedLock](https://redis.io/docs/latest/develop/use/patterns/distributed-locks/#the-redlock-algorithm)来解决不可靠性。
 RedLock 算法的核心逻辑是通过实施[分布式仲裁（Quorum）](https://zh.m.wikipedia.org/zh-cn/Quorum_(%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F))来提供*可靠性*和*一致性*。但鉴于其*实施成本（至少3个独立的Redis节点；官方推荐5个）*以及*没有解决所有问题*（如*网络分区*、*时间回拨*），所以建议还是选择更加可靠的方案（如*Etcd（Raft CP协议）*、*Zookeeper（ZAB CP协议）*）。但如果要坚持使用 Redis，则可以参考 [RedLock implementations](https://redis.io/docs/latest/develop/use/patterns/distributed-locks/#implementations)。
 
-不论使用何种技术作为解决方案也无法忽视**死锁**问题。在 DLM 上下文中，死锁通常是由于持锁进程因为某些原因而未能正确释放锁而导致的。常见解决方案是引入**超时释放机制**（如*TTL*、*临时会话*）。然而，超时释放又引发出另一个需要思考的问题；即超时时间（`timeout`值）应该如何设置。针对该问题通常有两种解决思路，额外增加**时间续约机制**或 **[Fencing令牌](https://en.wikipedia.org/wiki/Fencing_(computing))**。续约可以避免`timeout`设置得过小的问题，而Fencing令牌则是让超时进程自己回滚（，因为超时后锁会失效）。
+不论使用何种技术作为解决方案也无法忽视**死锁**问题。在 DLM 上下文中，死锁通常是由于持锁进程因为某些原因而未能正确释放锁而导致的。常见解决方案是引入**超时释放机制**（如*TTL*、*临时会话*）。然而，超时释放又引发出另一个需要思考的问题。即超时时间（`timeout`值）应该如何设置？针对该问题通常有两种解决思路，就是额外增加**时间续约机制**或 **[Fencing令牌](https://en.wikipedia.org/wiki/Fencing_(computing))**。*续约*可以避免`timeout`过小问题，而*Fencing令牌*则可以让持有过时锁的客户端自己回滚（。譬如在极端情况下，可解决锁因 GC 而*续约*失效的情况）。
 
 如何基于 Redis 来实现 DLM，并非本文讨论范畴。这里仅提供大体的实现思路。
 首先 Redis 并没有像*关系型数据库*那样提供*ACID事务*。它无法为多条指令提供原子性保证。针对该问题可使用*Lua脚本*来实现类似的需求。因为 Redis 会将*Lua脚本*视为一个单一指令。因此，只需相应地进行[防御性编程](https://zh.wikipedia.org/wiki/%E9%98%B2%E5%BE%A1%E6%80%A7%E7%BC%96%E7%A8%8B)，就能够一定地满足对原子性的需求。思路如下：
