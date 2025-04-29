@@ -34,7 +34,7 @@ summary: "最好的性能调优就是升级JDK。"
 从另一个角度来看，**固定**实际上是一种安全措施。譬如 JVM 的`synchronized`语义实际上是参照[监控器](https://en.wikipedia.org/wiki/Monitor_(synchronization))来实现的（，所以又叫“监控锁”）。当某条线程获取到`synchronized`之后，JVM 就会通过自旋（又叫“忙等待”）的方式来持续监控该线程以便及时地更新监控器信息。但问题在于 JVM 监控的是平台线程，而非 VT。也就说，就目前而言`synchronized`是针对平台线程来实现的。因此，若果不进**固定**的话就会出现这么一种情况。VT 获取到监控锁后因阻塞而被载体卸载，载体转而绑定 VT2（泛指其它可被直接执行的 VT）。此时，从 JVM 层面来看，真正持有监控锁的其实是当前 VT2 的载体。即因为载体的重新绑定了，导致 VT2 获得了监控锁。所以这显然是存在问题的。因此，针对以上问题。Java Runtime 会在 VT 阻塞时执行如下策略：
 
 - 发生**条件阻塞**时（如 synchronized、Object#wait、BlockingQueue#take 等），载体因受到 Java Runtime 限制而将无法卸载 VT。此时载体（平台线程）将会被阻塞
-    - ⚠️ 该问题将会在 JDK 24（[JEP-491](https://openjdk.org/jeps/491)）中解决（阅读下文）
+    - ⚠️ 该问题将会在 JDK 24（[JEP-491](https://openjdk.org/jeps/491)）中解决
 - 发生**I/O阻塞**时，Java Runtime 就会让载体卸载 VT，并将 I/O 操作注册到内核中（如 epoll、kqueue），直到对应文件描述符就绪后才会恢复 VT（真正运行需要等待载体装载）
 
 Java Runtime 并不会因为载体被**固定**而增加并行度（。其并行度默认为机器 CPU 的核心数，可参考`java.util.concurrent.ForkJoinPool#common`的实现），所以应该尽可能地避免**固定**。例如使用`java.util.concurrent.locks.ReentrantLock`替代`synchronized`。当出现**固定**时，意味着应用程序对 CPU 的使用率将会降低（因为载体/平台线程被阻塞）。为了解决这问题，可以添加系统变量`jdk.virtualThreadScheduler.maxPoolSize`来指定最大的平台线程数。但该值要大于`jdk.virtualThreadScheduler.parallelism`才有作用。
