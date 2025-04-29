@@ -4,7 +4,7 @@ colorScheme = "Diy"
 defaultAppearance = "light"
 autoSwitchAppearance = false
 
-enableSearch = true
+enableSearch = false
 enableImageWebp = true
 enableImageLazyLoading = false
 
