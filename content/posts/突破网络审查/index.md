@@ -87,9 +87,16 @@ showTableOfContents: true
 譬如打开浏览器，在地址栏输入“`google.com`”。如果能够打开网站，就说明*翻墙*成功了。
 ![](images/google.png)
 
-## 成功翻墙后可以做什么？
+### 第5步：最后建议
 
-- 最好用的传统搜索引擎 [google.com](www.google.com.au)。注册一个`Google`帐号，可用于直接登陆（注册）大部分境外网站。`Google`还提供了一个搜索引擎分析工具 [trends.google.com](https://trends.google.com)，可用于查询或分析热点趋势。另外还可以通过 [voice.google.com](https://voice.google.com/) 创建一个虚拟电话号，用于日后注册场景使用。例如用来接收验证码。但现今创建难度较大；办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。
+在成功*翻墙*后，应该偶尔地去留意一下时下的*翻墙*技术（。一般可以在 [youtube.com](https://www.youtube.com) 上得到相关知识）。因为技术通常是“道高一尺，魔高一丈”。除非政府有意放宽，不然 GFW 就会随着时间而被加强，现时的*翻墙*方案可能不再有效。所以为了自己的*安全*和*方便*，这点儿功夫是不应该节省的。
+
+除此之外，不管你持有何种立场都切勿*恶意激起仇恨*或*散发虚假信息*。希望大家能将*翻墙*这门技术用于提升自我，而不是颠倒是非黑白。枪打出头鸟，应该要小心。
+
+
+## 翻墙后可以做什么？
+
+- 不要再用百度了，[google.com](www.google.com.au) 比它强得多。注册一个`Google`帐号，就可用于直接登陆（注册）大部分境外网站。`Google`还提供了一个搜索引擎分析工具 [trends.google.com](https://trends.google.com)，可用于查询或分析热点趋势。另外还可以通过 [voice.google.com](https://voice.google.com/) 创建一个虚拟电话号，用于日后注册场景使用。例如用来接收验证码。但现今创建难度较大；办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。
 - 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)。
 - 最好用的`ChatAI` [grok.com](grok.com)、[chatgpt.com](chatgpt.com)
 - 可用于自己制作音乐的`AI` [suno.com](suno.com)
