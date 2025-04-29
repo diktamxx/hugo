@@ -1,5 +1,5 @@
 ---
-title: "突破网络审查"
+title: "突破网络审查🔞"
 categories: ["翻墙"]
 tags: ["翻墙"]
 date: "2025-01-17"
@@ -58,8 +58,7 @@ showTableOfContents: true
 
 ### 第2步：注册并购买节点套餐
 
-建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。
-例如上面的[http://xn--mes358aby2apfg.com](http://xn--mes358aby2apfg.com/)。
+建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如[http://xn--mes358aby2apfg.com](http://xn--mes358aby2apfg.com/)。
 注意，注册*机场*帐号通常无需填写真实的手机或邮箱信息。可以随便填写，只要能记住即可。
 
 注册完登陆后，就可以购买节点套餐了。一般可以选择*微信*或*支付宝*来进行支付。几乎所有机场都是同样的操作模式。
@@ -90,21 +89,21 @@ showTableOfContents: true
 
 ## 成功翻墙后可以做什么？
 
-- 最好用的传统搜索引擎 [google.com](www.google.com.au)。注册一个`Google`帐号，可用于直接登陆大部分网站。此外，`Google`还提供了一个搜索引擎分析工具 [trends.google.com](https://trends.google.com) ，可用于查询和分析热点趋势
-- 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)
+- 最好用的传统搜索引擎 [google.com](www.google.com.au)。注册一个`Google`帐号，可用于直接登陆（注册）大部分境外网站。`Google`还提供了一个搜索引擎分析工具 [trends.google.com](https://trends.google.com)，可用于查询或分析热点趋势。另外还可以通过 [voice.google.com](https://voice.google.com/) 创建一个虚拟电话号，用于日后注册场景使用。例如用来接收验证码。但现今创建难度较大；办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。
+- 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)。
 - 最好用的`ChatAI` [grok.com](grok.com)、[chatgpt.com](chatgpt.com)
 - 可用于自己制作音乐的`AI` [suno.com](suno.com)
-- 全球最大的视频网站 [youtube.com](https://www.youtube.com)，可以学到很多东西
+- 全球最大的视频网站 [youtube.com](https://www.youtube.com)，只要有足够的好奇心就可以学到很多东西
 - 以图片和短视频为主的社交媒体 [instagram.com](https://instagram.com)，有很多有趣的内容
 - 近年兴起，以贴文为主的社交媒体 [threads.com](https://www.threads.com)，很多港台人士
 - 匿名社交软件 [telegram.org](https://telegram.org)，有很多人在上面爆料。有黄有暴力有血腥，是我见过尺度最大的社交平台
-- 地球上最知名的色情网站 [pornhub.com](https://cn.pornhub.com)。我不认为“性”是一件不能被提及的事情
+- 地球上最知名的色情网站 [pornhub.com](https://cn.pornhub.com)，以及日本动作大片 [missav.ai](http://missav.ai/)。我不认为“性”是一件不能被提及的事情
 - 中国新闻 [香港01-中国](https://www.hk01.com/zone/5/%E4%B8%AD%E5%9C%8B)、[星岛网-中国](https://std.stheadline.com/realtime/china/%E5%8D%B3%E6%99%82-%E4%B8%AD%E5%9C%8B)
 - 高质问答网站 [reddit.com](https://www.reddit.com)
 - 高质博客网站 [medium.com](https://medium.com)
 - 图片网站 [pinterest.com](https://pinterest.com)，有很多有趣和漂亮的图片
 - 实况直播网站 [twitch.tv](twitch.tv)
-- 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员
+- 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
 
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
