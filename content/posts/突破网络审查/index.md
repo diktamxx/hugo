@@ -22,6 +22,7 @@ showTableOfContents: true
 | 订阅链接 | 一个可以让*代理软件*获取*机场节点*的链接。该链接通常由*机场*提供。 |
 | 人道主义 | 泛指一切强调人的价值，维护人的尊严及权利的思潮和理论。 |
 
+
 ## 为什么翻墙？
 
 首先我不太想在这对政府的行为进行任何评价，所以接下来的内容都只会站在*人道主义*立场来讲述相关问题。
@@ -112,6 +113,7 @@ showTableOfContents: true
 - 实况直播网站 [twitch.tv](twitch.tv)
 - 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
 - 电子书网站 [Z-Library（z-lib.id）](https://z-lib.id) 和 [Anna’s Archive（zh.annas-archive.org）](https://zh.annas-archive.org)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
+- 影视作品 [爱壹帆（ysfp.tv）](https://www.yfsp.tv)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[CN影院（cnys.tv）](https://cnys.tv)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)
 
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
