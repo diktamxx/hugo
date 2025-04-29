@@ -23,7 +23,9 @@ keywords = [
 
 
 [header]
-  showTitle = true
+  # showTitle = false
+  logo = "images/logo.png"
+  logoDark = "images/logoDark.png"
 
 [footer]
   showThemeAttribution = false
