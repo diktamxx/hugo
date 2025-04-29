@@ -55,14 +55,14 @@ showTableOfContents: true
 - 公益机场：[https://github.com
 /KaWaIDeSuNe/dijiajichang/blob/main
 /free.md](https://github.com/KaWaIDeSuNe/dijiajichang/blob/main/free.md)
-- 付费机场：[http://xn--mes358aby2apfg.com](http://xn--mes358aby2apfg.com/)
-- 付费机场：[https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site/)
+- 付费机场：[https://dash.pqjc.site](https://dash.pqjc.site)
+- 付费机场：[https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site)
 
-⚠️ 若上面的*机场*已经不可用。则可以到 [https://github.com/DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) 选择一个可以访问的来使用。
+⚠️ 如果上面的*机场*都不可以访问，则可以到 [https://github.com/DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) 选择一个。使用方面大同小异。
 
 ### 第2步：注册并购买节点套餐
 
-建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如[http://xn--mes358aby2apfg.com](http://xn--mes358aby2apfg.com/)。
+建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如[https://dash.pqjc.site](https://dash.pqjc.site)。
 注意，注册*机场*帐号通常无需填写真实的手机或邮箱信息。可以随便填写，只要能记住即可。
 
 注册完登陆后，就可以购买节点套餐了。一般可以选择*微信*或*支付宝*来进行支付。几乎所有机场都是同样的操作模式。
