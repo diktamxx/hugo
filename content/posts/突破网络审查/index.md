@@ -52,7 +52,8 @@ showTableOfContents: true
 
 鉴于对大家的关怀（考虑到一些人甚至可能不怎么熟悉电脑），我已经整理出了几个*机场*
 - 公益机场：[https://free.datiya.com](https://free.datiya.com)
-- 公益机场：[https://github.com/KaWaIDeSuNe/dijiajichang/blob/main/free.md](https://github.com/KaWaIDeSuNe/dijiajichang/blob/main/free.md)
+- 公益机场：[https://github.com/KaWaIDeSuNe/
+dijiajichang/blob/main/free.md](https://github.com/KaWaIDeSuNe/dijiajichang/blob/main/free.md)
 - 付费机场：[http://xn--mes358aby2apfg.com](http://xn--mes358aby2apfg.com/)
 - 付费机场：[https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site/)
 
@@ -74,9 +75,12 @@ showTableOfContents: true
 
 以下是个人建议：
 - **iPhone**可以选择`Shadowrocket`或`Potatso`。前者是一个（一次性）付费App，后者则免费。但无论选择哪一个，`iPhone`操作起来都会较为麻烦一些。因为这些App位于`美区app store`，所以首先得有一个`美区apple id`（，或者也可以将现有的`apple id`切换到美区）。经过我自己测试，发现`Potatso`无法订阅当前例子这个*机场*，而`Shadowrocket`就可以。所以建议是购买`Shadowrocket`。方法是先买一个美区`Shadowrocket`的兑换码（。可到[桃子商店](https://shop.tz.ci/buy/1)购买一个。注意，该店铺和本人没有任何关系，纯粹建议而已），然后使用兑换码兑换`Shadowrocket`后再下载即可
-- **安卓**选择`Clash Meta For Android`。下载地址：[https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.9/cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.9/cmfa-2.11.9-meta-universal-release.apk)
+- **安卓**选择`Clash Meta For Android`。下载地址：[https://github.com/MetaCubeX/ClashMetaForAndroid
+/releases/download/v2.11.9/
+cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.9/cmfa-2.11.9-meta-universal-release.apk)
 - **Windows系统**选择`Clash Verge`。下载地址：[https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.3/Clash.Verge_2.2.3_x64-setup.exe](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.3/Clash.Verge_2.2.3_x64-setup.exe)
-- **MacOS**选择`Clash Verge`。下载地址：[https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.3/Clash.Verge_2.2.3_x64.dmg](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.3/Clash.Verge_2.2.3_x64.dmg)
+- **MacOS**选择`Clash Verge`。下载地址：[https://github.com/clash-verge-rev/clash-verge-rev/releases/download
+/v2.2.3/Clash.Verge_2.2.3_x64.dmg](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.3/Clash.Verge_2.2.3_x64.dmg)
 
 
 ### 第4步：订阅机场节点，实现翻墙
