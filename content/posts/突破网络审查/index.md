@@ -111,6 +111,7 @@ showTableOfContents: true
 - 图片网站 [pinterest.com](https://pinterest.com)，有很多有趣和漂亮的图片
 - 实况直播网站 [twitch.tv](twitch.tv)
 - 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
+- 电子书网站 [Z-Library（z-lib.id）](https://z-lib.id) 和 [Anna’s Archive（zh.annas-archive.org）](https://zh.annas-archive.org)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
 
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
