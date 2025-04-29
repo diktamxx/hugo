@@ -27,19 +27,18 @@
   --color-primary-900: 136, 19, 55;
   --color-primary-950: 76, 5, 25; */
 
-  /* Green */
-  --color-primary-50: 237, 249, 223;
-  --color-primary-100: 204, 240, 141;
-  --color-primary-200: 170, 230, 116;
-  --color-primary-300: 126, 219, 90;
-  --color-primary-400: 84, 198, 65;
-  --color-primary-500: 136, 229, 76;
-  --color-primary-600: 74, 184, 44;
-  --color-primary-700: 62, 157, 37;
-  --color-primary-800: 51, 131, 31;
-  --color-primary-900: 41, 106, 25;
-  --color-primary-950: 25, 67, 18;
-
+  --color-primary-50: 255, 240, 241;
+  --color-primary-100: 255, 226, 228;
+  --color-primary-200: 252, 196, 198;
+  --color-primary-300: 246, 150, 153;
+  --color-primary-400: 238, 112, 115;
+  --color-primary-500: 230, 90, 93;
+  --color-primary-600: 225, 80, 83;
+  --color-primary-700: 223, 74, 77; 
+  --color-primary-800: 190, 53, 56;
+  --color-primary-900: 150, 34, 37;
+  --color-primary-950: 100, 18, 20;
+  
   /* Gray */
   --color-secondary-50: 245, 245, 245;
   --color-secondary-100: 220, 220, 220;
