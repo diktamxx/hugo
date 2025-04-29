@@ -24,5 +24,7 @@ enableRobotsTXT = true
 [services]
   [services.x]
     disableInlineCSS = true
+  
+  # 参考：https://gohugo.io/methods/site/config/#services
   [services.googleAnalytics]
     id = 'G-WKMP5RJMN6'

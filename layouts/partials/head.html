@@ -4,15 +4,7 @@
   <meta name="theme-color" content="{{ .Site.Params.defaultThemeColor | default "#ffffff" }}" />
   
   <!-- diktam：google analytics -->
-  {{ with .Site.Config.Services.GoogleAnalytics.ID }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "{{ . }}");
-    </script>
-  {{ end }}
+  {{ partial "google_analytics.html" . }}
   <!-- end -->
   
   {{/* Title */}}
