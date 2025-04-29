@@ -5,8 +5,9 @@ defaultAppearance = "light"
 autoSwitchAppearance = false
 
 enableSearch = true
-enableImageLazyLoading = true
 enableImageWebp = true
+enableImageLazyLoading = false
+
 
 description = "一个软件开发人员的个人博客。"
 keywords = [
@@ -20,8 +21,9 @@ keywords = [
   "Critical thinking","Independent thinking"
 ]
 
+
 [header]
-  showTitle = false
+  showTitle = true
 
 [footer]
   showThemeAttribution = false

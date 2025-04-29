@@ -1,8 +1,8 @@
 # -- Main Menu --
-[[main]]
-  name = "主页"
-  url = "/"
-  weight = 1
+# [[main]]
+#   name = "主页"
+#   url = "/"
+#   weight = 1
 
 [[main]]
   name = "所有内容"
@@ -26,10 +26,10 @@
     action = "search"
 
 # -- Footer Menu --
-[[footer]]
-  name = "主页"
-  url = "/"
-  weight = 1
+# [[footer]]
+#   name = "主页"
+#   url = "/"
+#   weight = 1
 
 [[footer]]
   name = "所有内容"

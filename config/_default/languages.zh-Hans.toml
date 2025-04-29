@@ -11,8 +11,9 @@ title = "譚譚軟件開發" # 博客标题
 [params.author]
   name = "Dik Tam"
   image = "images/avatar.jpg"
-  headline = "软件开发人员"
+  # headline = "软件开发人员"
+  headline = "Software Developer"
   bio = "只是喜欢写代码。" # 文章页脚中现实
   # links = [
-    # { email = "mailto:diktamxx@gmail.com" }
+  #   { email = "mailto:diktamxx@gmail.com" }
   # ]
