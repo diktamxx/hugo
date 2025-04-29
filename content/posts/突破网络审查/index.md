@@ -48,7 +48,7 @@ showTableOfContents: true
 [GitHub（https://github.com/search）](https://github.com/search) 是现今仍然存在（介乎于墙内外之间）的灰色地带。该网站本身是一个著名的*软件开发者社区*。
 因为对整个软件行业有着巨大的影响力，以至于到目前为止 GFW 还没有正面地对它下死手。所以现今有些人会利用这一特点在上面存放一些平时无法在墙内发布的内容。
 而我们则可以利用它在不*翻墙*的情况下查找到相关*机场*的信息。例如可以直接搜索“[公益机场](https://github.com/search?q=%E5%85%AC%E7%9B%8A%E6%9C%BA%E5%9C%BA&type=repositories)”就会得到类似如下的内容：
-![](images/github_search.png)
+![github_search picture](images/github_search.png)
 
 鉴于对大家的关怀（考虑到一些人甚至可能不怎么熟悉电脑），我已经整理出了几个*机场*
 - 公益机场：[https://free.datiya.com](https://free.datiya.com)
@@ -64,13 +64,13 @@ showTableOfContents: true
 注意，注册*机场*帐号通常无需填写真实的手机或邮箱信息。可以随便填写，只要能记住即可。
 
 注册完登陆后，就可以购买节点套餐了。一般可以选择*微信*或*支付宝*来进行支付。几乎所有机场都是同样的操作模式。
-![](images/buy.png)
+![buy picture](images/buy.png)
 
 
 ### 第3步：安装代理软件
 
 节点套餐购买好后，就可以根据自己设备类型来选择具体的代理软件了。
-![](images/doc.png)
+![document picture](images/doc.png)
 
 以下是个人建议：
 - **iPhone**可以选择`Shadowrocket`或`Potatso`。前者是一个（一次性）付费App，后者则免费。但无论选择哪一个，`iPhone`操作起来都会较为麻烦一些。因为这些App位于`美区app store`，所以首先得有一个`美区apple id`（，或者也可以将现有的`apple id`切换到美区）。经过我自己测试，发现`Potatso`无法订阅当前例子这个*机场*，而`Shadowrocket`就可以。所以建议是购买`Shadowrocket`。方法是先买一个美区`Shadowrocket`的兑换码（。可到[桃子商店](https://shop.tz.ci/buy/1)购买一个。注意，该店铺和本人没有任何关系，纯粹建议而已），然后使用兑换码兑换`Shadowrocket`后再下载即可
@@ -82,12 +82,12 @@ showTableOfContents: true
 ### 第4步：订阅机场节点，实现翻墙
 
 下载好*代理软件*后，就可以在机场中获取节点的订阅链接了。
-![](images/link.png)
+![link picture](images/link.png)
 以`iPhone`下的`Shadowrocket`为例（。其他设备操作其实大同小异）。
-![](images/shadowrocket.png)
+![shadowrocket picture](images/shadowrocket.png)
 当所有步骤都做完后，就可以测试一下是否已经*翻墙*成功了。
 譬如打开浏览器，在地址栏输入“`google.com`”。如果能够打开网站，就说明*翻墙*成功了。
-![](images/google.png)
+![google picture](images/google.png)
 
 ### 第5步：最后建议
 
@@ -123,10 +123,10 @@ showTableOfContents: true
 
 要想安装*代理软件*，普通的路由器是不行的；需要一种称为**软路由**的设备才可以。
 *软路由*本质上是一台小型服务器，它安装的是[OpenWRT（github.com/openwrt/openwrt）](https://github.com/openwrt/openwrt)系统。通过在*OpenWRT*上安装[OpenClash（github.com/vernesong/OpenClash）](https://github.com/vernesong/OpenClash)插件就能够订阅机场链接了。
-![](images/router.png)
+![router picture](images/router.png)
 
 通常情况下，在购买软路由时，可以叫卖家预装*OpenWRT*，甚至*OpenClash*。
-![](images/openclash.png "OpenClash插件")
+![openclash picture](images/openclash.png "OpenClash插件")
 
 ## 参考
 - [人道主义](https://baike.baidu.com/item/%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89/1460878)
