@@ -1,5 +1,6 @@
 ---
 title: "突破信息茧房（Information Cocoons）"
+slug: "Information Cocoons"
 categories: ["思考"]
 tags: ["思考","价值观"]
 date: "2024-08-24"

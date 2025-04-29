@@ -24,3 +24,5 @@ enableRobotsTXT = true
 [services]
   [services.x]
     disableInlineCSS = true
+  [services.googleAnalytics]
+    id = 'G-WKMP5RJMN6'

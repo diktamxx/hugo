@@ -1,5 +1,6 @@
 ---
-title: "理解虚拟线程（JDK 21 Virtual Threads）"
+title: "理解虚拟线程（Java 21 Virtual Threads）"
+slug: "Java Virtual Threads"
 categories: ["Java"]
 tags: ["Java","并发编程"]
 date: "2024-08-12"

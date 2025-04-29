@@ -1,5 +1,6 @@
 ---
 title: "异步并发的解决思路"
+slug: "Concurrent programming solutions"
 categories: ["Java"]
 tags: ["Java","并发编程"]
 date: "2023-04-18"

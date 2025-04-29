@@ -1,5 +1,6 @@
 ---
 title: "异常处理的哲学"
+slug: "Java Exception Handling Philosophy"
 categories: ["Java"]
 tags: ["Java", "异常处理"]
 date: "2023-03-27"

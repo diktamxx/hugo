@@ -1,5 +1,6 @@
 ---
 title: "理解面向对象编程（Object-oriented programming）"
+slug: Object oriented programming"
 categories: ["Java"]
 tags: ["Java", "面向对象"]
 date: "2024-01-22"

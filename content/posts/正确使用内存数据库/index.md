@@ -1,5 +1,6 @@
 ---
 title: "正确使用内存数据库（Redis）"
+slug: "Using Redis Correctly"
 categories: ["NoSQL"]
 tags: ["NoSQL","Redis","数据建模"]
 date: "2024-09-24"

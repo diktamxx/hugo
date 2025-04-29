@@ -1,5 +1,6 @@
 ---
 title: "突破网络审查🔞"
+slug: "helloworld"
 categories: ["翻墙"]
 tags: ["翻墙"]
 date: "2025-01-17"

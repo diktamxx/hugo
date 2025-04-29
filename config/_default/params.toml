@@ -8,6 +8,18 @@ enableSearch = true
 enableImageLazyLoading = true
 enableImageWebp = true
 
+description = "一个软件开发人员的个人博客。"
+keywords = [
+  "Java","Scala","Python","JavaScript","CSS","HTML",
+  "React","Next.js","Webpack",
+  "MySQL","PostgreSQL",
+  "Object-oriented programming","OOP","Functional programming","FP",
+  "Redis","Elasticsearch","Cassandra","Kafka","Neo4j","MongoDB",
+  "Domain-driven design","DDD","Microservices",
+  "Linux","Ubuntu",
+  "Critical thinking","Independent thinking"
+]
+
 [header]
   showTitle = false
 
