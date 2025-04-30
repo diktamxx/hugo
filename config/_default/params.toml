@@ -2,11 +2,11 @@
 # colorScheme = "Cherry"
 colorScheme = "Diy"
 defaultAppearance = "light"
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 
 enableSearch = true
 enableImageWebp = true
-enableImageLazyLoading = false
+enableImageLazyLoading = true
 
 
 description = "一个软件开发人员的个人博客。"
