@@ -73,7 +73,7 @@ showTableOfContents: true
 
 ### 第3步：安装代理软件
 
-节点套餐购买好后，就可以根据自己设备类型来选择具体的代理软件了。
+节点套餐购买好后，就可以根据自己设备类型来选择具体的代理软件。
 <!-- ![document picture](images/doc.png) -->
 ![document picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/doc.png)
 
@@ -91,10 +91,10 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 
 ### 第4步：订阅机场节点，实现翻墙
 
-下载好*代理软件*后，就可以在机场中获取节点的订阅链接了。
+下载好*代理软件*后，就可以在机场中获取节点的订阅链接。
 <!-- ![link picture](images/link.png) -->
 ![link picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/link.png)
-以`iPhone`设备下的`Shadowrocket`为例（。其他设备和*代理客户端*其操作大同小异）。
+以`iPhone`设备下的`Shadowrocket`为例（。其他设备和*代理软件*操作上大同小异）。
 <!-- ![shadowrocket picture](images/shadowrocket.png) -->
 ![shadowrocket picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/shadowrocket.png)
 接下来就可以进行*翻墙*测试了。
