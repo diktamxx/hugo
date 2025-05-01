@@ -98,9 +98,10 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 <!-- ![shadowrocket picture](images/shadowrocket.png) -->
 ![shadowrocket picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/shadowrocket.png)
 当所有步骤都做完后，就可以测试一下是否已经*翻墙*成功了。
-譬如打开浏览器，在地址栏输入“`google.com`”。如果能够打开网站，就说明*翻墙*成功了。
-<!-- ![google picture](images/google.png) -->
-![google picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/google.png)
+
+当前文字下方有条来自 `youtube.com` 的视频。如果能够正常观看，就说明已经*翻墙*成功了。
+{{< youtube C55ezbaMFNs >}}
+
 
 ### 第5步：最后建议
 
