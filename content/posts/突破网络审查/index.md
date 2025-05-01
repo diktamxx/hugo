@@ -94,13 +94,15 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 下载好*代理软件*后，就可以在机场中获取节点的订阅链接了。
 <!-- ![link picture](images/link.png) -->
 ![link picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/link.png)
-以`iPhone`下的`Shadowrocket`为例（。其他设备操作其实大同小异）。
+以`iPhone`设备下的`Shadowrocket`为例（。其他设备和*代理客户端*其操作大同小异）。
 <!-- ![shadowrocket picture](images/shadowrocket.png) -->
 ![shadowrocket picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/shadowrocket.png)
-当所有步骤都做完后，就可以测试一下是否已经*翻墙*成功了。
+接下来就可以进行*翻墙*测试了。
 
-当前文字下方有条来自 `youtube.com` 的视频。如果能够正常观看，就说明已经*翻墙*成功了。
+这里有条来自 `youtube.com` 的视频，正常情况下是无法播放的。
+<span style="color: #df4a4d;">完整上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和观看，则说明已经*翻墙*成功了。
 {{< youtube C55ezbaMFNs >}}
+<p style="color:gray; text-align:center;">👆当前文字正上方有条视频。没有翻墙成功可能会显示空白。</p>
 
 
 ### 第5步：最后建议
