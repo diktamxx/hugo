@@ -68,7 +68,7 @@ showTableOfContents: true
 
 注册完登陆后，就可以购买节点套餐了。一般可以选择*微信*或*支付宝*来进行支付。几乎所有机场都是同样的操作模式。
 <!-- ![buy picture](images/buy.png) -->
-![buy picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/buy.png)
+![plan picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/plan.png)
 
 
 ### 第3步：安装代理软件
