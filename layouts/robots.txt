@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /tags/
+Disallow: /readings/
+Sitemap: https://diktam.com/sitemap.xml
