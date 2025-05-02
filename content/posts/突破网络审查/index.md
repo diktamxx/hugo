@@ -85,7 +85,7 @@ showTableOfContents: true
 ![document picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/doc.png)
 
 以下是个人建议：
-- **iPhone（或iPad）**可以选择`Shadowrocket`或`Potatso`。前者是一个（一次性）付费App，后者则免费。但无论选择哪一个，`iPhone`操作起来都会较为麻烦一些。因为这些App位于`美区app store`，所以首先得有一个`美区apple id`（，或者也可以将现有的`apple id`切换到美区）。经过我自己测试，发现`Potatso`无法订阅当前例子这个*机场*，而`Shadowrocket`就可以。所以建议是购买`Shadowrocket`。方法是先买一个美区`Shadowrocket`的兑换码（。可到[桃子商店](https://shop.tz.ci/buy/1)购买一个。注意，该店铺和本人没有任何关系，纯粹建议而已），然后使用兑换码兑换`Shadowrocket`后再下载即可
+- **iPhone（或iPad）** 可以选择`Shadowrocket`或`Potatso`。前者是一个（一次性）付费App，后者则免费。但无论选择哪一个，`iPhone`操作起来都会较为麻烦一些。因为这些App位于`美区app store`，所以首先得有一个`美区apple id`（，或者也可以将现有的`apple id`切换到美区）。经过我自己测试，发现`Potatso`无法订阅当前例子这个*机场*，而`Shadowrocket`就可以。所以建议是购买`Shadowrocket`。方法是先买一个美区`Shadowrocket`的兑换码（。可到[桃子商店](https://shop.tz.ci/buy/1)购买一个。注意，该店铺和本人没有任何关系，纯粹建议而已），然后使用兑换码兑换`Shadowrocket`后再下载即可
 - **安卓**选择`Clash Meta For Android`。下载地址：[https://github.com
 /MetaCubeX/ClashMetaForAndroid
 /releases/download/v2.11.9/
