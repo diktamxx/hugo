@@ -118,10 +118,12 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 
 ## 翻墙后可以做什么？
 
-- 不要再用百度了，[google.com](www.google.com.au) 比它强得多。注册一个`Google`帐号，就可用于直接登陆（注册）大部分境外网站。`Google`还提供了一个搜索引擎分析工具 [trends.google.com](https://trends.google.com)，可用于查询或分析热点趋势。另外还可以通过 [voice.google.com](https://voice.google.com/) 创建一个虚拟电话号，用于日后注册场景使用。例如用来接收验证码。但现今创建难度较大；办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。
-- 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)。
-- 最好用的`ChatAI` [grok.com](grok.com)、[chatgpt.com](chatgpt.com)
-- 可用于自己制作音乐的`AI` [suno.com](suno.com)
+- 不要再用百度了，[google.com](www.google.com.au) 比它强得多。只需注册一个`Google`帐号，就可以用于登陆（注册）大部分境外网站。此外，`Google`搜索引擎还提供了一个分析工具 [trends.google.com](https://trends.google.com)，可用它来查询或分析时下的热点趋势
+- 通过 [voice.google.com](https://voice.google.com/) 能够创建一个虚拟电话号。可用于日后注册场景使用。例如用它来接收验证码从而一定程度避免实名制。但现今创建难度较大。办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可
+- [earth.google.com](https://earth.google.com) 提供了 3D 地球服务。可用它来“游历”世界各国的景点
+- 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)
+- 最好用的`ChatAI` [grok.com](grok.com)、[chatgpt.com](chatgpt.com)。注意，因为政策原因部份 AI 会屏蔽中国地区的访问（包含香港），所以尽可能使用非中国地区节点。
+- 可用于个人音乐制作的`AI` [suno.com](suno.com)
 - 全球最大的视频网站 [youtube.com](https://www.youtube.com)，只要有足够的好奇心就可以学到很多东西
 - 以图片和短视频为主的社交媒体 [instagram.com](https://instagram.com)，有很多有趣的内容
 - 近年兴起，以贴文为主的社交媒体 [threads.com](https://www.threads.com)，很多港台人士
@@ -134,7 +136,7 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 - 实况直播网站 [twitch.tv](twitch.tv)
 - 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
 - 电子书网站 [Z-Library（z-lib.id）](https://z-lib.id) 和 [Anna’s Archive（zh.annas-archive.org）](https://zh.annas-archive.org)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
-- 影视作品 [爱壹帆（ysfp.tv）](https://www.yfsp.tv)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[CN影院（cnys.tv）](https://cnys.tv)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)
+- 影视作品 [爱壹帆（ysfp.tv）](https://www.yfsp.tv)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[CN影院（cnys.tv）](https://cnys.tv)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
