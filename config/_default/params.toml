@@ -9,7 +9,7 @@ enableImageWebp = true
 enableImageLazyLoading = true
 
 
-description = "一个软件开发人员的个人博客。"
+description = "一名软件开发人员的个人博客。"
 keywords = [
   "Java","Scala","Python","JavaScript","CSS","HTML",
   "React","Next.js","Webpack",
