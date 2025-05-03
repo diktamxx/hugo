@@ -13,7 +13,4 @@ title = "譚譚軟件開發"
   name = "Dik Tam"
   image = "images/avatar.gif"
   headline = "Software Developer"
-  bio = "只是喜欢写代码。" # 文章页脚中现实
-  # links = [
-  #   { email = "mailto:diktamxx@gmail.com" }
-  # ]
+  bio = "只是喜欢写代码。" # 在文章下方显示
