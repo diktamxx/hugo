@@ -108,9 +108,8 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 
 这里有条来自 `youtube.com` 的视频，正常情况下是无法播放的。
 <span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和观看，则说明已经*翻墙*成功了。
-<!-- {{< youtube AaTQIxCmGh0 >}} -->
-<iframe id='ivplayer' width='640' height='360' src='https://inv.nadeko.net/embed/J76S5q_ETfo?dark_mode=auto' style='border:none;'></iframe>
-<p style="color:gray; text-align:center;">👆当前文字正上方有条视频。没有翻墙成功可能会显示空白。<br/>作者频道：<a target="_blank" href="https://www.youtube.com/channel/UCk4hvA968aQhw32R9lV5svg">ハク。</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J76S5q_ETfo?si=3W97uqky995htYSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p style="color:gray; text-align:center;">👆当前文字正上方有条视频。没有翻墙成功可能会显示空白。</p>
 
 ### 第5步：最后建议
 
