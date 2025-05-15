@@ -7,7 +7,6 @@ date: "2025-02-11"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 summary: "事务机制其实是一种简化编程模型的工具。"
-draft: true
 ---
 
 | 用语 <div style="width:8em"> | 解释 |
