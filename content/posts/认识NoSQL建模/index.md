@@ -2,7 +2,7 @@
 title: "认识NoSQL建模"
 slug: "Data Modeling with Nosql"
 categories: ["NoSQL"]
-tags: ["NoSQL","数据建模"]
+tags: ["NoSQL","数据建模","数据库"]
 date: "2023-07-22"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"

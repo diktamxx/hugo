@@ -27,7 +27,7 @@
   --color-primary-900: 136, 19, 55;
   --color-primary-950: 76, 5, 25; */
 
-  --color-primary-50: 255, 240, 241;
+  /* --color-primary-50: 255, 240, 241;
   --color-primary-100: 255, 226, 228;
   --color-primary-200: 252, 196, 198;
   --color-primary-300: 246, 150, 153;
@@ -37,8 +37,20 @@
   --color-primary-700: 223, 74, 77; 
   --color-primary-800: 190, 53, 56;
   --color-primary-900: 150, 34, 37;
-  --color-primary-950: 100, 18, 20;
+  --color-primary-950: 100, 18, 20; */
   
+  --color-primary-50: 231, 243, 245;   /* #E7F3F5 */
+  --color-primary-100: 204, 232, 237;  /* #CCE8ED */
+  --color-primary-200: 161, 215, 223;  /* #A1D7DF */
+  --color-primary-300: 108, 190, 203;  /* #6CBECB */
+  --color-primary-400: 65, 160, 179;   /* #41A0B3 */
+  --color-primary-500: 44, 130, 152;   /* #2C8298 */
+  --color-primary-600: 37, 108, 128;   /* #256C80 */
+  --color-primary-700: 44, 91, 102;    /* #2C5B66 */ /* 主色 */
+  --color-primary-800: 35, 73, 82;     /* #234952 */
+  --color-primary-900: 27, 56, 63;     /* #1B383F */
+  --color-primary-950: 18, 37, 42;     /* #12252A */
+
   /* Gray */
   --color-secondary-50: 245, 245, 245;
   --color-secondary-100: 220, 220, 220;

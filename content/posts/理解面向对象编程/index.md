@@ -72,6 +72,7 @@ var book = ...
 user.borrowingBook(book.bookId())
 book.borrow(user.userId())
 ```
+💡更多OOP设计思想可参考：[通用职责分配原则（GRASP）](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 
 ### 4.3 价值
 

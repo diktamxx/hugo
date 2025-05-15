@@ -71,6 +71,6 @@ showTableOfContents: false
 [^1]: [Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
 [^2]: 微服务社区并不认同“微服务就是SOA”这种论调，因为两者截然不同。SOA专注于传统行业；透过运用ESB（企业服务总线，一个中心化组件）将各个异构系统打通以解决企业系统信息孤岛[^5]问题。而微服务则是一种面向产品的架构风格。
 [^3]: [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
-[^4]: [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
+[^4]: Conway's law 是一种社会学观察。可参考：[Conway's law - wiki](https://en.wikipedia.org/wiki/Conway%27s_law)、[论文正文](https://www.melconway.com/Home/Committees_Paper.html)
 [^5]: [Information silo](https://en.wikipedia.org/wiki/Information_silo)
 [^6]: [Inverse-Conway-Maneuver: How to speed up product development teams successfully](https://www.thoughtworks.com/insights/blog/customer-experience/inverse-conway-maneuver-product-development-teams)

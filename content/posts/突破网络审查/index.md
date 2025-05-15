@@ -2,7 +2,7 @@
 title: "突破网络审查🔞"
 slug: "helloworld"
 categories: ["翻墙"]
-tags: ["翻墙"]
+tags: ["翻墙","价值观"]
 date: "2025-01-17"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
@@ -108,9 +108,9 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 
 这里有条来自 `youtube.com` 的视频，正常情况下是无法播放的。
 <span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和观看，则说明已经*翻墙*成功了。
-{{< youtube C55ezbaMFNs >}}
+<!-- {{< youtube AaTQIxCmGh0 >}} -->
+<iframe id='ivplayer' width='640' height='360' src='https://inv.nadeko.net/embed/J76S5q_ETfo?quality=hd720&player_style=youtube' style='border:none;'></iframe>
 <p style="color:gray; text-align:center;">👆当前文字正上方有条视频。没有翻墙成功可能会显示空白。</p>
-
 
 ### 第5步：最后建议
 
@@ -128,10 +128,10 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 - 可用于个人音乐制作的`AI` [suno.com](suno.com)
 - 全球最大的视频网站 [youtube.com](https://www.youtube.com)，只要有足够的好奇心就可以学到很多东西
 - 以图片和短视频为主的社交媒体 [instagram.com](https://instagram.com)，有很多有趣的内容
-- 近年兴起，以贴文为主的社交媒体 [threads.com](https://www.threads.com)，很多港台人士
+- 近年兴起，以贴文为主的社交媒体 [threads.com](https://www.threads.com)。有很多港台人士。如果你想了解他们对大陆人都有哪些不满，我想这是一个不错的入口
 - 匿名社交软件 [telegram.org](https://telegram.org)，有很多人在上面爆料。有黄有暴力有血腥，是我见过尺度最大的社交平台
 - 地球上最知名的色情网站 [pornhub.com](https://cn.pornhub.com)，以及日本动作大片 [missav.ai](http://missav.ai/)。我不认为“性”是一件不能被提及的事情
-- 中国新闻 [香港01-中国](https://www.hk01.com/zone/5/%E4%B8%AD%E5%9C%8B)、[星岛网-中国](https://std.stheadline.com/realtime/china/%E5%8D%B3%E6%99%82-%E4%B8%AD%E5%9C%8B)
+- 中国新闻 [香港01-中国](https://www.hk01.com/zone/5/%E4%B8%AD%E5%9C%8B)、[星岛网-中国](https://std.stheadline.com/realtime/china/%E5%8D%B3%E6%99%82-%E4%B8%AD%E5%9C%8B)、[华尔街日报-中国](https://cn.wsj.com/zh-hans/news/china)
 - 互联网记忆 [archive.org](https://archive.org/)，可用来考古互联网
 - 高质问答网站 [reddit.com](https://www.reddit.com)
 - 高质博客网站 [medium.com](https://medium.com)
@@ -139,7 +139,7 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 - 实况直播网站 [twitch.tv](twitch.tv)
 - 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
 - 电子书网站 [Z-Library（z-lib.id）](https://z-lib.id) 和 [Anna’s Archive（zh.annas-archive.org）](https://zh.annas-archive.org)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
-- 影视作品 [爱壹帆（ysfp.tv）](https://www.yfsp.tv)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[CN影院（cnys.tv）](https://cnys.tv)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
+- 影视作品 [Ago影院（agoys.com）](https://www.agoys.com/)、[愛壹帆（yfsp.tv）](https://www.yfsp.tv/)、[Gimy剧迷（gimy.ai）](https://gimy.ai/)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[韩剧网（321tw.com）](https://321tw.com)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
@@ -159,3 +159,4 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 - [人道主义](https://baike.baidu.com/item/%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89/1460878)
 - [健全人格](https://baike.baidu.com/item/%E5%81%A5%E5%85%A8%E4%BA%BA%E6%A0%BC/22262993)
 - [突破网络审查](https://zh.wikipedia.org/wiki/%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5)
+- [Invidious](https://docs.invidious.io/)
