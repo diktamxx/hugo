@@ -1,4 +1,11 @@
 User-agent: *
+Allow: /
 Disallow: /tags/
 Disallow: /readings/
+Disallow: /404
+
+User-agent: Baiduspider
+Disallow: /posts/helloworld/
+
 Sitemap: https://diktam.com/sitemap.xml
+Sitemap: https://www.diktam.com/sitemap.xml
