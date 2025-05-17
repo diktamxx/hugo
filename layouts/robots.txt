@@ -8,4 +8,3 @@ User-agent: Baiduspider
 Disallow: /posts/helloworld/
 
 Sitemap: https://diktam.com/sitemap.xml
-Sitemap: https://www.diktam.com/sitemap.xml

@@ -6,6 +6,8 @@ date: "2020-08-14"
 lastmod: "2020-08-14"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
+coverAlt: "cover" # 对SEO有用
+thumbnailAlt: "cover" # 对SEO有用
 draft: false
 summary: "" # 优先级没有<!--more-->高
 showTableOfContents: true

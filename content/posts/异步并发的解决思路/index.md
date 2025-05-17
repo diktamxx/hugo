@@ -6,7 +6,8 @@ tags: ["Java","并发编程"]
 date: "2023-04-18"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-draft: false
+coverAlt: "cover"
+thumbnailAlt: "cover"
 summary: "进行异步编程之前，先了解它的隐患。"
 ---
 

@@ -6,6 +6,8 @@ tags: ["Java", "异常处理"]
 date: "2023-03-27"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
+coverAlt: "cover"
+thumbnailAlt: "cover"
 summary: "不理解异常，又如何自定义异常？"
 ---
 

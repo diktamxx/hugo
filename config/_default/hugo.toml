@@ -4,7 +4,6 @@
 
 baseURL = "https://diktam.com/"
 defaultContentLanguage = "zh-Hans"
-
 enableRobotsTXT = true
 
 [pagination]

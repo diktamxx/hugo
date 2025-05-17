@@ -6,6 +6,8 @@ tags: ["SQL","MySQL","数据库"]
 date: "2025-02-11"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
+coverAlt: "cover"
+thumbnailAlt: "cover"
 summary: "事务机制其实是一种简化编程模型的工具。"
 ---
 

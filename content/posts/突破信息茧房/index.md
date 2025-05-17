@@ -6,6 +6,8 @@ tags: ["思考","价值观"]
 date: "2024-08-24"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
+coverAlt: "cover"
+thumbnailAlt: "cover"
 summary: "“真相”通常都是被藏起来的，想要真正获得它就需要付出相应的成本。"
 ---
 

@@ -6,6 +6,8 @@ tags: ["价值观","思考"]
 date: "2025-01-08"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
+coverAlt: "cover"
+thumbnailAlt: "cover"
 summary: "做人无非就是等死。大家都只是在死之前给自己找点意义而已。"
 ---
 

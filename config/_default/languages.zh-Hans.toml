@@ -1,4 +1,4 @@
-languageCode = "zh"
+languageCode = "zh-Hans"
 languageName = "简体中文"
 languageDirection = "ltr"
 timeZone = "Asia/Shanghai"
@@ -9,7 +9,6 @@ title = "厌俗"
 
 [params.author]
   name = "Dik Tam"
-  # image = "images/avatar.gif"
   image = "images/avatar.jpg"
   headline = "Software Developer"
   bio = "只是喜欢写代码。" # 在文章下方显示

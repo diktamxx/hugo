@@ -6,6 +6,8 @@ tags: ["翻墙","价值观"]
 date: "2025-01-17"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
+coverAlt: "cover"
+thumbnailAlt: "cover"
 summary: "人生而自由，却无往不在枷锁之中。--- 卢梭（Jean-Jacques Rousseau）"
 showTableOfContents: true
 # draft: true

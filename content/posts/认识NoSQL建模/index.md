@@ -6,7 +6,8 @@ tags: ["NoSQL","数据建模","数据库"]
 date: "2023-07-22"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-draft: false
+coverAlt: "cover"
+thumbnailAlt: "cover"
 summary: "不会建模跟不会用数据库其实没什么区别。"
 ---
 

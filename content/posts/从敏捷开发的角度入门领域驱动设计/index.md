@@ -6,6 +6,8 @@ tags: ["领域驱动设计（DDD）","敏捷开发","软件架构"]
 date: "2024-02-25"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
+coverAlt: "cover"
+thumbnailAlt: "cover"
 draft: false
 showTableOfContents: true
 ---
