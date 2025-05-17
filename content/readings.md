@@ -20,6 +20,6 @@ showDate: false
 <em style="float:left;font-size: 0.8em;">《领域驱动设计学习手册》Vlad Khononov</em>
 <br>
 
-#### / 应对遗留系统代码 /
+#### / 应对遗留代码 /
 <em style="float:left;font-size: 0.8em;">《重构：改善既有代码的设计》第2版 Martin Fowler</em>\
 <em style="float:left;font-size: 0.8em;">《修改代码的艺术》Michael C. Feathers</em>
