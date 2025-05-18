@@ -6,9 +6,6 @@ tags: ["软件架构","微服务"]
 date: "2024-04-22"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-coverAlt: "cover"
-thumbnailAlt: "cover"
-draft: false
 summary: "真的假不了，假的真不了。"
 showTableOfContents: false
 ---

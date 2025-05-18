@@ -6,8 +6,6 @@ tags: ["NoSQL","Redis","数据建模","数据库"]
 date: "2024-09-24"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-coverAlt: "cover"
-thumbnailAlt: "cover"
 summary: "是否容许数据丢失？这是个问题。"
 showTableOfContents: true
 ---

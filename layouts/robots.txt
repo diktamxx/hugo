@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /tags/
+Disallow: /categories/
 Disallow: /readings/
 Disallow: /404
 

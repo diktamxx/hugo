@@ -6,8 +6,6 @@ tags: ["Java","并发编程"]
 date: "2024-08-12"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-coverAlt: "cover"
-thumbnailAlt: "cover"
 summary: "最好的性能调优就是升级JDK。"
 ---
 

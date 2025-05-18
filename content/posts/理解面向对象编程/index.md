@@ -6,8 +6,6 @@ tags: ["Java", "面向对象"]
 date: "2024-01-22"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-coverAlt: "cover"
-thumbnailAlt: "cover"
 summary: "你知道面向对象风格的代码到底是怎样的吗？"
 showTableOfContents: true
 ---

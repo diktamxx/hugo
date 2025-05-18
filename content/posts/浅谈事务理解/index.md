@@ -6,8 +6,6 @@ tags: ["数据库","SQL","NoSQL"]
 date: "2025-02-08"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-coverAlt: "cover"
-thumbnailAlt: "cover"
 summary: "开发不是搞概念，但搞清楚概念能让你更好地胜任工作。"
 ---
 

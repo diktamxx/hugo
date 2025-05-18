@@ -47,7 +47,7 @@ keywords = [
   showHeadingAnchors = false
   showComments = true
   showPagination = false
-
+  showBreadcrumbs = false
   showReadingTime = false
   showTaxonomies = false # 显示标签必须开启showReadingTime
 
