@@ -1,9 +1,7 @@
 User-agent: *
-Allow: /
 Disallow: /tags/
 Disallow: /categories/
 Disallow: /readings/
-Disallow: /404
 
 User-agent: Baiduspider
 Disallow: /posts/helloworld/
