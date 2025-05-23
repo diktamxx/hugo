@@ -106,7 +106,7 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 接下来就可以进行*翻墙*测试了。
 
 这里有条来自 `youtube.com` 的视频，正常情况下是无法播放的。
-<span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和观看，则说明已经*翻墙*成功了。
+<span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和观看（可能提示需要登陆观看），则说明已经*翻墙*成功了。
 <iframe 
 width="100%" height="315" 
 src="https://www.youtube.com/embed/J76S5q_ETfo?si=3W97uqky995htYSA" 
@@ -143,7 +143,7 @@ allowfullscreen></iframe>
 - 实况直播网站 [twitch.tv](twitch.tv)
 - 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
 - 电子书网站 [Z-Library（z-library-project.com）](https://z-library-project.com/) 和 [Anna’s Archive（zh.annas-archive.org）](https://zh.annas-archive.org)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
-- 影视作品 [Ago影院（agoys.com）](https://www.agoys.com/)、[Gimy剧迷（gimy.ai）](https://gimy.ai/)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[韩剧网（321tw.com）](https://321tw.com)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
+- 影视作品 [iKanBot（ikanbot.com）](https://ikanbot.com/)、[Ago影院（agoys.com）](https://www.agoys.com/)、[Gimy剧迷（gimy.ai）](https://gimy.ai/)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[韩剧网（321tw.com）](https://321tw.com)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
