@@ -164,7 +164,7 @@ allowfullscreen></iframe>
 <!-- ![router picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/router.png) -->
 
 通常情况下，在购买软路由时，可以叫卖家预装*OpenWRT*，甚至*OpenClash*。
-![openclash picture](images/openclash.png "OpenClash插件")
+![openclash picture](images/openclash.png "OpenClash插件。[使用文档](https://github.com/vernesong/OpenClash/wiki)")
 <!-- ![openclash picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/openclash.png "OpenClash插件") -->
 
 ## 参考

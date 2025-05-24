@@ -6,7 +6,7 @@ tags: ["Java","并发编程"]
 date: "2023-04-18"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-summary: "进行异步编程之前，先了解它的隐患。"
+summary: "并发，就是彼此无法感知。"
 ---
 
 ## 1. 基本概念
