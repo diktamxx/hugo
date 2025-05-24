@@ -1,2 +1,9 @@
+article:
+  date_updated: "更新：{{ .Date }}"
+
 shortcode:
   recent_articles: "最近发布"
+
+search:
+  open_button_title: "搜寻 (/)"
+  input_placeholder: "搜寻"

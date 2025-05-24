@@ -4,18 +4,26 @@ slug: "helloworld"
 categories: ["翻墙"]
 tags: ["翻墙","价值观"]
 date: "2025-01-17"
+lastmod: "2025-05-24"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 summary: "人生而自由，却无往不在枷锁之中。--- 卢梭（Jean-Jacques Rousseau）"
 showTableOfContents: true
 ---
 
+<b style="color:#2C5B66">内容修订</b>
+- 2025/05/24：添加“墙中墙”的知识
+
+
+
+
 | 用语 <div style="width:8em"> | 解释 |
 | ----------- | ----------- |
 | 防火长城<span style="color:gray;">（简称：GFW）</span> | 泛指政府用来监管或限制网络访问的一切技术。 |
 | 翻墙 | 突破政府对网络的监管或限制。有时也会被叫作*科学上网*、*魔法上网*、*破网*、*爬梯子*等等，其实是同一个意思。 |
 | 墙内 | 泛指被 GFW 限制了*网络访问自由*的地方。 |
-| VPN<span style="color:gray;">（Virtual Private Network）</span> | 一种网络通讯技术。但现今通常用来指代那些提供*翻墙*服务的软件。 |
+| 墙中墙 | 地区政府在区域内实施 GFW（如：新疆、河南）。参考：[墙中之墙：中国地区性审查的兴起](https://gfw.report/publications/sp25/zh/)|
+| VPN<span style="color:gray;">（Virtual Private Network）</span> | 一种网络通讯技术。但现今通常用来指代那些提供*翻墙*服务的软件。|
 | 机场 | 提供*翻墙*服务的网站或组织。|
 | （机场）节点 | 由*机场*提供的*翻墙*线路。连上这些线路后就可以实现*翻墙*。 |
 | 代理软件 | 一种用来连接*机场节点*的软件。可简单理解为是*机场*专用的VPN软件。 |
@@ -138,7 +146,7 @@ allowfullscreen></iframe>
 - 中国新闻 [香港01-中国](https://www.hk01.com/zone/5/%E4%B8%AD%E5%9C%8B)、[星岛网-中国](https://std.stheadline.com/realtime/china/%E5%8D%B3%E6%99%82-%E4%B8%AD%E5%9C%8B)、[华尔街日报-中国](https://cn.wsj.com/zh-hans/news/china)
 - 互联网记忆 [archive.org](https://archive.org/)，可用来考古互联网
 - 高质问答网站 [reddit.com](https://www.reddit.com)
-- 高质博客网站 [medium.com](https://medium.com)
+- 大型博客网站 [medium.com](https://medium.com)
 - 图片网站 [pinterest.com](https://pinterest.com)，有很多有趣和漂亮的图片
 - 实况直播网站 [twitch.tv](twitch.tv)
 - 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
@@ -160,6 +168,7 @@ allowfullscreen></iframe>
 <!-- ![openclash picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/openclash.png "OpenClash插件") -->
 
 ## 参考
+- [GFW Report](https://gfw.report/zh/)
 - [人道主义](https://baike.baidu.com/item/%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89/1460878)
 - [健全人格](https://baike.baidu.com/item/%E5%81%A5%E5%85%A8%E4%BA%BA%E6%A0%BC/22262993)
 - [突破网络审查](https://zh.wikipedia.org/wiki/%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5)

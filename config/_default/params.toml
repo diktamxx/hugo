@@ -40,7 +40,7 @@ keywords = [
   # showDate = true
   # showDateUpdated = true
   showDate = false
-  showDateUpdated = false
+  showDateUpdated = true
 
   showDraftLabel = true # 在使用 --buildDrafts 构建站点时，在文章旁边显示草稿标签
   showTableOfContents = false
