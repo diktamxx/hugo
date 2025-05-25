@@ -10,7 +10,6 @@ summary: "是否容许数据丢失？这是个问题。"
 showTableOfContents: true
 ---
 
-## 统一语言（减少理解偏差）
 | 用语 <div style="width:8em"> | 解释 |
 | ----------- | ----------- |
 | Redis OSS | Redis Open Source Software，泛指社区版 Redis。 |
@@ -188,7 +187,7 @@ RedLock 算法的核心逻辑是通过实施[分布式仲裁（Quorum）](https:
     
 只要不是在“错误”行径上使用 Redis（如前文提到的*共享状态*），就仍然可以选择**面向聚合建模**来作为解决方案。只需确保聚合位于*单个key*上即可。但**某些时候查询可能并不需要返回完整的聚合，特别是<u>聚合比较大（Big Key）</u>时**。虽然部份*数据结构*支持返回聚合的部份内容（譬如 map、json），但未必满足所有需求。此时可以通过*逻辑聚合*来解决该问题。
 简单说，就是**使用[名称空间（namespace）](https://zh.wikipedia.org/wiki/%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4)来组织（逻辑）聚合。而在结构层面聚合会被拆分成不同的组成部份**。
-但遗憾的是 Redis 对*命名空间*的支持比较有限。唯一的实现只有[逻辑数据库](https://redis.io/docs/latest/commands/select/)，而且通常还[不建议使用](https://groups.google.com/g/redis-db/c/vS5wX8X4Cjg/m/8ounBXitG4sJ)（。因为数量有限，且结构上并没有实现隔离）。
+但遗憾的是，Redis 对于*名称空间*的支持比较有限。唯一的实现只有[逻辑数据库](https://redis.io/docs/latest/commands/select/)，而且通常还[不建议使用](https://groups.google.com/g/redis-db/c/vS5wX8X4Cjg/m/8ounBXitG4sJ)。因结构上并没有实现隔离，查询会相互影响。
 解决办法是**透过<u>对key进行规范化命名</u>来模拟命名空间**。
 例如可以将*key名*格式限定为：`namespaceId:aggregationType:instanceId:instanceAttributeName`。
 其中`namespaceId`可以是*租户标识*。`instanceAttributeName`代表聚合的*组成部份*，用于拆分聚合；且不同的*组成部份*可以根据实际需求来使用不同的*数据结构*。注意，该格式只是一个例子。你应该根据实际系统的需求来规范化*key名*格式。
