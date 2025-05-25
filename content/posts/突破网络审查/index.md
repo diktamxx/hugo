@@ -114,7 +114,7 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 接下来就可以进行*翻墙*测试了。
 
 这里有条来自 `youtube.com` 的视频，正常情况下是无法播放的。
-<span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和观看（可能提示需要登陆观看），则说明已经*翻墙*成功了。
+<span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和播放（或提示“在YouTube上观看”），则说明已经*翻墙*成功了。
 <iframe 
 width="100%" height="315" 
 src="https://www.youtube.com/embed/J76S5q_ETfo?si=3W97uqky995htYSA" 
