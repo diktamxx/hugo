@@ -72,4 +72,4 @@ showTableOfContents: false
 
 [^1]: 大泥球：系统正处于一个“无架构”状态。
 [^2]: 微服务社区并不认同“微服务就是SOA”这种论调，因为两者截然不同。SOA专注于传统行业；透过运用ESB（企业服务总线，一个中心化组件）将各个异构系统打通以解决企业系统信息孤岛问题。而微服务则是一种面向产品的架构风格。
-[^3]: Conway's law 是一种社会学观察。可参考：[康威定律](https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B)、[论文正文](https://www.melconway.com/Home/Committees_Paper.html)
+[^3]: 康威定律是一种社会学观察，自然状态下呈现的结果。可参考：[康威定律](https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B)、[论文正文](https://www.melconway.com/Home/Committees_Paper.html)
