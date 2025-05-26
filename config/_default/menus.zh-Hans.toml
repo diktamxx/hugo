@@ -10,7 +10,7 @@
   weight = 2
 
 [[main]]
-  name = "分类&标签"
+  name = "标签"
   pageRef = "tags"
   weight = 3
 
@@ -37,7 +37,7 @@
   weight = 2
 
 [[footer]]
-  name = "分类&标签"
+  name = "标签"
   pageRef = "tags"
   weight = 3
 
