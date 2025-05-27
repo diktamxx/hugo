@@ -12,7 +12,7 @@ showTableOfContents: false
 
 | 用语 <div style="width:9em"> | 解释 |
 | ----------- | ----------- |
-| 沟通结构 | 为了达到某个目的，组织中的团队或成员必须进行沟通。这些沟通所形成的依赖拓扑结构就称为沟通结构。|
+| 沟通结构 | 为了达到某个目的，组织中的部门、团队和人员必须进行沟通。这些沟通所形成的依赖拓扑结构就称为沟通结构。|
 
 ## 单体（Monolithic）和分布式
 
@@ -66,10 +66,11 @@ showTableOfContents: false
 
 
 ## 参考
-- [Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
+- [Software engineering anti-patterns](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
 - [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
 - [Information silo](https://en.wikipedia.org/wiki/Information_silo)
 - [Inverse-Conway-Maneuver: How to speed up product development teams successfully](https://www.thoughtworks.com/insights/blog/customer-experience/inverse-conway-maneuver-product-development-teams)
+- [Fallacies of distributed computing](https://en.m.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
 [^1]: 大泥球：系统正处于一个“无架构”状态。
 [^2]: 自主性：维护和部署独立。强调解耦比复用更有价值
