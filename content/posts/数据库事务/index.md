@@ -71,8 +71,10 @@ summary: "事务机制其实是一种简化编程模型的工具。"
 - [ACID](https://en.wikipedia.org/wiki/ACID)
 - [MySQL Glossary](https://dev.mysql.com/doc/refman/8.4/en/glossary.html)
 - [The InnoDB Storage Engine](https://dev.mysql.com/doc/refman/8.4/en/innodb-storage-engine.html)
+- [InnoDB Storage Engine: What Is New in MySQL 9.0](https://dev.mysql.com/doc/refman/9.0/en/mysql-nutshell.html)
 - [MySQL Server Logs](https://dev.mysql.com/doc/refman/8.4/en/server-logs.html)
 - [START TRANSACTION, COMMIT, and ROLLBACK Statements](https://dev.mysql.com/doc/refman/8.4/en/commit.html)
+
 
 
 
