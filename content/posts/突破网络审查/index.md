@@ -149,9 +149,9 @@ allowfullscreen></iframe>
 - 大型博客网站 [medium.com](https://medium.com)
 - 图片网站 [pinterest.com](https://pinterest.com)，有很多有趣和漂亮的图片
 - 实况直播网站 [twitch.tv](twitch.tv)
-- 版权最多的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
+- 个人认为用户体验最好的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
 - 电子书网站 [Z-Library（z-library-project.com）](https://z-library-project.com/) 和 [Anna’s Archive（zh.annas-archive.org）](https://zh.annas-archive.org)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
-- 影视作品 [iKanBot（ikanbot.com）](https://ikanbot.com/)、[Ago影院（agoys.com）](https://www.agoys.com/)、[Gimy剧迷（gimy.ai）](https://gimy.ai/)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[韩剧网（321tw.com）](https://321tw.com)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
+- 影视作品 [iKanBot（ikanbot.com）](https://ikanbot.com/)、[Ago影院（agoys.com）](https://www.agoys.com/)、[Gimy剧迷（gimy.ai）](https://gimy.ai/)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[电影线上看（movieffm.net）](https://www.movieffm.net/)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[韩剧网（321tw.com）](https://321tw.com)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（duboku.tv）](https://www.duboku.tv/)、[AGE动漫（www.agefans.la）](https://www.agefans.la/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
