@@ -2,6 +2,7 @@
 showComments: false
 showAuthor: false
 showDate: false
+summary: "推荐读物"
 ---
 
 #### / 开发人员的自我修养 /
