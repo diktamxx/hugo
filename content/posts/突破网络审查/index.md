@@ -136,7 +136,7 @@ allowfullscreen></iframe>
 - 不要再用百度了，[google.com](https://www.google.com.au) 比它强得多。只需注册一个`Google`帐号，就可以用于登陆（注册）大部分境外网站。此外，`Google`搜索引擎还提供了一个分析工具 [trends.google.com](https://trends.google.com)，可用它来查询或分析时下的热点趋势
 - 通过 [voice.google.com](https://voice.google.com/) 能够创建一个虚拟电话号。可用于日后注册场景使用。例如用它来接收验证码从而一定程度避免实名制。但现今创建难度较大。办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。而[earth.google.com](https://earth.google.com)提供了3D地球服务，可用它来“游历”世界各国的景点。建议使用*手机App*或*电脑桌面版*([earth versions](https://www.google.com/earth/about/versions))。如果是安卓设备，`Google`相关的App也可以通过[Gogole Play](https://play.google.com/store/apps/details?id=com.google.android.gms&hl=zh)来安装
 - 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)
-- 最好用的`ChatAI` [grok.com](grok.com)、[chatgpt.com](chatgpt.com)。注意，因为政策原因部份 AI 会屏蔽中国地区的访问（包含香港），所以尽可能使用非中国地区节点。
+- 好用的`ChatAI` [chatgpt.com](chatgpt.com)、[grok.com](grok.com)。注意，因政策原因部份 AI 会屏蔽中国地区的访问（包含香港），所以尽可能使用非中国地区节点。
 - 可用于个人音乐制作的`AI` [suno.com](suno.com)
 - 全球最大的视频网站 [youtube.com](https://www.youtube.com)，只要有足够的好奇心就可以学到很多东西
 - 以图片和短视频为主的社交媒体 [instagram.com](https://instagram.com)，有很多有趣的内容
