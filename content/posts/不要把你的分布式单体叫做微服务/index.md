@@ -1,9 +1,9 @@
 ---
 title: "不要把你的分布式单体叫做微服务"
-slug: "microservices"
+slug: "what are microservices"
 categories: ["软件架构"]
 tags: ["软件架构","微服务"]
-date: "2024-04-22"
+date: "2024-04-23"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 summary: "分布式设计比你想象中要复杂得多。"
