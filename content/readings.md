@@ -34,6 +34,8 @@ summary: "推荐读物"
 \
 <em style="float:left;font-size: 0.8em;">CSS命名规范：[BEM](https://getbem.com/)</em>
 \
+<em style="float:left;font-size: 0.8em;">语义化版本号：[2.0.0](https://semver.org/lang/zh-CN/)</em>
+\
 <em style="float:left;font-size: 0.8em;">Everything as code：[Everything as Code | Jose Javier Alonso Moya & Fabrice Pipart - YouTube](https://www.youtube.com/watch?v=ZXYcy903VDg)</em>
 \
 <em style="float:left;font-size: 0.8em;">行业前沿技术：[Thoughtworks - 技术雷达](https://www.thoughtworks.com/zh-cn/radar)</em>
