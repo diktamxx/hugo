@@ -25,3 +25,31 @@ summary: "推荐读物"
 #### / 应对遗留系统代码 /
 <em style="float:left;font-size: 0.8em;">《重构：改善既有代码的设计》第2版 Martin Fowler</em>\
 <em style="float:left;font-size: 0.8em;">《修改代码的艺术》Michael C. Feathers</em>
+<br>
+
+#### / 其他 /
+<em style="float:left;font-size: 0.8em;">开发者宣言：[敏捷](https://agilemanifesto.org/iso/zhchs/manifesto.html)、[反应式](https://www.reactivemanifesto.org/zh-CN)</em>
+\
+<em style="float:left;font-size: 0.8em;">API规范：[OpenAPI](https://github.com/OAI/OpenAPI-Specification)、[AsyncAPI](https://github.com/asyncapi/spec)</em>
+\
+<em style="float:left;font-size: 0.8em;">CSS命名规范：[BEM](https://getbem.com/)</em>
+\
+<em style="float:left;font-size: 0.8em;">Everything as code：[Everything as Code | Jose Javier Alonso Moya & Fabrice Pipart - YouTube](https://www.youtube.com/watch?v=ZXYcy903VDg)</em>
+\
+<em style="float:left;font-size: 0.8em;">行业前沿技术：[Thoughtworks - 技术雷达](https://www.thoughtworks.com/zh-cn/radar)</em>
+
+
+<!-- #### / Everything as code /
+基础设施即代码（Infrastructure as Code）：[Ansible](https://github.com/ansible/ansible)、[Terraform](https://developer.hashicorp.com/terraform)、[Vagrant](https://developer.hashicorp.com/vagrant)
+\
+构建即代码（Build as code）：[Gradle](https://docs.gradle.org/current/dsl/)、[pnpm](https://pnpm.io/zh/workspaces)
+\
+配置即代码（Configuration as Code）：[Traefik](https://doc.traefik.io/traefik/reference/routing-configuration/dynamic-configuration-methods/)、[Dockerfile](https://docs.docker.com/reference/dockerfile/)、[Docker Compose](https://github.com/compose-spec/compose-spec/blob/main/spec.md)、[Kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/)
+\
+图表即代码（Diagram as Code）：[Mermaid](https://mermaid.js.org/)
+\
+管道即代码（Pipeline as Code）：[Jenkins](https://www.jenkins.io/doc/book/pipeline/pipeline-as-code/)、[Argo Workflows](https://github.com/argoproj/argo-workflows)、[GitHub Actions](https://docs.github.com/zh/actions/writing-workflows/quickstart)
+\
+策略即代码（Policy as Code）：[OPA](https://www.openpolicyagent.org/docs)
+\
+可观测性即代码（Observability as Code）：[Grafana](https://grafana.com/docs/grafana/latest/observability-as-code/) -->
