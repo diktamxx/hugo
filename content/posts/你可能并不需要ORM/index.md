@@ -46,7 +46,7 @@ ORM 的诞生主要是为了解决OO和ER之间存在的*阻抗失谐*问题。
 ## 拓展：善用投射（Projections）
 
 投射的概念并非特定于 ORM 上下文。实际上你可以在任何数据交互边界中应用它。
-这样做的好处是能够有效地实践[接口隔离原则（ISP）](https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99)[^7]。
+这样做的好处是，可以有效地实践[接口隔离原则（提供者角度）](https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99)[^7]和[迪米特法则（消费者角度）](https://en.wikipedia.org/wiki/Law_of_Demeter)。
 
 另外，用于投射的数据类型本质上是一种 DTO，而非 PO。
 但为其命名时并不建议采用“Dto”作为后缀。这样做貌似在强调它与 PO 之间的区别（。但事实上它又确实从持久层中来）。所以个人认为以“Projection”作为后缀可能会更为妥当一些。但更好的做法是将相关数据类型组织到一个源码文件中。例如 UserProjection.Address、UserProjection.Profile。这样做可以有效地避免命名所带来的困扰。
