@@ -2,7 +2,7 @@
 showComments: false
 showAuthor: false
 showDate: false
-summary: "推荐读物"
+title: "推荐读物"
 ---
 
 #### / 程序员的自我修养 /
