@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /tags/
 Disallow: /categories/
+Disallow: /*.json$
 # cloudflare cdn
 Disallow: /cdn-cgi/
 
