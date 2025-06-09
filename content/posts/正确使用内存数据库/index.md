@@ -206,4 +206,5 @@ RedLock 算法的核心逻辑是通过实施[分布式仲裁（Quorum）](https:
 - [7 Redis Worst Practices](https://redis.io/blog/7-redis-worst-practices/)
 - [Redis Anti-Patterns Every Developer Should Avoid](https://redis.io/learn/howtos/antipatterns)
 - [Why is Redis So Fast Despite Being Single-Threaded?](https://medium.com/@aditimishra_541/why-is-redis-so-fast-despite-being-single-threaded-dc06ba33fc75)
+- [Redis Data Modeling](/files/8-Data-Modeling-Patterns-in-Redis.pdf)
 - [caffeine](https://github.com/ben-manes/caffeine)
