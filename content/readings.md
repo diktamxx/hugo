@@ -48,7 +48,7 @@ title: "推荐读物"
 \
 配置即代码（Configuration as Code）：[Traefik](https://doc.traefik.io/traefik/reference/routing-configuration/dynamic-configuration-methods/)、[Dockerfile](https://docs.docker.com/reference/dockerfile/)、[Docker Compose](https://github.com/compose-spec/compose-spec/blob/main/spec.md)、[Kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/)
 \
-图表即代码（Diagram as Code）：[Mermaid](https://mermaid.js.org/)
+图表即代码（Diagram as Code）：[Mermaid](https://mermaid.js.org/)、[Structurizr](https://structurizr.com/)
 \
 管道即代码（Pipeline as Code）：[Jenkins](https://www.jenkins.io/doc/book/pipeline/pipeline-as-code/)、[Argo Workflows](https://github.com/argoproj/argo-workflows)、[GitHub Actions](https://docs.github.com/zh/actions/writing-workflows/quickstart)
 \
