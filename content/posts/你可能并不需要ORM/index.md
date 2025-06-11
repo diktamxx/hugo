@@ -61,6 +61,8 @@ ORM 的诞生主要是为了解决OO和ER之间存在的*阻抗失谐*问题。
 - [Is ORM still an anti-pattern?](https://news.ycombinator.com/item?id=36497613)
 - [Leaky abstraction](https://en.wikipedia.org/wiki/Leaky_abstraction)
 - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+- [The best way to map a @NaturalId business key with JPA and Hibernate](https://vladmihalcea.com/the-best-way-to-map-a-naturalid-business-key-with-jpa-and-hibernate/)
+
 
 [^1]: ORM 的使用复杂度与内存模型本身的复杂度成正相关关系。
 [^2]: ORM 属于抽象失败这一观点，个人理解针对的是 ORM 实现（即框架）。因为 ORM 本身只是一种概念。
