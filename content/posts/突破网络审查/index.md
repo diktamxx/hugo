@@ -142,7 +142,7 @@ allowfullscreen></iframe>
 - 匿名社交软件 [telegram.org](https://telegram.org)，有很多人在上面爆料。有黄有暴力有血腥，是我见过尺度最大的社交平台
 - 地球上最知名的色情网站 [pornhub.com](https://cn.pornhub.com)，以及日本动作大片 [missav.ai](http://missav.ai/)。我不认为“性”是一件不能被提及的事情
 - 中国新闻 [星岛网-中国](https://std.stheadline.com/realtime/china/%E5%8D%B3%E6%99%82-%E4%B8%AD%E5%9C%8B)、[香港01-中国](https://www.hk01.com/zone/5/%E4%B8%AD%E5%9C%8B)、[华尔街日报-中国](https://cn.wsj.com/zh-hans/news/china)
-- 互联网记忆 [archive.org](https://archive.org/)，可用来考古互联网
+- 互联网记忆 [archive.org](https://archive.org/)，可用来考古。譬如：看看某个网站n年前长什么样子、找回某个404网页。
 - 高质问答网站 [reddit.com](https://www.reddit.com)
 - 大型博客网站 [medium.com](https://medium.com)
 - [pinterest.com](https://pinterest.com)，有很多有趣和漂亮的图片
