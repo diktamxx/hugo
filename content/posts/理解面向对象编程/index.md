@@ -90,6 +90,7 @@ book.borrow(user.userId())
 - [What is Message Passing in C++?](https://www.scaler.com/topics/oops-concepts-in-cpp)
 - https://news.ycombinator.com/item?id=19417893
 - [What is the significance of a message passing in OOP?](https://www.quora.com/What-is-the-significance-of-a-message-passing-in-OOP)
+- [Getter Eradicator](https://martinfowler.com/bliki/GetterEradicator.html)
 - 《面向对象分析和设计》第3版
 
 
