@@ -20,6 +20,7 @@ title: "推荐读物"
 <em style="float:left;font-size: 0.8em;">《领域驱动设计精粹》Vaughn Vernon</em>\
 <em style="float:left;font-size: 0.8em;">《实现领域驱动设计》Vaughn Vernon</em>\
 <em style="float:left;font-size: 0.8em;">《领域驱动设计学习手册》Vlad Khononov</em>
+<em style="float:left;font-size: 0.8em;">《微服务设计》第2版 Sam Newman</em>
 <br>
 
 #### / 应对遗留系统代码 /

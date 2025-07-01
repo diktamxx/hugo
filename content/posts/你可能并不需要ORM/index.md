@@ -66,7 +66,7 @@ ORM 的诞生主要是为了解决OO和ER之间存在的*阻抗失谐*问题。
 
 [^1]: ORM 的使用复杂度与内存模型本身的复杂度成正相关关系。
 [^2]: ORM 属于抽象失败这一观点，个人理解针对的是 ORM 实现（即框架）。因为 ORM 本身只是一种概念。
-[^3]: N+1 是 ORM 实现中的一个备受争议的问题。它描述这么一种情况，当查询一个存在嵌套关系的内存模型（PO）时，就会产生额外针对关联目标的 SQL 查询。至于需要执行多少额外的 SQL 查询，则取决于 N 的大小，而 N 代表关联目标的数量。N+1 问题的核心在于批量执行 SQL 查询会降低系统性能（，因为涉及网络和磁盘I/O）。该问题常见的解决方案有（1）应用[懒加载](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/persist/persistence-intro/persistence-intro.html#_using_collections_in_entity_fields_and_properties)策略。只在访问关联目标时才执行额外查询。（2）使用[JPA JOIN FETCH](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/persist/persistence-querylanguage/persistence-querylanguage006.html#_joins)查询。预加载所有关联目标。
+[^3]: N+1 是 ORM 实现中的一个备受争议的问题。它描述这么一种情况，当查询一个存在嵌套关系的内存模型（PO）时，就会产生额外针对关联目标的 SQL 查询。至于需要执行多少额外的 SQL 查询，则取决于 N 的大小，而 N 代表关联目标的数量。N+1 问题的核心在于执行大量 SQL 查询会降低系统性能（，因为涉及网络和磁盘I/O）。该问题常见的解决方案有（1）应用[懒加载](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/persist/persistence-intro/persistence-intro.html#_using_collections_in_entity_fields_and_properties)策略。只在访问关联目标时才执行额外查询。（2）使用[JPA JOIN FETCH](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/persist/persistence-querylanguage/persistence-querylanguage006.html#_joins)查询。预加载所有关联目标。
 [^4]: ORM 框架的查询能力会受到自身设计影响。譬如近年来一些*关系型数据*开始支持 JSON 数据类型，但 ORM 框架则未必支持（至少需要些时间）。
 [^5]: 微服务架构风格下，服务实例应该是无状态的（具体而言，不应该有*更新相关*的状态）。因为状态越少，伸缩性越好。
 [^6]: 个人认为 MyBatis 之所以在中国流行，主要是因为一些所谓的“大厂”。这里其实反应着一个行业事实（至少中国是这样）。很多中小型企业和团队其实都缺乏良好的软件工程实践知识和经验，所以他们只能根据“大厂”的指引来作出决策。其底层逻辑是希望通过复制大厂的决策来取得同样的成功。

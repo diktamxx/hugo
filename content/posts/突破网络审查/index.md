@@ -155,14 +155,14 @@ allowfullscreen></iframe>
 
 ## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
 
-当设备比较多时，要在每个设备上都安装*代理软件*显然比较麻烦。所以最好是将*代理软件*安装在*路由*或*Wi-Fi*上。这样设备仅需要连接上*Wi-Fi*，就能够实现翻墙。
+当设备比较多时，要在每个设备上都安装代理软件显然比较麻烦。所以最好是将代理软件安装在路由器或 Wi-Fi 上。这样设备仅需要连接上 Wi-Fi 就能够实现翻墙。
 
-要想安装*代理软件*，普通的路由器是不行的；需要一种称为**软路由**的设备才可以。
-*软路由*本质上是一台小型服务器，它安装的是[OpenWRT（github.com/openwrt/openwrt）](https://github.com/openwrt/openwrt)系统。通过在*OpenWRT*上安装[OpenClash（github.com/vernesong/OpenClash）](https://github.com/vernesong/OpenClash)插件就能够订阅机场链接了。
+要想安装代理软件普通路由器是不行的；需要一种称为**软路由**的设备才可以。
+软路由本质上是一台小型服务器，它安装的是[OpenWRT（github.com/openwrt/openwrt）](https://github.com/openwrt/openwrt)系统。通过在 OpenWRT 上安装[OpenClash（github.com/vernesong/OpenClash）](https://github.com/vernesong/OpenClash)插件就能够订阅机场链接了。
 ![router picture](images/router.png)
 <!-- ![router picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/router.png) -->
 
-通常情况下，在购买软路由时，可以叫卖家预装*OpenWRT*，甚至*OpenClash*。
+通常情况下，在购买软路由时，可以叫卖家预装 OpenWRT，甚至 OpenClash。
 ![openclash picture](images/openclash.png "OpenClash插件。[使用文档](https://github.com/vernesong/OpenClash/wiki)")
 <!-- ![openclash picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/openclash.png "OpenClash插件") -->
 
