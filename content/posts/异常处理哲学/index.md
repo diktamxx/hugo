@@ -9,7 +9,7 @@ thumbnail: "images/cover.png"
 summary: "不要滥用全局异常处理机制。"
 ---
 
-<b style="color:#2C5B66">内容修订</b>
+<b>内容修订</b>
 - 2025/06/08：调整文章结构，使其更易于阅读
 
 | 用语 <div style="width:8em"> | 解释 |

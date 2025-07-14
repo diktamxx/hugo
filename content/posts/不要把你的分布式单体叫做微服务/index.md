@@ -10,7 +10,7 @@ summary: "分布式设计比你想象中要复杂得多。"
 showTableOfContents: false
 ---
 
-<b style="color:#2C5B66">内容修订</b>
+<b>内容修订</b>
 - 2025/05/25：让“单体（Monolithic）和分布式”部份内容更易读一些
 
 | 用语 <div style="width:9em"> | 解释 |

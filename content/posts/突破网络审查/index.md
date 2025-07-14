@@ -11,7 +11,7 @@ summary: "人生而自由，却无往不在枷锁之中。--- 卢梭（Jean-Jacq
 showTableOfContents: true
 ---
 
-<b style="color:#2C5B66">内容修订</b>
+<b>内容修订</b>
 - 2025/05/24：添加“墙中墙”的知识
 
 
