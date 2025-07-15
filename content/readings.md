@@ -34,7 +34,9 @@ title: "推荐读物"
 \
 <em style="float:left;font-size: 0.8em;">架构决策记录：[Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)</em>
 \
-<em style="float:left;font-size: 0.8em;">API规范：[OpenAPI](https://github.com/OAI/OpenAPI-Specification)、[AsyncAPI](https://github.com/asyncapi/spec)</em>
+<em style="float:left;font-size: 0.8em;">API风格规范：[OpenAPI](https://github.com/OAI/OpenAPI-Specification)、[AsyncAPI](https://github.com/asyncapi/spec)</em>
+\
+<em style="float:left;font-size: 0.8em;">关于命名：[Naming as a Process](https://www.digdeeproots.com/articles/naming-process/)</em>
 \
 <em style="float:left;font-size: 0.8em;">CSS命名规范：[BEM](https://getbem.com/)</em>
 \
