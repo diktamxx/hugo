@@ -52,3 +52,4 @@ summary: "不会建模跟不会用数据库其实没什么区别。"
 ## 参考
 - 《NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence》Martin Fowler
 - Data Modeling：[MongoDB](https://www.mongodb.com/zh-cn/docs/manual/data-modeling/)、[Cassandra](https://cassandra.apache.org/doc/latest/cassandra/developing/data-modeling/index.html)、[Neo4j](https://neo4j.com/docs/getting-started/data-modeling/)、[Redis](/files/8-Data-Modeling-Patterns-in-Redis.pdf)
+- [Building with Patterns: A Summary](https://www.mongodb.com/company/blog/building-with-patterns-a-summary)
