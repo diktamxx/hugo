@@ -80,7 +80,7 @@ summary: "事务机制其实是一种简化编程模型的工具。"
 
 [^1]: 不同类型的关系型数据库对于 MVCC 的实现和支持会有所差异。
 [^2]: 快照读也称为[一致性非锁定读](https://dev.mysql.com/doc/refman/8.4/en/innodb-consistent-read.html)，它会从 *Undo Logs* 中读取记录的快照版本。另外，`for update`、`for share（或lock in share mode）`、`update`、`delete` 这些称为[一致性锁定读](https://dev.mysql.com/doc/refman/8.4/en/innodb-locking-reads.html)。
-[^3]: Redo Log 是一种用于崩溃恢复的逻辑日志（属于[预写日志记录](https://en.wikipedia.org/wiki/Write-ahead_logging)，即WAL），用于重做*未提交事务*的状态。InnoDB 会透过[后台线程](https://dev.mysql.com/doc/refman/8.4/en/innodb-parameters.html#sysvar_innodb_log_writer_threads)将事务信息（Log Buffer）持续并顺序地写入到日志文件（如：#innodb_redo）。该日志文件并不会持续膨胀，它会根据[*checkpoint*](https://dev.mysql.com/doc/refman/8.4/en/innodb-checkpoints.html)对旧内容进行截断。这里的“旧内容”是指那些已经提交并落盘的事务状态。实际上 Redo Log 主要记录的是两次 checkpoint 之间的事务状态。
+[^3]: Redo Log 是一种用于崩溃恢复的逻辑日志（属于[预写日志记录](https://en.wikipedia.org/wiki/Write-ahead_logging)，即WAL），用于重做*未提交事务*的状态。InnoDB 会透过[后台线程](https://dev.mysql.com/doc/refman/8.4/en/innodb-parameters.html#sysvar_innodb_log_writer_threads)将事务信息（Log Buffer）持续并顺序地写入到日志文件（如：#innodb_redo）。该日志文件并不会持续膨胀，它会根据[*checkpoint*](https://dev.mysql.com/doc/refman/8.4/en/innodb-checkpoints.html)对旧内容进行截断。这里的“旧内容”是指那些已经提交并落盘的事务状态。实际上 Redo Log 主要记录的是两次 checkpoint 之间的事务状态，并在崩溃恢复时回滚没有提交标识的事务以确保持久性和原子性。
 [^4]: 脏读：事务并发期间，读取到其他未提交事务的计算结果。
 [^5]: 排他锁：泛指`for update`操作。
 [^6]: 乐观锁：为记录添加一个版本标识字段，然后对编程模型进行约束。约束规则：1）更新记录时需要先读取版本标识。2）只有标识没有被改变过的情况下才更新记录（这一点通常依赖于ACID一致性）。
