@@ -86,7 +86,7 @@ summary: "事务机制其实是一种简化编程模型的工具。"
 
 [^1]: 不同类型的关系型数据库对于 MVCC 的实现和支持会有所差异。
 [^2]: 快照读也称为[一致性非锁定读](https://dev.mysql.com/doc/refman/8.4/en/innodb-consistent-read.html)，它会从 *Undo Logs* 中读取记录的快照版本。另外，`for update`、`for share（或lock in share mode）`、`update`、`delete` 这些称为[一致性锁定读](https://dev.mysql.com/doc/refman/8.4/en/innodb-locking-reads.html)。
-[^3]: Redo Log 是一种用于崩溃恢复的逻辑日志（属于[预写日志记录](https://en.wikipedia.org/wiki/Write-ahead_logging)，即WAL），用于重做*未提交事务*的状态。InnoDB 会透过[后台线程](https://dev.mysql.com/doc/refman/8.4/en/innodb-parameters.html#sysvar_innodb_log_writer_threads)将事务信息（Log Buffer）持续并顺序地写入到日志文件（如：#innodb_redo）。该日志文件并不会持续膨胀，它会根据提交标记来截断旧内容（可参考[低水位](https://martinfowler.com/articles/patterns-of-distributed-systems/low-watermark.html)机制）。这里的“旧内容”是指那些已经提交并落盘的数据状态。
+[^3]: Redo Log 是一种用于崩溃恢复的逻辑日志（属于[预写日志记录](https://en.wikipedia.org/wiki/Write-ahead_logging)，即WAL），用于重做*未提交事务*的状态。InnoDB 会透过[后台线程](https://dev.mysql.com/doc/refman/8.4/en/innodb-parameters.html#sysvar_innodb_log_writer_threads)会以毫秒为单位的时间间隔将事物状态（Log Buffer）持续并顺序地写入到日志文件（如：#innodb_redo）。该日志文件并不会持续膨胀，它会根据提交标记来截断旧内容（可参考[低水位](https://martinfowler.com/articles/patterns-of-distributed-systems/low-watermark.html)机制）。这里的“旧内容”是指那些已经提交并落盘的事物状态。
 [^4]: 排他锁：在 InnoDB 中泛指`for update`操作。
 [^5]: 乐观锁：为记录添加一个版本标识字段，然后对编程模型进行约束。约束规则：1）更新记录时需要先读取版本标识。2）只有标识没有被改变过的情况下才更新记录（这一点通常依赖于ACID一致性）。
 [^6]: *ACID隔离性*仅能控制**并发期间**的可见性，所以它无法解决与事务提交相关的问题（如*更新覆盖*）。此外，*ACID隔离性*是 MVCC 的主要应用场所，因为 MVCC 本身就是一种用来提高事务并发性能的机制。
