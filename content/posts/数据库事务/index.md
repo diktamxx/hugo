@@ -48,7 +48,7 @@ summary: "事务机制其实是一种简化编程模型的工具。"
 - `READ UNCOMMITTED` 隔离级别最低，但并发性能最好。因为不会使用快照读，所以能够读取到其他并发事务未提交的计算结果，存在*脏读*隐患。
 - `READ COMMITTED` 通过应用*Undo Logs快照*能够解决*脏读*问题。但它会引出另一种隐患，*不可重复读[^7]*。因为该级别下的查询会始终读取最新版本的快照，而该版本的快照可能是其他并发事务所生成的（，所以相当于存在提交级别的脏读）。
 - `REPEATABLE READ` 是 InnoDB 默认的隔离级别。能够解决*不可重复读*问题，因为该级别下的查询会始终读取（相同SQL）第一次查询所生成的版本快照。注意，InnoDB 在该隔离级别下并不会出现*幻读[^8]* 问题。因为默认会使用[next-key lock](https://dev.mysql.com/doc/refman/8.4/en/glossary.html#glos_next_key_lock)来锁定记录（行）和范围间隙。
-- `SERIALIZABLE` 与 `REPEATABLE READ` 大致相同。区别在于关闭 [autocommit](https://dev.mysql.com/doc/refman/8.4/en/server-system-variables.html#sysvar_autocommit) 后，前者会自动为查询谓语（where）添加 `for share（即lock in share mode）`，从<u>一致性非锁定读</u>转为<u>一致性锁定读</u>。所以实际上事务之间并不会真正地串行执行。该级别的隔离性最好的，但性能较差。
+- `SERIALIZABLE` 与 `REPEATABLE READ` 大致相同。区别在于关闭 [autocommit](https://dev.mysql.com/doc/refman/8.4/en/server-system-variables.html#sysvar_autocommit) 后，前者会自动为查询谓语（where）添加 `for share（即lock in share mode）`，从<u>一致性非锁定读</u>转为<u>一致性锁定读</u>。该级别的隔离性最好的，但性能较差。
 
 除了 *Undo Logs* 之外，还可以使用 *锁* 来进行隔离。
 | 锁 <div style="width:4em"> | 级别 <div style="width:2em"> | 描述 |
