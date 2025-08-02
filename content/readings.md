@@ -11,7 +11,9 @@ title: "推荐读物"
 <em style="float:left;font-size: 0.8em;">《敏捷软件开发：原则、模式与实践》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《匠艺整洁之道：程序员的职业素养》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《代码整洁之道：敏捷软件工艺手册》Robert C. Martin</em>\
-<em style="float:left;font-size: 0.8em;">《架构整洁之道》Robert C. Martin</em>
+<em style="float:left;font-size: 0.8em;">《架构整洁之道》Robert C. Martin</em> \
+<em style="float:left;font-size: 0.8em;">《分布式系统模式》Unmesh Joshi</em>
+
 <br>
 
 #### / 应对复杂领域业务 /
