@@ -40,16 +40,16 @@ Java Runtime 并不会因为载体被**固定**而增加并行度（。其并行
 
 
 ## 注意
-- VT 不需要被池化。因为 VT 的堆栈只是一个普通对象（，这意味着受到 GC 管理，并且可以被复用）。理论上只要堆内存足够大的话就可以大规模创建 VT
-- VT 无法通过`jstack`和`jcmd <pid> Thead.print`进行堆栈转存，因为它们并不是针对 VT 设计的。想要获取包含 VT 的堆栈转存信息，可以使用`jcmd <pid> Thread.dump_to_file -format=json <file>` 命令
-- Tomcat 从 9.0 开始可在 server.xml 中手动添加一个 className 为`org.apache.catalina.core.StandardVirtualThreadExecutor`的 Executor，然后再配置到想要使用 VT 的 Connector 上就可以运用 VT 来处理网络请求了
-- VT 属于**守护线程/精灵线程**，所以不会影响进程的退出决策
+- VT 不需要被池化。因为 VT 的堆栈只是一个普通对象（，这意味着受到 GC 管理，并且可以被复用）。理论上只要堆内存足够大的话就可以大规模创建 VT。
+- VT 无法通过`jstack`和`jcmd <pid> Thead.print`进行堆栈转存，因为它们并不是针对 VT 设计的。想要获取包含 VT 的堆栈转存信息可以用`jcmd <pid> Thread.dump_to_file -format=json <file>` 命令。
+- Tomcat 从 9.0 开始可在 server.xml 中手动添加一个 className 为`org.apache.catalina.core.StandardVirtualThreadExecutor`的 Executor，然后再配置到想要使用 VT 的 Connector 上就可以运用 VT 来处理网络请求了。
+- VT 属于**守护线程/精灵线程**，所以不会影响进程的退出决策。
 
 
 ## 拓展
-- Netflix 就曾经遇到过载体无法卸载 VT 的情况: [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d)
-- JVM 处理 VT 阻塞: [Project loom, what happens when virtual thread makes a blocking system call?](https://stackoverflow.com/questions/70174468/project-loom-what-happens-when-virtual-thread-makes-a-blocking-system-call)
-- VT 的出现是否让**反应式编程**变得无关紧要？答案是否定的。反应式编程本质上只是一种编程范式（由[反应式宣言](https://www.reactivemanifesto.org/zh-CN)规范）。它主张的是**即时响应**、**弹性（如背压）**、**消息驱动**等价值观。而 VT 只是异步编程技术的一种实现。在命令式编程中，你依然需要有意识地使用 VT，但在反应式编程中默认就是异步的（，当然你也可以使用 VT 来实现反应式编程）
+- Netflix 就曾经遇到过载体无法卸载 VT 的情况: [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d)。
+- JVM 处理 VT 阻塞: [Project loom, what happens when virtual thread makes a blocking system call?](https://stackoverflow.com/questions/70174468/project-loom-what-happens-when-virtual-thread-makes-a-blocking-system-call)。
+- VT 的出现是否会让**反应式编程**变得无关紧要？答案是否定的。反应式本质上是一种架构模式（由[反应式宣言](https://www.reactivemanifesto.org/zh-CN)规范）。它主张软件架构应该符合 *即时响应*、*回弹*、*弹性*、*消息驱动* 等特性，而 VT 只是异步编程技术的其中一种实现。从实践角度而言，开发者需要有意识地使用 VT，而反应式编程本身就基于异步模型（。当然，它也完全支持使用 VT 来作为异步编程基础）。
 
 
 ## 参考
