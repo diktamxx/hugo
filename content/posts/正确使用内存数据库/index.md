@@ -162,7 +162,7 @@ RedLock 算法的核心逻辑是通过实施[分布式仲裁（Quorum）](https:
 - 使用*分布式锁*来控制缓存更新，避免并发访问 SoR
 - 通过*客户端缓存（浏览器、App）* 或[内容分发网络（CDN）](https://aws.amazon.com/cn/what-is/cdn/)来降低系统流量
 - <s style="color: gray;">不设置 Redis TTL，避免缓存过期（不推荐：长期占用内存会影响性能，而且还会加剧数据不一致）</s>
-- 实施*高可用架构*可以有效地避免*缓存雪崩*。注意，在大流量分布式环境下可能会引发**热点（Hot Key）** 问题。譬如当某个拥有大量追随者的明星在社交媒体上发布动态时，那么这条动态就会迎来一大批高频流量。这种<u>热点现象会导致流量汇聚，严重起来甚至会瘫痪节点</u>。较为可行的解决方案是<u>将热点数据广播到所有节点，从而实现负载均衡（可参考[Hash tags](https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec/#key-distribution-model)进行实现）</u>。至于何谓*热点数据*，则取决于具体系统。例如在社交媒体中，拥有大量追随者的明星（帐号）就可以被定义为*热点*。他们所发的动态就应该被广播到所有的缓存节点上
+- 实施*高可用架构*可以有效地避免*缓存雪崩*。注意，在大流量分布式环境下可能会引发**热点（Hot Key）** 问题。譬如当某个拥有大量追随者的明星在社交媒体上发布动态时，那么这条动态就会迎来一大批高频流量。这种<u>热点现象会导致流量汇聚。严重起来甚至会瘫痪节点[^1]</u>。此时比较可行的解决方案是<u>将热点数据广播到所有节点，从而实现负载均衡（可参考[Hash tags](https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec/#key-distribution-model)进行实现）</u>。至于何谓*热点数据*，则取决于具体系统。例如在社交媒体中，拥有大量追随者的明星（帐号）就可以被定义为*热点*。他们所发的动态就应该被广播到所有的缓存节点上
 
 除了*缓存击穿*外，还有一种称为**缓存穿透**的问题尤其需求注意。*穿透*指的是请求有意或无意地绕过了缓存层，导致流量直接落在 SoR 上。在缓存上下文中，*穿透*比*击穿*更容易发生。
 常见有两种情况，一是<u>开发者没有意识到需要增加缓存</u>。这种情况通常比较好解决。只需在发现 *SoR 负载较高*、*查询较慢*、*优化过 SoR，但没什么效果* 后，及时引入缓存层即可。
@@ -193,9 +193,6 @@ RedLock 算法的核心逻辑是通过实施[分布式仲裁（Quorum）](https:
 其中`namespaceId`可以是*租户标识*。`instanceAttributeName`代表聚合的*组成部份*，用于拆分聚合；且不同的*组成部份*可以根据实际需求来使用不同的*数据结构*。注意，该格式只是一个例子。你应该根据实际系统的需求来规范化*key名*格式。
 
 
-
-
-
 ## 参考
 - [Redis persistence](https://redis.io/docs/latest/operate/oss_and_stack/management/persistence)
 - [First principle](https://en.wikipedia.org/wiki/First_principle)
@@ -208,3 +205,6 @@ RedLock 算法的核心逻辑是通过实施[分布式仲裁（Quorum）](https:
 - [Why is Redis So Fast Despite Being Single-Threaded?](https://medium.com/@aditimishra_541/why-is-redis-so-fast-despite-being-single-threaded-dc06ba33fc75)
 - [Redis Data Modeling](/files/8-Data-Modeling-Patterns-in-Redis.pdf)
 - [caffeine](https://github.com/ben-manes/caffeine)
+
+
+[^1]: 造成热点的另一情况是 Key 值本身离散度低。此时取模策略会导致数据向特定节点倾斜，从而造成热点。

@@ -1,4 +1,4 @@
-<b style="font-size:1em;">不要让「AI」代替自己思考、技术的价值仅在于服务需求、拒绝“大厂”思维毒害</b>
+<b style="font-size:1em;">不要让「AI」代替自己思考</b>
 \
 <b style="font-size:0.8em; color: #df4a4d;">本站内容均由「人类」创作及编辑✍️，且仅代表个人观点。</b> 
 \
