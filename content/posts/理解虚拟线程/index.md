@@ -1,5 +1,5 @@
 ---
-title: "理解虚拟线程（Java 21 Virtual Threads）"
+title: "理解虚拟线程（Java 21 Virtual Threads，VT）"
 slug: "Java 21 Virtual Threads"
 categories: ["Java"]
 tags: ["Java","并发编程"]
@@ -9,12 +9,12 @@ thumbnail: "images/cover.png"
 summary: "最好的性能调优就是升级JDK。"
 ---
 
-虚拟线程（Virtual Threads，简称：VT）最大的优势在于**I/O处理**。因为不会阻塞（平台线程），所以能够使**I/O密集型系统**拥有更大的吞吐量。这无疑是一种相当可观的性能提升。
+虚拟线程最大的优势在于 I/O 处理场景。因为不会阻塞（平台线程），所以能够使 I/O 密集型应用拥有更大的吞吐量。
 
 ## 线程的种类
 - **平台线程**：泛指由 JVM 实现的线程（如 java.lang.Thread）。属于**用户态线程**。用于执行用户态代码（如应用程序中的任务）
-- **内核线程**：由操作系统管理。属于**内核态线程**。用于访问系统资源。在 HotSpot 中，平台线程和内核线程通常是**一对一**的关系（。不同的JVM可能有不同的实现）
-- **虚拟线程**（java.lang.VirtualThread）：基于`java.lang.Thread`实现，所以同属**用户态线程（Thread 实现）**。在 Java 中，平台线程和虚拟线程是**一对多**的关系；在该上下文中，平台线程被称为VT的**载体**
+- **内核线程**：属于**内核态线程**，由操作系统管理；负责访问系统资源。每条线程会保留大约 8 MB左右的虚拟内存，所以比较重量。在 HotSpot 中，平台线程和内核线程通常是一对一的关系（但不同的 JVM 实现可能有所差别）。这也是为什么需要线程池的原因，因为创建线程成本较高
+- **虚拟线程**：在 java.lang.Thread 的基础上实现，所以同属**用户态线程**。在 Java 中，平台线程和虚拟线程是一对多的关系（在该上下文中，平台线程被称为“载体”）。虚拟线程本质上只是一个 Java 对象（大小通常在 1～2 KB 左右）；因为创建成本极低，所以可以大量创建而无需进行池化
 
 ## 虚拟线程（VT）
 
@@ -49,10 +49,11 @@ Java Runtime 并不会因为载体被**固定**而增加并行度（。其并行
 ## 拓展
 - Netflix 就曾经遇到过载体无法卸载 VT 的情况: [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d)。
 - JVM 处理 VT 阻塞: [Project loom, what happens when virtual thread makes a blocking system call?](https://stackoverflow.com/questions/70174468/project-loom-what-happens-when-virtual-thread-makes-a-blocking-system-call)。
-- VT 的出现是否会让**反应式编程**变得无关紧要？答案是否定的。反应式本质上是一种架构模式（由[反应式宣言](https://www.reactivemanifesto.org/zh-CN)规范）。它主张软件架构应该符合 *即时响应*、*回弹*、*弹性*、*消息驱动* 等特性，而 VT 只是异步编程技术的其中一种实现。从实践角度而言，开发者需要有意识地使用 VT，而反应式编程本身就基于异步模型（。当然，它也完全支持使用 VT 来作为异步编程基础）。
+- VT 的出现是否会让**反应式编程**变得无关紧要？答案是否定的。反应式本质上是一种架构模式（由[反应式宣言](https://www.reactivemanifesto.org/zh-CN)规范）。它主张软件架构应该符合 *即时响应*、*回弹*、*弹性*、*消息驱动* 等特性，而 VT 只是异步编程技术的其中一种实现。从实践角度而言，开发者需要有意识地使用 VT，而反应式编程本身就基于异步模型（。当然，它也完全支持使用 VT 来作为任务执行基础）。
 
 
 ## 参考资料
 - [Busy waiting](https://en.wikipedia.org/wiki/Busy_waiting)
 - [Tomcat 9.0 changelog](https://tomcat.apache.org/tomcat-9.0-doc/changelog.html)
 - [JEP 491: Synchronize Virtual Threads without Pinning](https://openjdk.org/jeps/491)
+- [Maximum Number of Threads per Process in Linux](https://www.baeldung.com/linux/max-threads-per-process)
