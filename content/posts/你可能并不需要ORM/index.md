@@ -52,7 +52,7 @@ ORM 的诞生主要是为了解决OO和ER之间存在的*阻抗失谐*问题。
 但为其命名时并不建议采用“Dto”作为后缀。这样做貌似在强调它与 PO 之间的区别（。但事实上它又确实从持久层中来）。所以个人认为以“Projection”作为后缀可能会更为妥当一些。但更好的做法是将相关数据类型组织到一个源码文件中。例如 UserProjection.Address、UserProjection.Profile。这样做可以有效地避免命名所带来的困扰。
 
 
-## 参考
+## 参考资料
 - [Object–relational mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
 - [Object–relational impedance mismatch](https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_mismatch)
 - [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)

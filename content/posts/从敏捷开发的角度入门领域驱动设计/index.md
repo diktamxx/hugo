@@ -140,7 +140,7 @@ DDD中有四个重要的概念，分别是**领域专家**、**统一语言（Ub
 ](https://hermanpeeren.nl/varia/why-i-dont-need-a-bounded-context)
 
 
-## 参考
+## 参考资料
 * [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
 * [Application software](https://en.wikipedia.org/wiki/Application_software)
 * [Software development process](https://en.wikipedia.org/wiki/Software_development_process)

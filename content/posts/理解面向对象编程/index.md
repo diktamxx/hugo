@@ -81,7 +81,7 @@ book.borrow(user.userId())
 ## 拓展
 函数式编程（FP）和OOP两个并不冲突，可以结合使用。FP只是强调引用透明性（如纯函数）、依赖运行时进行赋值操作、高阶函数、闭包等特性。
 
-## 参考
+## 参考资料
 - [Message passing](https://en.m.wikipedia.org/wiki/Message_passing)
 - [What is Message Passing in C++?](https://www.scaler.com/topics/oops-concepts-in-cpp)
 - https://news.ycombinator.com/item?id=19417893

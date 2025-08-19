@@ -81,7 +81,7 @@ class Example {
 }
 ```
 
-## 参考
+## 参考资料
 - [Happened before](https://en.wikipedia.org/wiki/Happened-before)
 - [Java memory model](https://en.wikipedia.org/wiki/Java_memory_model)
 - [Critical section](https://en.wikipedia.org/wiki/Critical_section)

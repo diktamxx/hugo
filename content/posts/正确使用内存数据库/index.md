@@ -193,7 +193,7 @@ RedLock 算法的核心逻辑是通过实施[分布式仲裁（Quorum）](https:
 其中`namespaceId`可以是*租户标识*。`instanceAttributeName`代表聚合的*组成部份*，用于拆分聚合；且不同的*组成部份*可以根据实际需求来使用不同的*数据结构*。注意，该格式只是一个例子。你应该根据实际系统的需求来规范化*key名*格式。
 
 
-## 参考
+## 参考资料
 - [Redis persistence](https://redis.io/docs/latest/operate/oss_and_stack/management/persistence)
 - [First principle](https://en.wikipedia.org/wiki/First_principle)
 - [Distributed Locks with Redis](https://redis.io/docs/latest/develop/use/patterns/distributed-locks/)

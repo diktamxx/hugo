@@ -15,7 +15,7 @@ summary: "做人无非就是等死。大家都只是在死之前给自己找点�
 
 以前被问过这样的问题，“知道又怎样？社会就这样，个人根本无能为力”。当时我真不知道怎样回答是好，因为确实有其道理。直至最近重新看到《老人与海》这故事，发现答案就在故事里。做人要有自己的信念和坚持，即使在外人看来你做的事可能毫无意义和价值。但这很可能就是人的内心赋予自己生命的意义。它只和自己有关，与他人无关。
 
-## 参考
+## 参考资料
 - [存在虚无主义（Existential nihilism）](https://en.wikipedia.org/wiki/Existential_nihilism)
 - [森林法则](https://zh.wikipedia.org/wiki/%E6%A3%AE%E6%9E%97%E6%B3%95%E5%89%87)
 - [唯物主义](https://zh.wikipedia.org/wiki/%E5%94%AF%E7%89%A9%E4%B8%BB%E4%B9%89)

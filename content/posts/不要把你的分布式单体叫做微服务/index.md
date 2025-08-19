@@ -66,7 +66,7 @@ showTableOfContents: false
 总而言之，个人认为微服务的难点并不在于技术层面，而在处事态度和管理文化。或者说，实施难度取决敏捷程度。
 
 
-## 参考
+## 参考资料
 - [Software engineering anti-patterns](https://en.wikipedia.org/wiki/Anti-pattern#Software_engineering_anti-patterns)
 - [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
 - [Information silo](https://en.wikipedia.org/wiki/Information_silo)

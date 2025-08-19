@@ -52,7 +52,7 @@ Java Runtime 并不会因为载体被**固定**而增加并行度（。其并行
 - VT 的出现是否会让**反应式编程**变得无关紧要？答案是否定的。反应式本质上是一种架构模式（由[反应式宣言](https://www.reactivemanifesto.org/zh-CN)规范）。它主张软件架构应该符合 *即时响应*、*回弹*、*弹性*、*消息驱动* 等特性，而 VT 只是异步编程技术的其中一种实现。从实践角度而言，开发者需要有意识地使用 VT，而反应式编程本身就基于异步模型（。当然，它也完全支持使用 VT 来作为异步编程基础）。
 
 
-## 参考
+## 参考资料
 - [Busy waiting](https://en.wikipedia.org/wiki/Busy_waiting)
 - [Tomcat 9.0 changelog](https://tomcat.apache.org/tomcat-9.0-doc/changelog.html)
 - [JEP 491: Synchronize Virtual Threads without Pinning](https://openjdk.org/jeps/491)

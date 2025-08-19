@@ -72,7 +72,7 @@ summary: "事务机制其实是一种简化编程模型的工具。"
 ## 拓展：为什么只读场景也需要开启数据库事务？
 确保读一致性。
 
-## 参考
+## 参考资料
 - [Distributed transaction](https://en.wikipedia.org/wiki/Distributed_transaction)
 - [ACID](https://en.wikipedia.org/wiki/ACID)
 - [MySQL Glossary](https://dev.mysql.com/doc/refman/8.4/en/glossary.html)

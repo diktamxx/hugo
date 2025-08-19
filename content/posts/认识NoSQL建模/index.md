@@ -44,7 +44,7 @@ summary: "不会建模跟不会用数据库其实没什么区别。"
 一个较为典型的反模式是将 SoR 的*数据模型*直接映射到*派生数据库*[^5]。
 这种做法会一定程度丢失派生数据库的优势；特别是数据库类型为 NoSQL 时，因为 NoSQL 通常不具备完整的*ACID事务*特性。
 
-## 参考
+## 参考资料
 - 《NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence》Martin Fowler
 - Data Modeling：[MongoDB](https://www.mongodb.com/zh-cn/docs/manual/data-modeling/)、[Cassandra](https://cassandra.apache.org/doc/latest/cassandra/developing/data-modeling/index.html)、[Neo4j](https://neo4j.com/docs/getting-started/data-modeling/)、[Redis](/files/8-Data-Modeling-Patterns-in-Redis.pdf)
 - [Building with Patterns: A Summary](https://www.mongodb.com/company/blog/building-with-patterns-a-summary)

@@ -166,7 +166,7 @@ allowfullscreen></iframe>
 ![openclash picture](images/openclash.png "OpenClash插件。[使用文档](https://github.com/vernesong/OpenClash/wiki)")
 <!-- ![openclash picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/openclash.png "OpenClash插件") -->
 
-## 参考
+## 参考资料
 - [GFW Report](https://gfw.report/zh/)
 - [人道主义](https://baike.baidu.com/item/%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89/1460878)
 - [健全人格](https://baike.baidu.com/item/%E5%81%A5%E5%85%A8%E4%BA%BA%E6%A0%BC/22262993)
