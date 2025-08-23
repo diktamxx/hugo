@@ -26,11 +26,12 @@ summary: "并发，就是彼此无法感知。"
 
 在 Java 中，可通过 synchronized 或 java.util.concurrent.locks.Lock 实现。
 
-**线程变量**
+**线程独占**
 
 每条线程都有自己的变量。不共享自然就没有并发。
 
-因为没有共享状态，所以当前方案并不适合需要多线程协作的需求。在 Java 中主要通过 ThreadLocal 来实现。
+因为不存在共享状态，所以当前方案并不适合需要（多线程）协作的场景。
+在 Java 中主要通过 ThreadLocal 来实现。
 
 **乐观策略**
 
