@@ -48,8 +48,9 @@ summary: "不会建模跟不会用数据库其实没什么区别。"
 - 《NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence》Martin Fowler
 - Data Modeling：[MongoDB](https://www.mongodb.com/zh-cn/docs/manual/data-modeling/)、[Cassandra](https://cassandra.apache.org/doc/latest/cassandra/developing/data-modeling/index.html)、[Neo4j](https://neo4j.com/docs/getting-started/data-modeling/)、[Redis](/files/8-Data-Modeling-Patterns-in-Redis.pdf)
 - [Building with Patterns: A Summary](https://www.mongodb.com/company/blog/building-with-patterns-a-summary)
+- [Optimistic Offline Lock](https://martinfowler.com/eaaCatalog/optimisticOfflineLock.html)
 
-[^1]: 在 NoSQL 中，
+[^1]: 使用 NoSQL 时，原子性可以通过聚合建模来解决；隔离性可以用乐观锁或读仲裁（如 MonoDB 的 readConcern）；一致性依赖于 NoSQL 本身对 Schema 支持；持久性可以通过写仲裁来实现（如 MonoDB 的 writeConcern）。
 [^2]: 采用嵌入式数据建模，会一定程度降低数据一致性。这一点需要紧记。
 [^3]: 追随者集合的基础模式可以是 `{"_id": 明星标识, "followers":[追随者标识]}`
 [^4]: MongoDB 中[单个（BSON）文档的最大体积是16MB](https://www.mongodb.com/zh-cn/docs/manual/core/document/#document-size-limit)

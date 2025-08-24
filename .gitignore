@@ -73,3 +73,6 @@ public/
 
 # mac
 .DS_Store
+
+# continue
+.continue/
