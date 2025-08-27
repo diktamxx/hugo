@@ -54,24 +54,23 @@ showTableOfContents: true
 6. **欠缺敏捷的价值观**。问题总是到关键时刻才显现出来。总是手忙脚乱，不会做出什么好东西。
 7. **过度强调开发工具的重要性**。编程是为了将设计落地，而非反作用于设计。所以用什么*编程语言*、*框架*、*技术库*其实并不重要；或者说，价值不大，不要将关注点搞错。
 
-关于以上这些问题，我想**敏捷开发**可以帮到你。
+关于以上这些问题，我想敏捷开发可以帮到你。
 
 
 ## 2 敏捷开发
 
-### 2.1 被唾弃的瀑布模型
-瀑布模型是一种**线性**的软件开发过程。其流程大致包含**提出远景**、**需求调研**、**需求分析**、**设计**、**构建**、**测试**、**部署**、**维护**等阶段。
+### 2.1 关于瀑布模型
+瀑布模型是一种线性的软件开发过程。其流程大致包含 提出愿景、需求调研、需求分析、设计、构建、测试、部署、维护 等阶段。
 
-瀑布模型最大的问题在于**反馈周期过长**，软件公司通常会在测试完成后才会让客户进行验收。这使得设计和修改成本都大大增加。
-设计者需要在构建阶段开始之前掌握所有的需求细节并完成设计，这无疑是一种极其困难而又不科学的做法。首先，甲方（出钱的人）未必真的十分清楚自己想要一个什么样子的系统（通常是知道要解决什么问题，但细节上无法确定），这使得需求的变数大大提高。其次，即使甲方开始就对自己的需求十分清晰和明确，然而你是否能确保他在此之后不会做出任何改变？我想没人能够给你一个这样的保证。或者有人会说，按照合同来办事就好。然而当你以软件开发为生时，这种态度可能会丢掉饭碗。因为只要做出来的东西不能让人满意，那么甲方就会转向其他公司或产品。如果甲方是你老板，那么你的重要性就变得更加可有可无了。
+瀑布模型最大的问题在于反馈周期过长。软件公司通常只会在测试阶段前后才会让客户进行验收。这使得估算、设计和修改的成本和风险大大增加。设计者需要在构建阶段开始之前就估算出项目价格，并在掌握所有需求细节信息后完成设计。这无疑是一种极其困难且又不科学的做法。甲方未必真的十分清楚自己需要一个什么样子的系统；或者只是知道要解决什么问题，但细节上无法确定。这使得需求的变数大大提高。或者有人说，只需依照合同办事就好。但事实上对于一些需要依仗甲方来生存的软件公司来说并非如此简单。
+
+为了更好地控制风险和提高对需要变更的应变能力，较为科学的做法是采用增量迭代的开发过程。
+简而言之就是先计划和发布[最小可行产品（简称：MVP）](https://en.m.wikipedia.org/wiki/Minimum_viable_product)。因为仅包含最基本的功能，所以风险被大大降低。而且修改起来也变得更加容易。在此之后可以根据单个功能来签订合同。这种做法可以为甲方乙方提供极大的灵活性。
 
 ### 2.2 用敏捷代替瀑布模型
 
 这并非一篇关于敏捷开发的文章，所以这里只会阐述一下敏捷的基本价值观，以及它如何解决瀑布模型的问题。
 如果想进一步了解敏捷开发。建议去阅读《规划极限编程》[^1]和《敏捷软件开发》[^2]两本书。
-
-[^1]:《规划极限编程》Kent Beck & Martin Fowler
-[^2]:《敏捷软件开发：原则、模式与实践》Robert C. Martin
 
 严加上来说，敏捷只是一套关于精益管理的价值观和原则，它源自于《敏捷宣言》[^3]。
 明白这一点非常重要，因为现实中确实存在很多死脑筋，他们会认为敏捷就是Scurm，或者是XP。然而并非如此。
@@ -132,16 +131,18 @@ DDD中有四个重要的概念，分别是**领域专家**、**统一语言（Ub
 例如关于“吃饭”这个Ubiquitous Language，虽然作为一个人，大家都知道它明面上的含义，但如果具体问你是指吃什么的话，可能不同的人会有不一样的答案。如果在广东，那么通常是米饭；如果是东北，那么更可能是面条或者馒头之类。这就是Ubiquitous Language的歧义（即冲突）。出现这种歧义时，通常意味着BC中存在两个名字相同，但职责不同的模型（泛指代表某个业务职责的实体）。此时常见做法是根据业务情况将其中某个模型排除到BC之外。因为Ubiquitous Language冲突通常是因为存在多个BC（而你之前可能并没有察觉到它的存在）。
 
 
+## 参考资料
+* [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
+* [Application software](https://en.wikipedia.org/wiki/Application_software)
+* [Software development process](https://en.wikipedia.org/wiki/Software_development_process)
+* [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model)
+
+
+[^1]:《规划极限编程》Kent Beck & Martin Fowler
+[^2]:《敏捷软件开发：原则、模式与实践》Robert C. Martin
 [^3]: [敏捷软件开发宣言](https://agilemanifesto.org/iso/zhchs/manifesto.html)
 [^4]: Ubiquitous Language 被翻译为“统一语言”或“通用语言”，但个人认为前者更能表达其含义
 [^5]: [Murphy's law](https://en.wikipedia.org/wiki/Murphy%27s_law)
 [^6]: 对于微服务（架构风格）而言，边界（粒度）大小除了与业务能力范围有关之外，还与开发团队的能力有关（。小团队应该避免过度细化系统）。
 [^7]: [Why I don't need a Bounded Context
 ](https://hermanpeeren.nl/varia/why-i-dont-need-a-bounded-context)
-
-
-## 参考资料
-* [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
-* [Application software](https://en.wikipedia.org/wiki/Application_software)
-* [Software development process](https://en.wikipedia.org/wiki/Software_development_process)
-* [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model)
