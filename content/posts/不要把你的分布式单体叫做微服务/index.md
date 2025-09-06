@@ -73,7 +73,6 @@ showTableOfContents: false
 - [Inverse-Conway-Maneuver: How to speed up product development teams successfully](https://www.thoughtworks.com/insights/blog/customer-experience/inverse-conway-maneuver-product-development-teams)
 
 
-
 [^1]: 大泥球：系统正处于一个“无架构”状态。
 [^2]: 自主性：维护和部署独立。强调解耦比复用更有价值
 [^3]: 微服务社区并不认同“微服务就是SOA”这种论调，因为两者截然不同。SOA专注于传统行业；透过运用ESB（企业服务总线，一个中心化组件）将各个异构系统打通以解决企业系统信息孤岛问题。而微服务则是一种面向产品的架构风格。

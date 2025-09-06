@@ -24,10 +24,10 @@ showTableOfContents: true
 | 方法论 | 做事的方法和思路。只是一种指导，而并非具体的执行过程 |
 | 精益 | 一种追求卓越的价值观。通常体现为尽可能地*减少浪费*、*优化过程*、*提高效率*等。 |
 | 模式 | 一种针对特定问题被证明有效的通用*设计原则*或*惯用方案*。| 
-| 问题域 | 企业的现状（即软件开发的背景）。通常从问题域中我们可以得知软件需要解决哪些具体的问题。 |
+| 问题域 | 与领域的概念一致。但强调问题的存在，以及问题所处的上下文。使用该字眼时，通常意味着特定领域存在待解决的问题。|
 | 分离子域 | 基于*业务领域知识*来分解*问题域*。将大问题分解为多个小问题，是应对复杂性的有效方法。 |
 | 概念模型 | 用一组概念来描述一个系统，或用任何代替的形式来描述一个概念，以期能进一步了解或说明事物的运作原理。|
-| 领域 | 人类知识或活动的逻辑边界。|
+| 领域 | 人类知识和活动的逻辑边界。|
 
 
 ## 1. 软件工程的价值
@@ -132,11 +132,11 @@ DDD中有四个重要的概念，分别是**领域专家**、**统一语言（Ub
 
 
 ## 参考资料
-* [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
-* [Application software](https://en.wikipedia.org/wiki/Application_software)
-* [Software development process](https://en.wikipedia.org/wiki/Software_development_process)
-* [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model)
-
+- [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
+- [Application software](https://en.wikipedia.org/wiki/Application_software)
+- [Software development process](https://en.wikipedia.org/wiki/Software_development_process)
+- [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model)
+- [Multiple Canonical Models](https://martinfowler.com/bliki/MultipleCanonicalModels.html)
 
 [^1]:《规划极限编程》Kent Beck & Martin Fowler
 [^2]:《敏捷软件开发：原则、模式与实践》Robert C. Martin

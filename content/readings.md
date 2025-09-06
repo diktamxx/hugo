@@ -6,6 +6,7 @@ title: "推荐读物"
 ---
 
 #### / 程序员的自我修养 /
+<em style="float:left;font-size: 0.8em;">《没有银弹》Fred Brooks</em>\
 <em style="float:left;font-size: 0.8em;">《解析极限编程：拥抱变化》Kent Beck</em>\
 <em style="float:left;font-size: 0.8em;">《规划极限编程》Kent Beck & Martin Fowler</em>\
 <em style="float:left;font-size: 0.8em;">《敏捷软件开发：原则、模式与实践》Robert C. Martin</em>\
@@ -30,7 +31,7 @@ title: "推荐读物"
 <br>
 
 #### / 其他 /
-<em style="float:left;font-size: 0.8em;">（警惕）锤子法则：[Law of the instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)</em>
+<em style="float:left;font-size: 0.8em;">（警惕）工具定律：[Law of the instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)</em>
 \
 <em style="float:left;font-size: 0.8em;">开发者宣言：[敏捷](https://agilemanifesto.org/iso/zhchs/manifesto.html)、[反应式](https://www.reactivemanifesto.org/zh-CN)</em>
 \

@@ -680,9 +680,11 @@ video {
 .prose :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   /* font-weight: 500; */
   /* font-style: italic; */
-  color: var(--tw-prose-quotes);
-  /* border-inline-start-width: 0.25rem; */
-  border-inline-start-color: var(--tw-prose-quote-borders);
+  border-inline-start-width: 0.25rem;
+  
+  /* color: var(--tw-prose-quotes); */
+  /* border-inline-start-color: var(--tw-prose-quote-borders); */
+
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
@@ -935,7 +937,7 @@ video {
   --tw-prose-counters: rgba(var(--color-neutral-800), 1);
   --tw-prose-bullets: rgba(var(--color-neutral-500), 1);
   --tw-prose-hr: rgba(var(--color-neutral-200), 1);
-  --tw-prose-quotes: rgba(var(--color-neutral-700), 1);
+  --tw-prose-quotes: rgba(var(--color-neutral-500), 1);
   --tw-prose-quote-borders: rgba(var(--color-primary-200), 1);
   --tw-prose-captions: rgba(var(--color-neutral-500), 1);
   --tw-prose-kbd: #111827;
