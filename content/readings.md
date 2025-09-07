@@ -18,6 +18,7 @@ title: "推荐读物"
 <br>
 
 #### / 应对复杂领域业务 /
+<em style="float:left;font-size: 0.8em;">《Python3面向对象编程》第2版 Dusty Phillips</em>\
 <em style="float:left;font-size: 0.8em;">《企业应用架构模式》Martin Fowler</em>\
 <em style="float:left;font-size: 0.8em;">《领域驱动设计：软件核心复杂性应对之道》Eric Evans</em>\
 <em style="float:left;font-size: 0.8em;">《领域驱动设计精粹》Vaughn Vernon</em>\
