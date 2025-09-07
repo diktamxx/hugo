@@ -74,7 +74,8 @@ if (checkRules(libraryCard)) {
 - [Getter Eradicator](https://martinfowler.com/bliki/GetterEradicator.html)
 - [Virtual function](https://en.wikipedia.org/wiki/Virtual_function)
 - [Information hiding](https://en.m.wikipedia.org/wiki/Information_hiding)
-- 《面向对象分析和设计》第3版
+- 《面向对象分析和设计》第3版 Grady Booch
+- 《Python3面向对象编程》第2版 Dusty Phillips
 
 [^1]: 对象的状态属性可以分为两种：数据属性通常会被直接持久化存储。计算属性则由数据属性和特定规则计算而来。拓展：在备忘录/快照模式[GoF]中，只需关注数据属性。
 [^2]: 在 OOP 中，没有业务含义的 setter 方法其实是一种反模式。
