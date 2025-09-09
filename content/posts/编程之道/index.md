@@ -70,7 +70,7 @@ showTableOfContents: true
 - [KISS](https://zh.wikipedia.org/wiki/KISS%E5%8E%9F%E5%88%99)
 - [YAGNI](https://zh.wikipedia.org/wiki/YAGNI)
 - [Vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)
-- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)
+- [Less is more](https://en.wikipedia.org/wiki/Less_is_more)
 - [Transaction script is Antipattern?](https://stackoverflow.com/questions/16139941/transaction-script-is-antipattern)
 
 [^1]: 最后责任时刻（Last Responsible Moment, LRM）是一个敏捷开发原则，指尽量避免过早作出决策，因为在缺乏足够信息之前作出的决策通常都是不明智的。在此之前应该收集更多信息和保留灵活性，直到不作出决策的成本超过作出决策的成本时才作出决策。
