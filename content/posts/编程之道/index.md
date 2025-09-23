@@ -62,7 +62,7 @@ showTableOfContents: true
 
 ## 拓展：降低工具依赖性的简单方法
 
-可以偶尔问下自己“如果项目要切换工具，大概需要多久”。时间越短就意味着功能实现和工具的耦合性越低。所以应该向着这个方向来设计代码。即便最终根本不需要切换工具，但做到这点代码也会变得灵活一些。
+可以偶尔问下自己“如果项目要切换工具，大概需要多久”，时间越短就意味着功能实现和工具的耦合性越低。应该向着这个方向来设计代码；即便最终根本不需要切换工具，但做到这点代码也会变得灵活一些。例如，假设你正在使用一个带有依赖注入（Dependency Injection）功能的框架。此时就应该使用构造方法来实现注入，而不是其它方式。因为在 OOP 的编程语义中构造方法是确保一个对象可用的门槛。换言之，如果使用的是字段注入，那么一旦当客户端需要手动创建对象时（假设用的是无参构造方法）就会得到一个未初始化完成的对象。这种做法导致业务代码对框架产生依赖性；另外，因为没有遵循 OOP 语义，所以其理解和维护成本也会随之增加。
 
 ## 参考资料
 - [工具定律](https://en.wikipedia.org/wiki/Law_of_the_instrument#Computer_programming)
@@ -72,6 +72,9 @@ showTableOfContents: true
 - [Vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)
 - [Less is more](https://en.wikipedia.org/wiki/Less_is_more)
 - [Transaction script is Antipattern?](https://stackoverflow.com/questions/16139941/transaction-script-is-antipattern)
+- [Java Annotations Are a Big Mistake](https://www.yegor256.com/2016/04/12/java-annotations-are-evil.html)
+- [Spring Framework lead to hard-to-maintain code and confusion with annotations?](https://www.reddit.com/r/java/comments/12rofp4/comment/jgvelxj/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
 
 [^1]: 最后责任时刻（Last Responsible Moment, LRM）是一个敏捷开发原则，指尽量避免过早作出决策，因为在缺乏足够信息之前作出的决策通常都是不明智的。在此之前应该收集更多信息和保留灵活性，直到不作出决策的成本超过作出决策的成本时才作出决策。
 [^2]: QPS (Queries Per Second) = 请求数 / 时间窗口
