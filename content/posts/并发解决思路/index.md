@@ -55,12 +55,12 @@ CAS 较为适合竞争不太激烈的场景。否则会很容易导致 CPU 使�
 
 这种设计模式在服务器组件中常见。因为服务器程序需要长时间运行。所以为了降低内存使用率，通常就会将服务组件设计成单例。但又因为单例对象可能在多线程环境下被共享，所以为了防止出现数据不一致，服务器组件通常会被设计成无状态。
 
-## 拓展：什么是 Happened-before？
-由计算机科学家[Leslie Lamport](https://zh.wikipedia.org/zh-cn/%E8%8E%B1%E6%96%AF%E5%88%A9%C2%B7%E5%85%B0%E6%B3%A2%E7%89%B9)提出的一种可用于辨识事件先后发生顺序（或并发性）的理论[^4]（具体源自[Lamport时钟](https://en.wikipedia.org/wiki/Lamport_timestamp)）。即当明确知道事件 A 先于事件 B 发生时，那么事件 A 的结果必然对事件 B 可见（至少逻辑上成立）。换言之，两者并不存在并发问题。
+## 拓展：什么是 Happened-before ？
+由计算机科学家 [Leslie Lamport](https://zh.wikipedia.org/zh-cn/%E8%8E%B1%E6%96%AF%E5%88%A9%C2%B7%E5%85%B0%E6%B3%A2%E7%89%B9) 提出的一种可用于辨识事件先后发生顺序（或并发性）的理论[^4]（具体源自[Lamport时钟](https://en.wikipedia.org/wiki/Lamport_timestamp)）。即当明确知道事件 A 先于事件 B 发生时，那么事件 A 的结果必然对事件 B 可见（至少逻辑上成立）。换言之，两者并不存在并发问题。
 
-后来种理论被用于实现异步编程模型语义。例如 Java Memory Model（JMM）的 synchronized、volatile。而其他常用编程语言通常也有标准库的 atomic 库用来支持该语义。例如在 JMM 中，synchronized 在同一个监控锁上支持 `synchronized unlock happened-before lock` 语义。即在同一 synchronized 块中，上一条持锁线程的操作结果必然对当前持锁线程可见。而 volatile 则支持 `volatile write happened-before read` 语义，即上一个 write 操作的结果必然对当前 read 操作可见。具体可以参考 [Java Language Specification - Happens-before Order](https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html#jls-17.4.5)。
+后来种理论被用于实现异步编程模型语义。例如 Java Memory Model（JMM）[^5] 的 synchronized、volatile。而其他常用编程语言通常也有标准库的 atomic 库用来支持该语义。例如在 JMM 中，synchronized 在同一个监控锁上支持 `unlock happened-before lock` 语义。即在同一 synchronized 块中，上一条持锁线程的操作结果必然对当前持锁线程可见。而 volatile 和 final 则支持 `write happened-before read` 语义，即上一个 write 操作的结果必然对当前 read 操作可见。具体可以参考 [Java Language Specification - Happens-before Order](https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html#jls-17.4.5)。
 
-注意，volatile 本身并不支持原子语义。它是通过一种名为[内存屏障](https://en.wikipedia.org/wiki/Memory_barrier)的技术实现的。其中写屏障能够确保上一个 write 及其（同区域）之前的操作对当前 read 可见。读屏障则可以确保 read 及其（同区域）之后的操作能够避免指令重排序[^5]。
+注意，volatile 本身并不支持原子语义。它是通过一种名为[内存屏障](https://en.wikipedia.org/wiki/Memory_barrier)的技术实现的。其中写屏障能够确保上一个 write 及其（同区域）之前的操作对当前 read 可见。读屏障则可以确保 read 及其（同区域）之后的操作能够避免指令重排序[^6]。
 ```
 // 理解例子
 class Example {
@@ -93,5 +93,6 @@ class Example {
 [^2]: CAS本质上是一种由CPU（架构）提供的原子指令。但从软件设计层面而言，CAS也是一种设计模式。在分布式环境下，可实现离线并发控制（即optimistic offline lock模式）。
 [^3]: 可重复读指的是，在线程多次读取同一个共享变量时，其值是预先可知的。
 [^4]: 据了解 Happened-before 这种理论，其实源自于 Leslie Lamport 的论文[《Time, clocks, and the ordering of events in a distributed system》](https://dl.acm.org/doi/10.1145/359545.359563)
-[^5]: 指令重排序是一种提高代码执行效率的优化机制。因为并不是所有代码都存在时间耦合关系。
+[^5]: Java 内存模型本质上只是一组读写内存的规则。
+[^6]: 指令重排序是一种提高代码执行效率的优化机制。因为并不是所有代码都存在时间耦合关系。
 
