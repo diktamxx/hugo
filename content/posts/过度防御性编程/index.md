@@ -145,7 +145,7 @@ def register_user(req: CreateUserRequest):<span style="color:#404040;">
         user_service.register_user(**asdict(req))
     )
 </pre>
-实际项目的“程序入口”在哪里需要视情况而定。如果系统只有单个用户界面（或相关逻辑无需复用时），可以像例子一样直接将防御性代码放在 Controller 或 Router 中。但稍微复杂一点的系统通常不只有一个用户界面，譬如需要同时支持多种网络通信协议。此时则可以将防御性代码放在应用层中。
+实际项目的“程序入口”在哪里需要视情况而定。如果系统只有单个用户界面（或相关逻辑无需复用时），可以像例子一样直接将防御性代码放在 Controller 或 Router 中。但稍微复杂一点的系统通常不只有一个用户界面。譬如需要同时支持多种网络通信协议或多个用户端，此时可以将其放在应用层中。
 ![通用分层架构](./images/layered_architecture.svg)
 引入应用层后，可以将所有应用逻辑放在该层中进行组织。
 <pre style="color:#808080">
