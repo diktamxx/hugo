@@ -99,7 +99,7 @@ def register_user(username: str, password: str, email_address: str) -> str
 def register_user(username: str, password: str, 
                         <span style="color:#404040">email_address: str = None</span>) -> str
 
-# <span style="color:#404040">使用类型提示</span>（Java 可用 Optional 类型来实现）
+# <span style="color:#404040">使用类型提示</span>（Java 可用 Optional 类来实现）
 def register_user(username: str, password: str, 
                         <span style="color:#404040">email_address: Optional[str]</span>) -> <span style="color:#404040">Optional[str]</span>
 </pre>
