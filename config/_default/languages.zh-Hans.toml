@@ -10,5 +10,6 @@ title = "厌俗"
 [params.author]
   name = "Dik Tam"
   image = "images/avatar.jpg"
-  headline = "Software Developer"
+  # headline = "Software Developer"
+  headline = "一名平庸的软件开发人员"
   bio = "只是喜欢写代码。" # 在文章下方显示
