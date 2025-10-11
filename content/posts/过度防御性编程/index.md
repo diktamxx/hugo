@@ -13,7 +13,7 @@ summary: "编程既是科学，也是艺术。"
 换句话说，一些问题本不应该发生，但出于对健壮性[^1]的考量而额外引入一些代码来防止异常情况。
 有人认为这种前瞻性源自于开发人员自身的经验。因为曾经遇到过某种意外情况，所以在处理类似问题上会下意识地保护自己的代码。
 
-理解例子 1）
+例子 1）
 <pre style="color:#808080">
 # user_service.py
 def register_user(username, password, email_address) -> str:
@@ -48,7 +48,7 @@ def register_user(username, password, email_address) -> str:
     return user_id
 </pre>
 
-理解例子 2）
+例子 2）
 <pre style="color:#808080">
 # payment_service.py
 def payment_service_strategies(payment_method) -> <span style="color:#404040">Optional[PaymentService]</span>:
@@ -111,13 +111,13 @@ def register_user(username: str, password: str, email_address: str) -> str
     ...<span style="color:#404040;">
     # 断言是一种编程语言特性，它可以被运行时优化掉（相关代码可以只在开发和测试期间有效）。
     # 其功能和普通异常捕获基本一样，区别只是断言失败时抛出的是 AssertionError
-    # 使用技巧：用断言来声明不应该发生的事；用异常来处理可能发生的事。
+    # 技巧：用断言声明“必然”的事；用异常处理“可能发生”的事。
     # 在 Python 中断言是默认开启是，可通过 python -O 优化。
     # 在 Java 中断言是默认关闭的，可通过 java -ea 开启。
-    assert is_not_blank(username)
-    assert is_not_blank(password)
-    assert is_not_blank(email_address)
-    assert is_valid_email_address(email_address)</span><span style="text-decoration: line-through;">
+    assert not_blank(username)
+    assert not_blank(password)
+    assert not_blank(email_address)
+    assert valid_email_address(email_address)</span><span style="text-decoration: line-through;">
     if is_blank(username):
         raise ValueError('账号不能为空')
     if is_blank(password):
@@ -146,7 +146,7 @@ def register_user(req: CreateUserRequest):<span style="color:#404040;">
     )
 </pre>
 实际项目的“程序入口”在哪里需要视情况而定。如果系统只有单个用户界面（或相关逻辑无需复用时），可以像例子一样直接将防御性代码放在 Controller 或 Router 中。但稍微复杂一点的系统通常不只有一个用户界面。譬如需要同时支持多种网络通信协议或多个用户端，此时可以将其放在应用层中。
-![通用分层架构](./images/layered_architecture.svg)
+![通用分层架构](./images/layered_architecture.png)
 引入应用层后，可以将所有应用逻辑放在该层中进行组织。
 <pre style="color:#808080">
 # user_router.py
@@ -182,10 +182,10 @@ def register_user(cmd: CreateUserCommand) -> str:
 # user_service.py
 def register_user(username, password, email_address) -> str:
     ...
-    assert is_not_blank(username)
-    assert is_not_blank(password)
-    assert is_not_blank(email_address)
-    assert is_valid_email_address(email_address)
+    assert not_blank(username)
+    assert not_blank(password)
+    assert not_blank(email_address)
+    assert valid_email_address(email_address)
 
     user_id = _next_identity()
     salt = _random_salt()
