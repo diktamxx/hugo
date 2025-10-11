@@ -7,7 +7,6 @@ date: "2025-08-12"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 summary: "编程既是科学，也是艺术。"
-draft: true
 ---
 
 防御性编程（Defensive programming）是指在编写代码时，试图捕获和处理因客户端不当调用而引发的异常。
