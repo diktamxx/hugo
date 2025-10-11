@@ -206,7 +206,7 @@ def register_user(username, password, email_address) -> str:
 - [Fail-fast system](https://en.wikipedia.org/wiki/Fail-fast_system)
 - [Contracts Undefined Behavior and Defensive Programming](https://bloomberg.github.io/bde-resources/pdfs/Contracts_Undefined_Behavior_and_Defensive_Programming.pdf)
 - [Does TDD make defensive programming redundant?](https://softwareengineering.stackexchange.com/questions/331864/does-tdd-make-defensive-programming-redundant)
-
+- [Aspect-Oriented Programming](https://news.ycombinator.com/item?id=36308806)
 
 
 [^1]: 健壮性（又称“鲁棒性”）是一种软件质量属性。用于衡量系统在遇到异常输入时，仍能保持正确或可接受行为的能力。
