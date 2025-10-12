@@ -159,7 +159,7 @@ def register_user(req: CreateUserRequest):
 # user_application.py
 def register_user(cmd: CreateUserCommand) -> str:
     👉 限流（通常只建议在流量入口中实现。譬如网关或反向代理）...
-    👉 认证和鉴权...
+    👉 安全（可用装饰器或 AOP 来减少样板代码）...
     👉 参数的基础校验...
     if is_blank(cmd.username):
         raise ValueError('账号不能为空')
@@ -206,7 +206,10 @@ def register_user(username, password, email_address) -> str:
 - [Fail-fast system](https://en.wikipedia.org/wiki/Fail-fast_system)
 - [Contracts Undefined Behavior and Defensive Programming](https://bloomberg.github.io/bde-resources/pdfs/Contracts_Undefined_Behavior_and_Defensive_Programming.pdf)
 - [Does TDD make defensive programming redundant?](https://softwareengineering.stackexchange.com/questions/331864/does-tdd-make-defensive-programming-redundant)
+- [Boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code)
+- [Is AOP a type of decorator pattern?](https://stackoverflow.com/questions/8112111/is-aop-a-type-of-decorator-pattern)
 - [Aspect-Oriented Programming](https://news.ycombinator.com/item?id=36308806)
+
 
 
 [^1]: 健壮性（又称“鲁棒性”）是一种软件质量属性。用于衡量系统在遇到异常输入时，仍能保持正确或可接受行为的能力。
