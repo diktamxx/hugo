@@ -101,7 +101,7 @@ def register_user(username: str, password: str,
 
 # <span style="color:#404040">使用类型提示</span>（Java 可用 Optional 类来实现）
 def register_user(username: str, password: str, 
-                        <span style="color:#404040">email_address: Optional[str]</span>) -> <span style="color:#404040">Optional[str]</span>
+                        <span style="color:#404040">email_address: Optional[str]</span>) -> str
 </pre>
 
 使用断言消除内部防御性代码，并将其转移到程序入口：
