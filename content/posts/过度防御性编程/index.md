@@ -95,7 +95,7 @@ def register_user(username: str, password: str, email_address: str) -> str
 
 表达“可选”语义：
 <pre style="color:#808080">
-# <span style="color:#404040">使用默认参数值</span>（这种语法特性多见于动态语言。Java 可用方法重载或建造者模式来实现）
+# <span style="color:#404040">使用默认参数值</span>（这种语法特性多见于动态类型语言。Java 可用方法重载或建造者模式来实现）
 def register_user(username: str, password: str, 
                         <span style="color:#404040">email_address: str = None</span>) -> str
 
