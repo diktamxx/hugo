@@ -41,7 +41,7 @@ def register_user(username, password, email_address) -> str:
     # 功能代码
     user_id = _next_identity()
     salt = _random_salt()
-    password_hash = _password_hash(password + salt)
+    password_hash = _password_hash(password, salt)
     repository.save(
         User(user_id, username, password_hash, salt, email_address)
     )
@@ -189,7 +189,7 @@ def register_user(username, password, email_address) -> str:
 
     user_id = _next_identity()
     salt = _random_salt()
-    password_hash = _password_hash(password + salt)
+    password_hash = _password_hash(password, salt)
     repository.save(
         User(user_id, username, password_hash, salt, email_address)
     )
