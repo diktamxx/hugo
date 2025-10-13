@@ -77,6 +77,7 @@ def payment_service_strategies(payment_method) -> <span style="color:#404040">Op
 
 进攻性编程的概念较简单，这里主要讲一下契约式设计。所谓“接口”并非指编程语言的特性（如：Java interface），而是指程序之间的交互边界（如：函数/方法签名、程序入口）。所以下面这个函数签名其实就是一个接口。客户端应该遵循该接口的规范来进行调用函数，否则函数没有义务确保能够正常地履行职责。这就是契约精神。
 ```
+# user_service.py
 def register_user(username: str, password: str, email_address: str) -> str
     """
     注册用户。
@@ -86,12 +87,12 @@ def register_user(username: str, password: str, email_address: str) -> str
         password: 密码
         email_address: 邮箱地址
     Returns:
-        用户ID
+        注册成功后，对应用户的标识
     Raises:
         ValueError: 用户名重复
     """
 ```
-该函数的前置条件是参数 username, password, email_address 都是必须的，而且客户端应该确保 email_address 符合规格（即它确实是一个邮箱地址）。而后置条件和不变性则是返回一个用户ID，但如果用户名发生重复则会抛出一个 ValueError 异常。
+该函数的前置条件是（1）参数 username、password、email_address 都是必须的（，因为没有任何表达“可选”语义的迹象），而且都是 str 数据类型。另外（2）email_address 还需要符合邮箱地址的规格。后置条件是在注册成功后返回对应用户的标识，该值同样是 str 数据类型。不变性是当注册用户名发生重复就会抛出一个 ValueError 异常（即注册失败）。
 
 表达“可选”语义：
 <pre style="color:#808080">
