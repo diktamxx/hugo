@@ -1,7 +1,7 @@
 #!/bin/bash
 
-name=${1:-"simple update"}
+message=${1:-"simple update"}
 
 git add -A
-git commit -m "${name}"
+git commit -m "${message}"
 git push origin main

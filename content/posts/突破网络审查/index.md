@@ -126,13 +126,13 @@ allowfullscreen></iframe>
 
 在成功*翻墙*后，应该偶尔地去留意一下时下的*翻墙*技术（。一般可以在 [youtube.com](https://www.youtube.com) 或 [tuijianvpn.com](https://tuijianvpn.com/) 上得到相关知识）。因为“道高一尺，魔高一丈”；除非政府有意放宽，不然 GFW 就会随着时间而被加强，而现时的*翻墙*方案可能不再有效。所以为了自己*方便*和*安全*，这点儿功夫是不应该节省的。
 
-除此之外，不管你持有何种立场都切勿*恶意激起仇恨*或*散发虚假信息*。希望大家能将*翻墙*这门技术用于提升自我，而不是颠倒是非黑白。枪打出头鸟，应该要小心。
+除此之外，不管你持有何种立场都切勿*恶意激起仇恨*或*散播虚假信息*。希望大家能将*翻墙*这门技术用于提升自我，而不是颠倒是非黑白。枪打出头鸟，应该要小心。
 
 
 ## 翻墙后可以做什么？
 
 - 不要再用百度了，[google.com](https://www.google.com.au) 比它强得多。只需注册一个`Google`帐号，就可以用于登陆（注册）大部分境外网站。此外，`Google`搜索引擎还提供了一个分析工具 [trends.google.com](https://trends.google.com)，可用它来查询或分析时下的热点趋势
-- 通过 [voice.google.com](https://voice.google.com/) 能够创建一个虚拟电话号。可用于日后注册场景使用。例如用它来接收验证码从而一定程度避免实名制。但现今创建难度较大。办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。而[earth.google.com](https://earth.google.com)提供了3D地球服务，可用它来“游历”世界各国的景点。建议使用*手机App*或*电脑桌面版*([earth versions](https://www.google.com/earth/about/versions))。如果是安卓设备，`Google`相关的App也可以通过[Gogole Play](https://play.google.com/store/apps/details?id=com.google.android.gms&hl=zh)来安装
+- 通过 [voice.google.com](https://voice.google.com/) 能够创建一个虚拟电话号。可用于日后注册场景使用。例如用它来接收验证码从而一定程度避免实名制。但现今创建难度较大。办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。而 [earth.google.com](https://earth.google.com) 提供了3D地球服务，可用它来“游历”世界各国的景点。建议使用*手机App*或*电脑桌面版*([earth versions](https://www.google.com/earth/about/versions))。如果是安卓设备，相关的 App 也可以通过 [Gogole Play](https://play.google.com/store/apps/details?id=com.google.android.gms&hl=zh) 来安装
 - 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)
 - 好用的`ChatAI` [chatgpt.com](chatgpt.com)、[grok.com](grok.com)。注意，因政策原因部份 AI 会屏蔽中国地区的访问（包含香港），所以尽可能使用非中国地区节点。
 - 可用于个人音乐制作的`AI` [suno.com](suno.com)
