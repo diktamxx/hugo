@@ -13,9 +13,9 @@ title: "推荐读物"
 <em style="float:left;font-size: 0.8em;">《代码整洁之道：敏捷软件工艺手册》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《架构整洁之道》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《数据密集型应用系统设计》Martin Kleppmann</em>\
+<em style="float:left;font-size: 0.8em;">《分布式系统模式》Unmesh Joshi</em>\
 <em style="float:left;font-size: 0.8em;">《设计模式》Gang of Four</em>\
-<em style="float:left;font-size: 0.8em;">《SQL反模式》Bill Karwin</em>\
-<em style="float:left;font-size: 0.8em;">《分布式系统模式》Unmesh Joshi</em>
+<em style="float:left;font-size: 0.8em;">《SQL反模式》Bill Karwin</em>
 
 <br>
 
@@ -28,6 +28,7 @@ title: "推荐读物"
 <br>
 
 #### / 应对遗留系统 /
+<em style="float:left;font-size: 0.8em;">《整理优先：小改进，大回报，整洁代码设计指南》Kent Beck</em>\
 <em style="float:left;font-size: 0.8em;">《重构：改善既有代码的设计》第2版 Martin Fowler</em>\
 <em style="float:left;font-size: 0.8em;">《修改代码的艺术》Michael C. Feathers</em>
 <br>
