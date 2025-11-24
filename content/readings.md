@@ -16,7 +16,6 @@ title: "推荐读物"
 <em style="float:left;font-size: 0.8em;">《分布式系统模式》Unmesh Joshi</em>\
 <em style="float:left;font-size: 0.8em;">《设计模式》Gang of Four</em>\
 <em style="float:left;font-size: 0.8em;">《SQL反模式》Bill Karwin</em>
-
 <br>
 
 #### / 应对复杂领域业务 /
