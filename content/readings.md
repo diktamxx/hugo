@@ -12,9 +12,10 @@ title: "推荐读物"
 <em style="float:left;font-size: 0.8em;">《匠艺整洁之道：程序员的职业素养》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《代码整洁之道：敏捷软件工艺手册》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《架构整洁之道》Robert C. Martin</em>\
+<em style="float:left;font-size: 0.8em;">《设计模式》Gang of Four</em>\
+<em style="float:left;font-size: 0.8em;">《测试驱动的面向对象软件设计》Steve Freeman、Nat Pryce</em>\
 <em style="float:left;font-size: 0.8em;">《数据密集型应用系统设计》Martin Kleppmann</em>\
 <em style="float:left;font-size: 0.8em;">《分布式系统模式》Unmesh Joshi</em>\
-<em style="float:left;font-size: 0.8em;">《设计模式》Gang of Four</em>\
 <em style="float:left;font-size: 0.8em;">《SQL反模式》Bill Karwin</em>
 <br>
 
