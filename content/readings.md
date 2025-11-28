@@ -16,7 +16,8 @@ title: "推荐读物"
 <em style="float:left;font-size: 0.8em;">《测试驱动的面向对象软件设计》Steve Freeman、Nat Pryce</em>\
 <em style="float:left;font-size: 0.8em;">《数据密集型应用系统设计》Martin Kleppmann</em>\
 <em style="float:left;font-size: 0.8em;">《分布式系统模式》Unmesh Joshi</em>\
-<em style="float:left;font-size: 0.8em;">《SQL反模式》Bill Karwin</em>
+<em style="float:left;font-size: 0.8em;">《SQL反模式》Bill Karwin</em>\
+<em style="float:left;font-size: 0.8em;">《NoSQL精粹》Pramod J. Sadalage、Martin Fowler</em>
 <br>
 
 #### / 应对复杂领域业务 /
