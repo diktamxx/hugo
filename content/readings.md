@@ -6,7 +6,6 @@ title: "推荐读物"
 ---
 
 #### / 程序员的自我修养 /
-<em style="float:left;font-size: 0.8em;">《没有银弹》Fred Brooks</em>\
 <em style="float:left;font-size: 0.8em;">《解析极限编程：拥抱变化》Kent Beck</em>\
 <em style="float:left;font-size: 0.8em;">《敏捷软件开发：原则、模式与实践》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《匠艺整洁之道：程序员的职业素养》Robert C. Martin</em>\
