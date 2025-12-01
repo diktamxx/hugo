@@ -50,7 +50,7 @@ Java Runtime 并不会因为载体被**固定**而增加并行度（。其并行
 ## 拓展
 - Netflix 就曾经遇到过载体无法卸载 VT 的情况: [Java 21 Virtual Threads - Dude, Where’s My Lock?](https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d)。
 - JVM 处理 VT 阻塞: [Project loom, what happens when virtual thread makes a blocking system call?](https://stackoverflow.com/questions/70174468/project-loom-what-happens-when-virtual-thread-makes-a-blocking-system-call)。
-- VT 的出现是否会让**反应式编程**变得无关紧要？答案是否定的。反应式本质上是一种架构模式（由[反应式宣言](https://www.reactivemanifesto.org/zh-CN)规范），它主张软件架构应该满足 *即时响应*、*回弹*、*弹性*、*消息驱动* 等特性；而 VT 只是异步编程技术的其中一种实现。换句话说，两者其实完全可以结合使用。
+- VT 的出现是否会让**反应式编程**变得无关紧要？答案是否定的。反应式本质上是一种架构风格（在[反应式宣言](https://www.reactivemanifesto.org/zh-CN)中被规范），它主张应用架构应该满足 *即时响应*、*回弹*、*弹性*、*消息驱动* 等特性。而 VT 只是异步编程技术的一种实现。或者说，两者完全可以结合使用。
 
 
 ## 参考资料
