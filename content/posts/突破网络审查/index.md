@@ -149,7 +149,7 @@ allowfullscreen></iframe>
 - 无版权图片网站 [unsplash.com](https://unsplash.com/)、[pixabay.com](https://pixabay.com/)
 - 实况直播网站 [twitch.tv](twitch.tv)
 - 个人认为用户体验最好的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
-- 电子书网站 [Z-Library（zh.z-lib.fm）](https://zh.z-lib.fm/) 和 [Anna’s Archive（zh.annas-archive.org）](https://zh.annas-archive.org)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
+- 电子书网站 [Z-Library（zh.z-lib.fm）](https://zh.z-lib.fm/) 和 [Anna’s Archive（zh.annas-archive.pm）](https://zh.annas-archive.pm/)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
 - 影视作品 [iKanBot（ikanbot.com）](https://ikanbot.com/)、[Ago影院（agoys.com）](https://www.agoys.com/)、[Gimy剧迷（gimy.ai）](https://gimy.ai/)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（mjwo.net）](https://www.mjwo.net)、[韩剧网（2kor.com）](https://2kor.com/)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（dbkk.cc）](https://www.dbkk.cc/)、[AGE动漫（www.agedm.vip）](https://www.agedm.vip/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.com）](https://www.netflixgc.com/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)、[小鸭看看（tw.xiaoyakankan.com）](https://tw.xiaoyakankan.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
