@@ -57,7 +57,7 @@ def payment_service_strategies(payment_method) -> <span style="color:#404040">Op
         case 'WECHAT_PAY': return wechat_pay<span style="color:#404040">
     # 有人可能会惊讶，返回空也属于防御？
     # 因为系统支持哪几种付款方式是明确的，所以根本不应该有意外情况。
-    # 换句话说，不论是返回空还是抛异常，其实下面这条语句永远都不应该执行。
+    # 换句话说，下面这条语句永远都不应该执行。
     # 否则就说明客户端正在以错误的方式来使用当前函数。
     # 针对该问题，动态语言的解决方案比较有限。
     # 但在静态语言中可通过型检查和模式匹配来解决（如 Java 的 seald + switch）。

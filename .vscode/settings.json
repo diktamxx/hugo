@@ -2,5 +2,8 @@
     "python.defaultInterpreterPath": "/Users/tam/.local/share/mise/installs/python/3.13.7/bin/python",
     "debug.javascript.defaultRuntimeExecutable": {
         "pwa-node": "/Users/tam/.local/share/mise/shims/node"
+    },
+    "files.exclude": {
+        "**/.git": false
     }
 }
