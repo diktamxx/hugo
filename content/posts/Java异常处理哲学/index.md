@@ -1,5 +1,5 @@
 ---
-title: "异常处理哲学"
+title: "Java 异常处理哲学"
 slug: "Java Exception Handling Philosophy"
 categories: ["Java"]
 tags: ["Java", "异常处理"]
