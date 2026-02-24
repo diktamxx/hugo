@@ -1,7 +1,7 @@
 ---
 title: "我对 AI 编程的担忧"
 slug: "my concerns about ai programming"
-summary: "中国人进化到要普及吃预制菜，而开发人员则开始被迫要审查 AI 生成的代码。"
+summary: "傻子拿到工具依然是傻子，甚至比普通人更加危险。"
 categories: ["ai"]
 tags: ["ai"]
 date: "2026-02-03"
