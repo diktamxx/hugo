@@ -25,8 +25,7 @@ summary: "最好的性能调优就是升级JDK。"
 
 基本上阻塞操作都会导致 VT 被其载体卸载。但目前（JDK 24之前）还存在一些特例会导致载体无法卸载 VT，而无法卸载则意味着会直接阻塞载体（平台线程）。这种现象称为固定，之所以会发生这种情况是因为历史遗留原因。某些线程调度工作需要依赖内核的支持，然而在目前版本的 Java Runtime 中暂时无法摆脱这一事实。从另一个角度来看，可以将固定视为一种安全措施。譬如 JVM 的`synchronized`语义实际上是参照[监控器](https://en.wikipedia.org/wiki/Monitor_(synchronization))来实现的，所以又叫监控锁。当某条线程获取到`synchronized`之后，JVM 就会通过自旋（即“忙等待”）的方式来持续监控该线程以便及时地更新监控器信息。而问题在于 JVM 监控的是平台线程，而非 VT。因为目前`synchronized`其实是针对平台线程来实现的，若果不进行 VT 固定就会出现一个问题。譬如当 VT1 获取到监控锁后因阻塞而被载体卸载，载体转而绑定 VT2 继续执行其他任务。此时，从 JVM 角度来看真正持有监控锁的其实载体本身。也就是说，VT2 因为载体而得到了监控锁，这显然是一个问题。因此，针对该问题 Java Runtime 会在 VT 阻塞时执行如下策略：
 
-- 发生条件阻塞时（如：synchronized、Object#wait、BlockingQueue#take 等），载体因受到 Java Runtime 限制而将无法卸载 VT。此时载体（平台线程）将会被阻塞
-    - ⚠️ 该问题将会在 JDK 24（[JEP-491](https://openjdk.org/jeps/491)）中解决
+- 发生条件阻塞时（如：synchronized、Object#wait、BlockingQueue#take 等），载体因受到 Java Runtime 限制而将无法卸载 VT。此时载体（平台线程）将会被阻塞。该问题将会在 JDK 24（[JEP-491](https://openjdk.org/jeps/491)）中解决
 - 发生I/O阻塞时，Java Runtime 就会让载体卸载 VT，并将 I/O 操作注册到内核中（如 epoll、kqueue），直到对应文件描述符就绪后才会恢复 VT（真正运行需要等待载体装载）
 
 Java Runtime 并不会因为载体被固定而增加并行度 —— 默认并行度为机器 CPU 的核心数，可参考：`java.util.concurrent.ForkJoinPool#common`的实现。所以从应用层面应该尽量避免固定。譬如使用`java.util.concurrent.locks.ReentrantLock`替代`synchronized`。当出现固定时，意味着应用程序对 CPU 的使用率将会降低，因为平台线程可以被阻塞。为了解决这问题，可以透过设置系统变量`jdk.virtualThreadScheduler.maxPoolSize`来指定最大的平台线程数。但要注意该值要大于`jdk.virtualThreadScheduler.parallelism`才有作用。
