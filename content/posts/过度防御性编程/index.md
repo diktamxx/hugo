@@ -60,7 +60,7 @@ def payment_service_strategies(payment_method) -> <span style="color:#404040">Op
     # 换句话说，下面这条语句永远都不应该执行。
     # 否则就说明客户端正在以错误的方式来使用当前函数。
     # 针对该问题，动态语言的解决方案比较有限。
-    # 但在静态语言中可通过型检查和模式匹配来解决（如 Java 的 seald + switch）。
+    # 但在静态语言中可通过型检查和模式匹配来解决（准确来说是编译器可以穷举类型时，如：Java 的 seald/enum + switch）。
     return None</span>
 </pre>
 
