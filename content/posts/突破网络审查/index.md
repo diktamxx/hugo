@@ -4,7 +4,7 @@ slug: "helloworld"
 categories: ["翻墙"]
 tags: ["翻墙","价值观"]
 date: "2025-01-18"
-lastmod: "2026-03-1"
+lastmod: "2026-03-01"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 summary: "人生而自由，却无往不在枷锁之中。--- 卢梭（Jean-Jacques Rousseau）"
