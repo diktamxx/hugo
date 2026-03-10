@@ -4,7 +4,7 @@ slug: "helloworld"
 categories: ["翻墙"]
 tags: ["翻墙","价值观"]
 date: "2025-01-18"
-lastmod: "2025-05-24"
+lastmod: "2026-03-1"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
 summary: "人生而自由，却无往不在枷锁之中。--- 卢梭（Jean-Jacques Rousseau）"
@@ -12,7 +12,8 @@ showTableOfContents: true
 ---
 
 <b>内容修订</b>
-- 2025/05/24：添加“墙中墙”的知识
+- 2026/03/01：添加 freedom.gov 信息
+- 2025/05/24：添加墙中墙信息
 
 
 | 用语 <div style="width:8em"> | 解释 |
@@ -153,7 +154,7 @@ allowfullscreen></iframe>
 - 影视作品 [iKanBot（ikanbot.com）](https://ikanbot.com/)、[Ago影院（agoys.com）](https://www.agoys.com/)、[Gimy剧迷（gimytw.cc）](https://gimytw.cc)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（www.meijuwo.cc）](https://www.meijuwo.cc)、[韩剧网（2kor.com）](https://2kor.com/)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（dbkk.cc）](https://www.dbkk.cc/)、[AGE动漫（www.agedm.vip）](https://www.agedm.vip/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.org）](https://www.netflixgc.org/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)、[小鸭看看（tw.xiaoyakankan.com）](https://tw.xiaoyakankan.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
-## 拓展：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
+## 拓展 - 1：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
 
 当设备比较多时，要在每个设备上都安装代理软件显然比较麻烦。所以最好是将代理软件安装在路由器或 Wi-Fi 上。这样设备仅需要连接上 Wi-Fi 就能够实现翻墙。
 
@@ -165,6 +166,9 @@ allowfullscreen></iframe>
 通常情况下，在购买软路由时，可以叫卖家预装 OpenWRT，甚至 OpenClash。
 ![openclash picture](images/openclash.png "OpenClash插件。[使用文档](https://github.com/vernesong/OpenClash/wiki)")
 <!-- ![openclash picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/openclash.png "OpenClash插件") -->
+
+## 拓展 - 2：美国政府正在计划推出一个致力于打破地区网络封锁的平台
+他们声称该平台将会以开源的方式进行监管，并且强调不会记录任何用户和会话信息。但目前尚未清楚什么时候正式对外开发使用。—— [freedom.gov](http://freedom.gov/)
 
 ## 参考资料
 - [GFW Report](https://gfw.report/zh/)
