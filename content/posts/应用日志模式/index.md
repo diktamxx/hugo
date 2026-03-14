@@ -58,6 +58,6 @@ logger
 
 注意，调用链尾部（即栈顶）会缺乏上下文信息，因为栈顶所得到的信息通常是已经被转换或过滤的结果。解决方案有两种：一是使用上下文对象在调用栈中共享信息。可以简单地通过入参来实现，也可以基于 Java 中的 ThreadLocal、Scope Values 或 [slf4j mdc](https://www.slf4j.org/manual.html#mdc) 实现。二是依赖编程语言的异常捕获机制。栈顶方法可以将异常抛给上层来处理，然后由上层来采集足够的信息后输出日志。
 
-9、时间信息统一使用 UTC 时间标准 —— 必要时可以在客户端中进行时区转换。参考日志分析器：[hl](https://github.com/pamburus/hl)、[log-viewer](https://github.com/sevdokimov/log-viewer)、[Seq](https://datalust.co)
+9、时间信息统一使用 [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) 和 [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) 标准，待必要时再在客户端进行时区转换。参考日志分析器：[hl](https://github.com/pamburus/hl)、[log-viewer](https://github.com/sevdokimov/log-viewer)、[Seq](https://datalust.co)
 
 10、在分布式环境下，优先考虑使用 [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) 标准方式来采集日志。譬如：[OpenTelemetry](https://opentelemetry.io/zh)
