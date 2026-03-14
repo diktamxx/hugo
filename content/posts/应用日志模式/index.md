@@ -9,34 +9,55 @@ thumbnail: "images/cover.png"
 summary: "世事变，有没有将你掩盖。尽量框住目前，大概。 -- 沙龙•陈奕迅"
 ---
 
-1⃣️ 明确日志目的。应用日志的核心价值是作为问题排查的依据，其服务对象是开发人员和运维人员。所有在设计日志时，应该优先考虑服务对象的情况。
+1、明确日志目的。应用日志的核心价值通常是作为问题排查的依据，其服务对象主要是开发人员和运维人员。所有在进行应用日志设计时，应该优先聆听服务对象的需求和期望。
 
-2⃣️ 应用日志属于时序数据，其信息价值通常会随着时间流逝而降低。这有别于审计日志；审计日志一种追责机制，属于功能性需求；所以需要长期存储。而应用日志则应该根据实际情况来截断旧的部份。例如可以启用滚动策略来切分日志文件，或仅保留 90 天的日志等。这样可以一定程度降低维护和（云环境）费用成本。
+2、应用日志属于时序数据，其信息价值会随着时间流逝而降低 —— 这有别于审计日志；审计日志一种追责依据，属于功能性需求，所以需要长期存储。所以应用日志最好根据实际情况进行截断保存。例如可以启用滚动策略来切割日志文件，或仅保留 90 天的日志等。这样做可以一定程度降低维护和云环境的费用成本。
 
-3⃣️ 通过结构化应用日志来提高其集成性。例如 [Logfmt（键值对）](https://www.cloudbees.com/blog/logfmt-a-log-format-thats-easy-to-read-and-write) 或 JSON。对于 JSON 而言，目前常见的风格有 [Elastic Common Schema（ECS）](http://github.com/elastic/ecs)、[Graylog Extended Log Format（GELG）](https://go2docs.graylog.org/current/getting_in_log_data/gelf.html)、[Logstash JSON format](https://github.com/logfellow/logstash-logback-encoder?tab=readme-ov-file#standard-fields)。注意，虽然结构化的应用日志有利于采集，但在没有工具的情况下可能会变得难以阅读。如果这是一个考虑点，则可以考虑采用“半结构化”策略。也就是将主要观察的信息用 Logfmt 组织，而非主要关注的信息则用 JSON，最后将其进行拼接即可（。集成工具通常都支持正则匹配，所以也不太会影响其集成性）。
+3、结构化的应用日志有利于与其他可观测性系统进行集成。如 [Logfmt（键值对）](https://www.cloudbees.com/blog/logfmt-a-log-format-thats-easy-to-read-and-write) 或 JSON。对于 JSON 而言，目前常见的风格有 [Elastic Common Schema（ECS）](http://github.com/elastic/ecs)、[Graylog Extended Log Format（GELG）](https://go2docs.graylog.org/current/getting_in_log_data/gelf.html)、[Logstash JSON format](https://github.com/logfellow/logstash-logback-encoder?tab=readme-ov-file#standard-fields) 。值得注意，虽然结构化的日志有利于集成，但在没有格式化工具的情况下通常会降低可读性。如果这是一个问题，则可以考虑采用“半结构化”策略。即结合 Logfmt 和 JSON —— 如今的日志采集工具通常都支持正则匹配，所以不太会影响其可集成性。
 
-4⃣️ 善用应用日志级别
+4、善用应用日志级别
 - Trace：代码执行轨迹
 - Debug：值得关注的调试点
 - Info：具有监控意义的普通事件
 - Warn：潜在隐患事件。不影正确性，但需要关注。该类事件通常与服务质量属性相关。譬如：触发了断路或限流、重试次数过多、执行效率低下 等等
 - Error：异常事件。意味着代码存在逻辑性错误。会影响系统正确性，需要尽快修复
 
-5⃣️ 较为重量的应用日志应该先判断对应的日志级别开启与否，然后再进行调用。这样做的目的是避免执行无谓的计算。譬如对于需要构建对象或执行计算的日志，可以这样：if(logger.isEnableInfoLevel()) logger.info(buildMessage())
+5、尽量避免通过字符串拼接方式构建日志信息，而是使用参数化日志（理由与第 6 点相同）。例如：
+```java
+logger.info("userId: " + userId)    // 避免
+logger.info("userId: {}", userId)   // 推荐
+```
 
-6⃣️ 应用日志应该包含完整的上下文信息
+6、较为重量的日志信息，应该先进行日志级别匹配再输出。这样做的目的是避免执行无谓的计算。譬如在需要构建对象或者执行计算时，可以这样：
+```java
+var foo = ...
+
+// 方案1
+if(logger.isInfoEnabled()) {
+  logger.info(buildMessage(foo))
+}
+
+// 方案2 - slf4j 2.x
+logger
+  .atInfo()
+  .addArgument((Supplier) () -> buildMessage(foo))
+  .log("{}", foo);
+```
+
+7、必要时对敏感信息进行脱敏，防止信息外泄。
+
+8、应用日志应该包含完整的事件信息。譬如：
 - 识别标识
-    - 客户端ID
-    - 请求ID
-    - 用户ID
-    - 服务ID
-    - 请求路径
-- 执行了什么操作（请求信息），为什么会失败（异常信息）
+    - 客户端标识
+    - 请求标识
+    - 用户标识
+    - 服务标识
+    - 操作标识
+- 执行了什么操作
+- 为什么会失败（异常事件）
 
 注意，调用链尾部（即栈顶）会缺乏上下文信息，因为栈顶所得到的信息通常是已经被转换或过滤的结果。解决方案有两种：一是使用上下文对象在调用栈中共享信息。可以简单地通过入参来实现，也可以基于 Java 中的 ThreadLocal、Scope Values 或 [slf4j mdc](https://www.slf4j.org/manual.html#mdc) 实现。二是依赖编程语言的异常捕获机制。栈顶方法可以将异常抛给上层来处理，然后由上层来采集足够的信息后输出日志。
 
-7⃣️ 对敏感信息进行脱敏，防止机密和用户信息外泄。
+9、时间信息统一使用 UTC 时间标准 —— 必要时可以在客户端中进行时区转换。参考日志分析器：[hl](https://github.com/pamburus/hl)、[log-viewer](https://github.com/sevdokimov/log-viewer)、[Seq](https://datalust.co)
 
-8⃣️ 时间戳统一使用 UTC 格式，等必要时再在客户端中进行转换。相关日志分析器：[hl](https://github.com/pamburus/hl)、[log-viewer](https://github.com/sevdokimov/log-viewer)、[Seq](https://datalust.co)
-
-9⃣️ 在分布式环境下，使用标准方案来采集日志。譬如：[OpenTelemetry](https://opentelemetry.io/zh)
+10、在分布式环境下，优先考虑使用 [CNCF](https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation) 标准方式来采集日志。譬如：[OpenTelemetry](https://opentelemetry.io/zh)
