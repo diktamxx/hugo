@@ -34,36 +34,13 @@ title: "推荐读物"
 <br>
 
 #### / 其他 /
-<em style="float:left;font-size: 0.8em;">（警惕）工具定律：[Law of the instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)</em>
-\
-<em style="float:left;font-size: 0.8em;">开发者宣言：[敏捷](https://agilemanifesto.org/iso/zhchs/manifesto.html)、[反应式](https://www.reactivemanifesto.org/zh-CN)</em>
-\
-<em style="float:left;font-size: 0.8em;">架构决策记录：[Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)</em>
-\
-<em style="float:left;font-size: 0.8em;">API风格规范：[OpenAPI](https://github.com/OAI/OpenAPI-Specification)、[AsyncAPI](https://github.com/asyncapi/spec)</em>
-\
-<em style="float:left;font-size: 0.8em;">关于命名：[Naming as a Process](https://www.digdeeproots.com/articles/naming-process/)</em>
-\
-<em style="float:left;font-size: 0.8em;">CSS命名规范：[BEM](https://getbem.com/)</em>
-\
-<em style="float:left;font-size: 0.8em;">语义化版本号：[2.0.0](https://semver.org/lang/zh-CN/)</em>
-\
-<em style="float:left;font-size: 0.8em;">Everything as code：[Everything as Code | Jose Javier Alonso Moya & Fabrice Pipart - YouTube](https://www.youtube.com/watch?v=ZXYcy903VDg)</em>
-\
+<em style="float:left;font-size: 0.8em;">（警惕）工具定律：[Law of the instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)</em>\
+<em style="float:left;font-size: 0.8em;">开发者宣言：[敏捷](https://agilemanifesto.org/iso/zhchs/manifesto.html)、[反应式](https://www.reactivemanifesto.org/zh-CN)</em>\
+<em style="float:left;font-size: 0.8em;">架构决策记录：[Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)</em>\
+<em style="float:left;font-size: 0.8em;">API风格规范：[OpenAPI](https://github.com/OAI/OpenAPI-Specification)、[AsyncAPI](https://github.com/asyncapi/spec)、[GraphQL](https://graphql.org/learn/introduction/)、[Protocol Buffers](https://protobuf.dev/overview/)</em>\
+<em style="float:left;font-size: 0.8em;">关于命名：[Naming as a Process](https://www.digdeeproots.com/articles/naming-process/)</em>\
+<em style="float:left;font-size: 0.8em;">CSS命名规范：[BEM](https://getbem.com/)</em>\
+<em style="float:left;font-size: 0.8em;">语义化版本号：[2.0.0](https://semver.org/lang/zh-CN/)</em>\
+<em style="float:left;font-size: 0.8em;">约定式提交：[1.0.0](https://www.conventionalcommits.org/zh-hans/v1.0.0/)</em>\
+<em style="float:left;font-size: 0.8em;">Everything as code：[Everything as Code | Jose Javier Alonso Moya & Fabrice Pipart - YouTube](https://www.youtube.com/watch?v=ZXYcy903VDg)</em>\
 <em style="float:left;font-size: 0.8em;">行业前沿技术：[Thoughtworks - 技术雷达](https://www.thoughtworks.com/zh-cn/radar)</em>
-
-
-<!-- #### / Everything as code /
-基础设施即代码（Infrastructure as Code）：[Ansible](https://github.com/ansible/ansible)、[Terraform](https://developer.hashicorp.com/terraform)、[Vagrant](https://developer.hashicorp.com/vagrant)
-\
-构建即代码（Build as code）：[Gradle](https://docs.gradle.org/current/dsl/)、[pnpm](https://pnpm.io/zh/workspaces)
-\
-配置即代码（Configuration as Code）：[Traefik](https://doc.traefik.io/traefik/reference/routing-configuration/dynamic-configuration-methods/)、[Dockerfile](https://docs.docker.com/reference/dockerfile/)、[Docker Compose](https://github.com/compose-spec/compose-spec/blob/main/spec.md)、[Kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/)
-\
-图表即代码（Diagram as Code）：[Mermaid](https://mermaid.js.org/)、[Structurizr](https://structurizr.com/)
-\
-管道即代码（Pipeline as Code）：[Jenkins](https://www.jenkins.io/doc/book/pipeline/pipeline-as-code/)、[Argo Workflows](https://github.com/argoproj/argo-workflows)、[GitHub Actions](https://docs.github.com/zh/actions/writing-workflows/quickstart)
-\
-策略即代码（Policy as Code）：[OPA](https://www.openpolicyagent.org/docs)
-\
-可观测性即代码（Observability as Code）：[Grafana](https://grafana.com/docs/grafana/latest/observability-as-code/) -->
