@@ -1,6 +1,6 @@
 ---
-title: "软件工程精粹：问题空间与解决方案空间"
-slug: "Essentials of Software Engineering: Problem Space and Solution Space"
+title: "问题空间与解决方案空间"
+slug: "Problem Space and Solution Space"
 categories: ["软件工程"]
 tags: ["软件工程", "领域驱动设计（DDD）", "软件架构"]
 date: "2025-06-14"
