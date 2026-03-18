@@ -71,11 +71,11 @@ showTableOfContents: true
 - 付费机场：[https://dash.pqjc.site](https://dash.pqjc.site)
 - 付费机场：[https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site)
 
-如果上面的*机场*都无法访问，则可以到 [https://github.com/DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) 或 [https://tuijianvpn.com](https://tuijianvpn.com/) 中挑选一个。使用方面大同小异。
+如果上面的*机场*已经无法访问，可以到 [https://github.com/DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) 中挑选一个。使用方面大同小异。
 
 ### 第2步：注册并购买节点套餐
 
-建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如[https://dash.pqjc.site](https://dash.pqjc.site)。
+建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如 [https://dash.pqjc.site](https://dash.pqjc.site)。
 
 注意，注册*机场*帐号通常无需填写真实的手机或邮箱信息。可以随便填写，只要能记住即可。
 
@@ -91,15 +91,10 @@ showTableOfContents: true
 <!-- ![document picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/doc.png) -->
 
 以下是个人建议：
-- **iPhone（或iPad）** 可以选择`Shadowrocket`或`Potatso`。前者是一个（一次性）付费App，后者则免费。但无论选择哪一个，`iPhone`操作起来都会较为麻烦一些。因为这些App位于`美区app store`，所以首先得有一个`美区apple id`（，或者也可以将现有的`apple id`切换到美区）。经过我自己测试，发现`Potatso`无法订阅当前例子这个*机场*，而`Shadowrocket`就可以。所以建议是购买`Shadowrocket`。方法是先买一个美区`Shadowrocket`的兑换码（。可到[桃子商店](https://shop.tz.ci/buy/1)购买一个。注意，该店铺和本人没有任何关系，纯粹建议而已），然后使用兑换码兑换`Shadowrocket`后再下载即可
-- **安卓**选择`Clash Meta For Android`。下载地址：[https://github.com
-/MetaCubeX/ClashMetaForAndroid
-/releases/download/v2.11.9/
-cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.9/cmfa-2.11.9-meta-universal-release.apk)
-- **Windows系统**选择`Clash Verge`。下载地址：[https://github.com/clash-verge-rev/clash-verge-rev/releases/download
-/v2.2.3/Clash.Verge_2.2.3_x64-setup.exe](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.3/Clash.Verge_2.2.3_x64-setup.exe)
-- **MacOS**选择`Clash Verge`。下载地址：[https://github.com/clash-verge-rev/clash-verge-rev/releases/download
-/v2.2.3/Clash.Verge_2.2.3_x64.dmg](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.2.3/Clash.Verge_2.2.3_x64.dmg)
+- IOS 可以选择 `Shadowrocket` 或 `Potatso`。前者是一个（一次性）付费App，后者则免费。但无论选择哪一个，`iPhone`操作起来都会较为麻烦一些。因为这些App位于 `美区 App Store`，所以首先得有一个 `美区 Apple ID`（，或者也可以将现有的`Apple ID`切换到美区）。经过我自己测试，发现 `Potatso` 无法订阅当前例子这个*机场*，而 `Shadowrocket` 就可以。所以建议是购买`Shadowrocket`。方法是先买一个美区 `Shadowrocket` 的兑换码（可到 [桃子商店](https://shop.tz.ci/buy/1) 买一个。注意，该店铺和本人没有任何关系，纯粹建议而已），然后使用兑换码兑换 `Shadowrocket` 后再下载即可
+- 安卓选择 `FlClash`。下载地址：[点击](https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-android-arm64-v8a.apk)
+- Windows 选择 `FlClash`。下载地址：[点击](https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-windows-amd64-setup.exe)
+- MacOS 选择 `FlClash`。下载地址：[点击（AMD）](https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-macos-amd64.dmg)、[点击（ARM）](https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-macos-arm64.dmg)
 
 
 ### 第4步：订阅机场节点，实现翻墙
@@ -113,7 +108,7 @@ cmfa-2.11.9-meta-universal-release.apk](https://github.com/MetaCubeX/ClashMetaFo
 接下来就可以进行*翻墙*测试了。
 
 这里有条来自 `youtube.com` 的视频，正常情况下是无法播放的。
-<span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示和播放（或提示“在YouTube上观看”），则说明已经*翻墙*成功了。
+<span style="color: #df4a4d;">完成上面所有步骤后，需要刷新当前页面</span>。如果能够正常显示（没有翻墙成功可能会显示空白），则说明已经*翻墙*成功了。
 <iframe 
 width="100%" height="315" 
 src="https://www.youtube.com/embed/J76S5q_ETfo?si=3W97uqky995htYSA" 
@@ -121,22 +116,22 @@ title="YouTube video player"
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
 allowfullscreen></iframe>
-<p style="color:gray; text-align:center;">👆当前文字正上方有条视频。没有翻墙成功可能会显示空白。</p>
+<p style="color:gray; text-align:center;">👆当前文字正上方有条视频。</p>
 
 ### 第5步：最后建议
 
-在成功*翻墙*后，应该偶尔地去留意一下时下的*翻墙*技术（。一般可以在 [youtube.com](https://www.youtube.com) 或 [tuijianvpn.com](https://tuijianvpn.com/) 上得到相关知识）。因为“道高一尺，魔高一丈”；除非政府有意放宽，不然 GFW 就会随着时间而被加强，而现时的*翻墙*方案可能不再有效。所以为了自己*方便*和*安全*，这点儿功夫是不应该节省的。
+在成功*翻墙*后，应该偶尔地去留意一下时下的*翻墙*技术（。一般可以在 [youtube.com](https://www.youtube.com)上得到相关知识）。因为道高一尺，魔高一丈；除非政府有意放宽，不然 GFW 就会随着时间而被加强，而现时的*翻墙*方案可能不再有效。所以为了自己*方便*和*安全*，这点儿功夫是不应该节省的。
 
 除此之外，不管你持有何种立场都切勿*恶意激起仇恨*或*散播虚假信息*。希望大家能将*翻墙*这门技术用于提升自我，而不是颠倒是非黑白。枪打出头鸟，应该要小心。
 
 
 ## 翻墙后可以做什么？
 
-- 不要再用百度了，[google.com](https://www.google.com.au) 比它强得多。只需注册一个`Google`帐号，就可以用于登陆（注册）大部分境外网站。此外，`Google`搜索引擎还提供了一个分析工具 [trends.google.com](https://trends.google.com)，可用它来查询或分析时下的热点趋势
-- 通过 [voice.google.com](https://voice.google.com/) 能够创建一个虚拟电话号。可用于日后注册场景使用。例如用它来接收验证码从而一定程度避免实名制。但现今创建难度较大。办法是到淘宝购买一个带有`voice`的`Gogole`帐号，然后再将`voice`转到自己`Gogole`帐号名下即可。而 [earth.google.com](https://earth.google.com) 提供了3D地球服务，可用它来“游历”世界各国的景点。建议使用*手机App*或*电脑桌面版*([earth versions](https://www.google.com/earth/about/versions))。如果是安卓设备，相关的 App 也可以通过 [Gogole Play](https://play.google.com/store/apps/details?id=com.google.android.gms&hl=zh) 来安装
+- 不要再用百度，[google.com](https://www.google.com.au) 比它强得多。只需注册一个 `Google` 帐号就可以直接注册大部分境外网站。此外，`Google` 搜索引擎还提供了一个分析工具 [trends.google.com](https://trends.google.com)，可用它来查询或分析时下的热点趋势
+- 通过 [voice.google.com](https://voice.google.com/) 能够创建一个虚拟电话号。可用于日后注册场景使用。例如用它来接收验证码从而一定程度避免实名制。但现今创建难度较大。办法是到淘宝购买一个带有 `voice` 的 `Gogole` 帐号，然后再将 `voice` 转到自己 `Gogole` 帐号名下即可。而 [earth.google.com](https://earth.google.com) 提供了3D地球服务，可用它来“游历”世界各国的景点。建议使用*手机App*或*电脑桌面版*([earth versions](https://www.google.com/earth/about/versions))。如果是安卓设备，相关的 App 也可以通过 [Gogole Play](https://play.google.com/store/apps/details?id=com.google.android.gms&hl=zh) 来安装
 - 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)
-- 好用的`ChatAI` [chatgpt.com](chatgpt.com)、[grok.com](grok.com)。注意，因政策原因部份 AI 会屏蔽中国地区的访问（包含香港），所以尽可能使用非中国地区节点。
-- 可用于个人音乐制作的`AI` [suno.com](suno.com)
+- 好用的 `ChatAI` [grok.com](grok.com)、[gemini](https://gemini.google.com/app)、[chatgpt.com](chatgpt.com)。注意，因政策原因部份 AI 会屏蔽中国地区访问（包括香港），所以尽量使用非中国地区的节点
+- 可用于个人音乐制作的 `AI` [suno.com](suno.com)
 - 全球最大的视频网站 [youtube.com](https://www.youtube.com)，只要有足够的好奇心就可以学到很多东西
 - 以图片和短视频为主的社交媒体 [instagram.com](https://instagram.com)，有很多有趣的内容
 - 近年兴起，以贴文为主的社交媒体 [threads.com](https://www.threads.com)。有很多港台人士。如果你想了解他们对大陆人都有哪些不满，我想这是一个不错的入口
@@ -150,8 +145,8 @@ allowfullscreen></iframe>
 - 无版权图片网站 [unsplash.com](https://unsplash.com/)、[pixabay.com](https://pixabay.com/)
 - 实况直播网站 [twitch.tv](https://twitch.tv)
 - 个人认为用户体验最好的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
-- 电子书网站 [Z-Library（zh.z-lib.fm）](https://zh.z-lib.fm/) 和 [Anna’s Archive（zh.annas-archive.pm）](https://zh.annas-archive.pm/)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
-- 影视作品 [iKanBot（ikanbot.com）](https://ikanbot.com/)、[Ago影院（agoys.com）](https://www.agoys.com/)、[Gimy剧迷（gimytw.cc）](https://gimytw.cc)、[纽约影院（nycvod.com）](https://www.nycvod.com)、[美剧屋（mjwu.cc）](https://www.mjwu.cc)、[美剧窝（www.meijuwo.cc）](https://www.meijuwo.cc)、[韩剧网（2kor.com）](https://2kor.com/)、[OnDemandChina（ondemandchina.com）](https://www.ondemandchina.com/zh-Hans)、[独播库（dbkk.cc）](https://www.dbkk.cc/)、[AGE动漫（www.agedm.vip）](https://www.agedm.vip/)、[西瓜卡通（xgcartoon.com）](https://www.xgcartoon.com/)、[奈飞工厂（netflixgc.org）](https://www.netflixgc.org/)、[人人影视（kuaizi.cc）](https://kuaizi.cc/)、[小鸭看看（tw.xiaoyakankan.com）](https://tw.xiaoyakankan.com/)、[电影线上看（www.movieffm.net）](https://www.movieffm.net/home/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
+- 电子书网站 [Z-Library](https://zh.z-lib.fm/) 和 [Anna’s Archive](https://zh.annas-archive.pm/)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
+- 影视作品 [iKanBot](https://ikanbot.com/)、[Ago影院](https://www.agoys.com/)、[Gimy剧迷](https://gimytw.cc)、[纽约影院](https://www.nycvod.com)、[美剧屋](https://www.mjwu.cc)、[美剧窝](https://www.meijuwo.cc)、[韩剧网](https://2kor.com/)、[OnDemandChina](https://www.ondemandchina.com/zh-Hans)、[独播库](https://www.dbkk.cc/)、[AGE动漫](https://www.agedm.vip/)、[西瓜卡通](https://www.xgcartoon.com/)、[奈飞工厂](https://www.netflixgc.org/)、[人人影视](https://kuaizi.cc/)、[小鸭看看](https://tw.xiaoyakankan.com/)、[电影线上看](https://www.movieffm.net/home/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
 ## 拓展 - 1：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
@@ -159,11 +154,11 @@ allowfullscreen></iframe>
 当设备比较多时，要在每个设备上都安装代理软件显然比较麻烦。所以最好是将代理软件安装在路由器或 Wi-Fi 上。这样设备仅需要连接上 Wi-Fi 就能够实现翻墙。
 
 要想安装代理软件普通路由器是不行的；需要一种称为**软路由**的设备才可以。
-软路由本质上是一台小型服务器，它安装的是[OpenWRT（github.com/openwrt/openwrt）](https://github.com/openwrt/openwrt)系统。通过在 OpenWRT 上安装[OpenClash（github.com/vernesong/OpenClash）](https://github.com/vernesong/OpenClash)插件就能够订阅机场链接了。
+软路由本质上是一台小型服务器，它安装的是 [OpenWRT（github.com/openwrt/openwrt）](https://github.com/openwrt/openwrt) 系统。通过在 OpenWRT 上安装 [OpenClash（github.com/vernesong/OpenClash）](https://github.com/vernesong/OpenClash) 插件就能够订阅机场链接了。
 ![router picture](images/router.png)
 <!-- ![router picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/router.png) -->
 
-通常情况下，在购买软路由时，可以叫卖家预装 OpenWRT，甚至 OpenClash。
+通常情况下在购买软路由时可以叫卖家预装 OpenWRT，甚至 OpenClash。
 ![openclash picture](images/openclash.png "OpenClash插件。[使用文档](https://github.com/vernesong/OpenClash/wiki)")
 <!-- ![openclash picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/openclash.png "OpenClash插件") -->
 
