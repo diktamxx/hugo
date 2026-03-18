@@ -1,5 +1,5 @@
 ---
-title: "认识NoSQL建模"
+title: "认识 NoSQL 建模"
 slug: "Data Modeling with Nosql"
 categories: ["NoSQL"]
 tags: ["NoSQL","数据建模","数据库"]

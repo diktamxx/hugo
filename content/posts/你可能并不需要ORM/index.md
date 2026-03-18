@@ -1,12 +1,12 @@
 ---
-title: "你可能并不需要ORM（Object–relational mapping）"
+title: "你可能并不需要 ORM（Object–relational mapping）"
 slug: "You may not need an Object-relational mapping ORM"
 categories: ["软件架构"]
 tags: ["软件架构","Java"]
 date: "2023-03-12"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
-summary: "不是面向对象编程又何须ORM。"
+summary: "不是面向对象编程又何须 ORM。"
 ---
 
 | 用语 <div style="width:8em"> | 解释 |
