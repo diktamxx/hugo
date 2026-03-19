@@ -68,14 +68,14 @@ showTableOfContents: true
 - 公益机场：[https://github.com
 /KaWaIDeSuNe/dijiajichang/blob/main
 /free.md](https://github.com/KaWaIDeSuNe/dijiajichang/blob/main/free.md)
-- 付费机场：[https://dash.pqjc.site](https://dash.pqjc.site)
+- 付费机场：<s>[https://dash.pqjc.site](https://dash.pqjc.site)</s>（不稳定，建议改用下面这个）
 - 付费机场：[https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site)
 
 如果上面的*机场*已经无法访问，可以到 [https://github.com/DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) 中挑选一个。使用方面大同小异。
 
 ### 第2步：注册并购买节点套餐
 
-建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如 [https://dash.pqjc.site](https://dash.pqjc.site)。
+建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如 <s>[https://dash.pqjc.site](https://dash.pqjc.site)</s>（不稳定，建议改用 [https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site)）。
 
 注意，注册*机场*帐号通常无需填写真实的手机或邮箱信息。可以随便填写，只要能记住即可。
 
