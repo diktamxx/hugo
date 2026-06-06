@@ -61,34 +61,31 @@ showTableOfContents: true
 因为对整个软件行业有着巨大的影响力，以至于到目前为止 GFW 还没有正面地对它下死手。所以现今有些人会利用这一特点在上面存放一些平时无法在墙内发布的内容。
 而我们则可以利用它在不*翻墙*的情况下查找到相关*机场*的信息。例如可以直接搜索“[公益机场](https://github.com/search?q=%E5%85%AC%E7%9B%8A%E6%9C%BA%E5%9C%BA&type=repositories)”就会得到类似如下的内容：
 ![github_search picture](images/github_search.png)
-<!-- ![github_search picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/github_search.png) -->
 
 鉴于对大家的关怀（考虑到一些人甚至可能不怎么熟悉电脑），我已经整理出了几个*机场*
 - 公益机场：[https://free.datiya.com](https://free.datiya.com)
 - 公益机场：[https://github.com
 /KaWaIDeSuNe/dijiajichang/blob/main
 /free.md](https://github.com/KaWaIDeSuNe/dijiajichang/blob/main/free.md)
-- 付费机场：<s>[https://dash.pqjc.site](https://dash.pqjc.site)</s>（不稳定，建议改用下面这个）
+- 付费机场：[https://dash.pqjc.site](https://dash.pqjc.site)
 - 付费机场：[https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site)
 
 如果上面的*机场*已经无法访问，可以到 [https://github.com/DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) 中挑选一个。使用方面大同小异。
 
 ### 第2步：注册并购买节点套餐
 
-建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如 <s>[https://dash.pqjc.site](https://dash.pqjc.site)</s>（不稳定，建议改用 [https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site)）。
+建议先选择*付费机场*。因为*付费机场*通常带有*代理软件*的安装教程，这对于第一次操作的人来说比较友好。例如 [https://dash.pqjc.site](https://dash.pqjc.site)。
 
 注意，注册*机场*帐号通常无需填写真实的手机或邮箱信息。可以随便填写，只要能记住即可。
 
 注册完登陆后，就可以购买节点套餐了。一般可以选择*微信*或*支付宝*来进行支付。几乎所有机场都是同样的操作模式。
 ![buy picture](images/plan.png)
-<!-- ![plan picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/plan.png) -->
 
 
 ### 第3步：安装代理软件
 
 节点套餐购买好后，就可以根据自己设备类型来选择具体的代理软件。
 ![document picture](images/doc.png)
-<!-- ![document picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/doc.png) -->
 
 以下是个人建议：
 - IOS 可以选择 `Shadowrocket` 或 `Potatso`。前者是一个（一次性）付费App，后者则免费。但无论选择哪一个，`iPhone`操作起来都会较为麻烦一些。因为这些App位于 `美区 App Store`，所以首先得有一个 `美区 Apple ID`（，或者也可以将现有的`Apple ID`切换到美区）。经过我自己测试，发现 `Potatso` 无法订阅当前例子这个*机场*，而 `Shadowrocket` 就可以。所以建议是购买`Shadowrocket`。方法是先买一个美区 `Shadowrocket` 的兑换码（可到 [桃子商店](https://shop.tz.ci/buy/1) 买一个。注意，该店铺和本人没有任何关系，纯粹建议而已），然后使用兑换码兑换 `Shadowrocket` 后再下载即可
@@ -101,10 +98,8 @@ showTableOfContents: true
 
 下载好*代理软件*后，就可以在机场中获取节点的订阅链接。
 ![link picture](images/link.png)
-<!-- ![link picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/link.png) -->
 以`iPhone`设备下的`Shadowrocket`为例（。其他设备和*代理软件*操作上大同小异）。
 ![shadowrocket picture](images/shadowrocket.png)
-<!-- ![shadowrocket picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/shadowrocket.png) -->
 接下来就可以进行*翻墙*测试了。
 
 这里有条来自 `youtube.com` 的视频，正常情况下是无法播放的。
@@ -127,11 +122,11 @@ allowfullscreen></iframe>
 
 ## 翻墙后可以做什么？
 
-- 不要再用百度，[google.com](https://www.google.com.au) 比它强得多。只需注册一个 `Google` 帐号就可以直接注册大部分境外网站。此外，`Google` 搜索引擎还提供了一个分析工具 [trends.google.com](https://trends.google.com)，可用它来查询或分析时下的热点趋势
+- 停止使用百度，[google.com](https://www.google.com.au) 比它实用得多。只需注册一个 `Google` 帐号就可以直接注册大部分境外网站。此外，`Google` 搜索引擎还提供了一个分析工具 [trends.google.com](https://trends.google.com)，可用它来查询或分析时下的热点趋势
 - 通过 [voice.google.com](https://voice.google.com/) 能够创建一个虚拟电话号。可用于日后注册场景使用。例如用它来接收验证码从而一定程度避免实名制。但现今创建难度较大。办法是到淘宝购买一个带有 `voice` 的 `Gogole` 帐号，然后再将 `voice` 转到自己 `Gogole` 帐号名下即可。而 [earth.google.com](https://earth.google.com) 提供了3D地球服务，可用它来“游历”世界各国的景点。建议使用*手机App*或*电脑桌面版*([earth versions](https://www.google.com/earth/about/versions))。如果是安卓设备，相关的 App 也可以通过 [Gogole Play](https://play.google.com/store/apps/details?id=com.google.android.gms&hl=zh) 来安装
-- 百科全书 [wikipedia.org（英文）](wikipedia.org)、[zh.wikipedia.org（中文）](zh.wikipedia.org)
-- 好用的 `ChatAI` [grok.com](grok.com)、[gemini](https://gemini.google.com/app)、[chatgpt.com](chatgpt.com)。注意，因政策原因部份 AI 会屏蔽中国地区访问（包括香港），所以尽量使用非中国地区的节点
-- 可用于个人音乐制作的 `AI` [suno.com](suno.com)
+- 百科全书 [wikipedia.org（英文）](https://wikipedia.org)、[zh.wikipedia.org（中文）](https://zh.wikipedia.org)
+- 好用的 `ChatAI` [grok.com](https://grok.com)、[gemini](https://gemini.google.com/app)、[chatgpt.com](https://chatgpt.com)。注意，因政策原因部份 AI 会屏蔽中国地区访问（包括香港），所以尽量使用非中国地区的节点
+- 可用于个人音乐制作的 `AI` [suno.com](https://suno.com)
 - 全球最大的视频网站 [youtube.com](https://www.youtube.com)，只要有足够的好奇心就可以学到很多东西
 - 以图片和短视频为主的社交媒体 [instagram.com](https://instagram.com)，有很多有趣的内容
 - 近年兴起，以贴文为主的社交媒体 [threads.com](https://www.threads.com)。有很多港台人士。如果你想了解他们对大陆人都有哪些不满，我想这是一个不错的入口
@@ -144,9 +139,9 @@ allowfullscreen></iframe>
 - [pinterest.com](https://pinterest.com)，有很多有趣和漂亮的图片
 - 无版权图片网站 [unsplash.com](https://unsplash.com/)、[pixabay.com](https://pixabay.com/)
 - 实况直播网站 [twitch.tv](https://twitch.tv)
-- 个人认为用户体验最好的音乐软件 [spotify.com](spotify.com)，可到淘宝购买会员资格
-- 电子书网站 [Z-Library](https://zh.z-lib.fm/) 和 [Anna’s Archive](https://zh.annas-archive.pm/)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
-- 影视作品 [iKanBot](https://ikanbot.com/)、[Ago影院](https://www.agoys.com/)、[Gimy剧迷](https://gimytw.cc)、[纽约影院](https://www.nycvod.com)、[美剧屋](https://www.mjwu.cc)、[美剧窝](https://www.meijuwo.cc)、[韩剧网](https://2kor.com/)、[OnDemandChina](https://www.ondemandchina.com/zh-Hans)、[独播库](https://www.dbkk.cc/)、[AGE动漫](https://www.agedm.vip/)、[西瓜卡通](https://www.xgcartoon.com/)、[奈飞工厂](https://www.netflixgc.org/)、[人人影视](https://kuaizi.cc/)、[小鸭看看](https://tw.xiaoyakankan.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
+- 个人认为用户体验最好的音乐软件 [spotify.com](https://spotify.com)，可到淘宝购买会员资格
+- 电子书网站 [Z-Library](https://zh.z-lib.fm/) 和 [Anna’s Archive](https://zh.annas-archive.gl/)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
+- 影视作品 [iKanBot](https://ikanbot.com/)、[Ago影院](https://www.agoys.com/)、[Gimy剧迷](https://gimytw.cc)、[美剧屋](https://www.mjwu.cc)、[美剧窝](https://www.meijuwo.cc)、[韩剧网](https://2kor.com/)、[OnDemandChina](https://www.ondemandchina.com/zh-Hans)、[独播库](https://www.dbkk.cc/)、[AGE动漫](https://age.tv)、[西瓜卡通](https://www.xgcartoon.com/)、[奈飞工厂](https://www.netflixgc.org/)、[人人影视](https://kuaizi.cc/)、[小鸭看看](https://tw.xiaoyakankan.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
 ## 拓展 - 1：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
@@ -156,11 +151,9 @@ allowfullscreen></iframe>
 要想安装代理软件普通路由器是不行的；需要一种称为**软路由**的设备才可以。
 软路由本质上是一台小型服务器，它安装的是 [OpenWRT（github.com/openwrt/openwrt）](https://github.com/openwrt/openwrt) 系统。通过在 OpenWRT 上安装 [OpenClash（github.com/vernesong/OpenClash）](https://github.com/vernesong/OpenClash) 插件就能够订阅机场链接了。
 ![router picture](images/router.png)
-<!-- ![router picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/router.png) -->
 
 通常情况下在购买软路由时可以叫卖家预装 OpenWRT，甚至 OpenClash。
 ![openclash picture](images/openclash.png "OpenClash插件。[使用文档](https://github.com/vernesong/OpenClash/wiki)")
-<!-- ![openclash picture](https://cdn.jsdelivr.net/gh/diktamxx/hugo@main/content/posts/突破网络审查/images/openclash.png "OpenClash插件") -->
 
 ## 拓展 - 2：美国政府正在计划推出一个致力于打破地区网络封锁的平台
 他们声称该平台将会以开源的方式进行监管，并且强调不会记录任何用户和会话信息。但目前尚未清楚什么时候正式对外开发使用。—— [freedom.gov](http://freedom.gov/)

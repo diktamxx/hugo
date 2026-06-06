@@ -1,0 +1,49 @@
+direction: up
+
+*.style.fill: "#D0B765"
+*.shape: class
+
+(*** -> ***)[*]: {
+  style.stroke: "#6C8E6D"
+}
+
+# ===============================
+
+DomainEvent {
+  label: "<<interface>>\nDomainEvent"
+
+  name(): ""
+  occurredOn(): ""
+  schemaVersion(): ""
+  payload(): ""
+}
+
+BusinessFailedEvent {
+  label: "<<interface>>\nBusinessFailedEvent"
+}
+
+PostCommentFailed {
+  label: "<<record>>\nPostCommentFailed"
+}
+
+CommentPosted {
+  label: "<<record>>\nCommentPosted"
+}
+
+# ===============================
+
+BusinessFailedEvent -> DomainEvent: "继承" {
+    style.stroke-width: 3
+}
+PostCommentFailed -> BusinessFailedEvent: "实现" {
+  style: { 
+    stroke-dash: 5
+    stroke-width: 3
+  }
+}
+CommentPosted -> DomainEvent: "实现" {
+  style: {
+    stroke-dash: 5
+    stroke-width: 3
+  }
+}

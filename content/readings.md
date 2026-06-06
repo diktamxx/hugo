@@ -35,6 +35,8 @@ title: "推荐读物"
 
 #### / 其他 /
 <em style="float:left;font-size: 0.8em;">（警惕）工具定律：[Law of the instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)</em>\
+<em style="float:left;font-size: 0.8em;">吊床驱动开发：[
+Hammock Driven Development | Rich Hickey - YouTube](https://www.youtube.com/watch?v=f84n5oFoZBc)</em>\
 <em style="float:left;font-size: 0.8em;">开发者宣言：[敏捷](https://agilemanifesto.org/iso/zhchs/manifesto.html)、[反应式](https://www.reactivemanifesto.org/zh-CN)</em>\
 <em style="float:left;font-size: 0.8em;">架构决策记录：[Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)</em>\
 <em style="float:left;font-size: 0.8em;">API风格规范：[OpenAPI](https://github.com/OAI/OpenAPI-Specification)、[AsyncAPI](https://github.com/asyncapi/spec)、[GraphQL](https://graphql.org/learn/introduction/)、[Protocol Buffers](https://protobuf.dev/overview/)</em>\

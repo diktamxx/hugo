@@ -1,0 +1,37 @@
+*.style.fill: "#D0B765"
+*.style.stroke: "#D0B765"
+*.style.font-color: "#FDFDFD"
+*.shape: rectangle
+
+(*** -> ***)[*]: {
+  style.stroke: "#6C8E6D"
+}
+
+# ===============================
+
+application: "<<system>>\n应用"
+OpenTelemetryAgent: "<<agent>>\nOpenTelemetry Agent\n\n非侵入性数据导出程序"
+
+Pyroscope: "<<system>>\nPyroscope\n\n存储数据"
+OpenTelemetryCollector: "<<system>>\nOpenTelemetry Collector\n\n数据采集器"
+
+Jaeger: "<<system>>\nJaeger\n\n存储数据"
+Prometheus: "<<system>>\nPrometheus\n\n存储数据"
+VictoriaLogs: "<<system>>\nVictoriaLogs\n\n存储数据"
+Grafana: "<<system>>\nGrafana\n\n仪表盘"
+
+# ===============================
+
+application -> OpenTelemetryAgent: "追踪、指标、日志、分析"
+
+OpenTelemetryAgent -> OpenTelemetryCollector: "推送：追踪、指标、日志"
+OpenTelemetryAgent -> Pyroscope: "推送：分析"
+
+OpenTelemetryCollector -> Jaeger: "导出：追踪"
+OpenTelemetryCollector -> VictoriaLogs: "导出：指标"
+OpenTelemetryCollector -> Prometheus: "导出：日志"
+
+Pyroscope -> Grafana: "提供数据"
+Jaeger -> Grafana: "提供数据"
+VictoriaLogs -> Grafana: "提供数据"
+Prometheus -> Grafana: "提供数据"

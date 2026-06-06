@@ -5,6 +5,7 @@
 baseURL = "https://diktam.com/"
 defaultContentLanguage = "zh-Hans"
 enableRobotsTXT = true
+timeout="360s"
 
 [pagination]
   pagerSize = 100 # posts页面的分页大小。注意，太大会导致页面加载变慢。进而（posts）页面的影响SEO

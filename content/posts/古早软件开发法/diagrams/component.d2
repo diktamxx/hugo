@@ -1,0 +1,46 @@
+User: |md
+  ## 用户
+
+  浏览内容
+| { shape: c4-person }
+
+SubscriptionContext: |md
+  ##### 订阅上下文
+| {
+  shape: rectangle
+  label.near: bottom-center
+  style.stroke-dash: 10
+  style.fill: transparent
+}
+
+SubscriptionContext.SubscriptionAPI: |md
+  ## 订阅 API
+
+  [REST]
+| { shape: rectangle }
+
+SubscriptionContext.SubscriptionService: |md
+  ## 订阅服务
+
+  [事务脚本模式]
+| { shape: rectangle }
+
+SubscriptionContext.SubscriptionDAO: |md
+  ## 订阅数据访问对象
+  
+  [表入口模式]
+| { shape: rectangle }
+
+
+Database: |md
+  ## 数据库
+  [PostgreSQL]
+| { shape: cylinder }
+
+User -> SubscriptionContext.SubscriptionAPI: "订阅"
+SubscriptionContext.SubscriptionAPI -> SubscriptionContext.SubscriptionService: "转发命令"
+SubscriptionContext.SubscriptionService -> SubscriptionContext.SubscriptionDAO: "状态"
+SubscriptionContext.SubscriptionDAO <-> Database: "存取数据"
+
+
+

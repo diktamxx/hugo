@@ -1,0 +1,52 @@
+User: |md
+  ## 用户
+
+  浏览内容
+| {
+  shape: c4-person
+}
+
+BlogSystem: |md
+  ##### 博客系统
+| {
+  shape: rectangle
+  label.near: bottom-center
+  style.stroke-dash: 10
+  style.fill: transparent
+}
+
+BlogSystem.SubscriptionContext: |md
+  ## 订阅上下文
+  [容器]
+
+  提供订阅服务
+| {
+  shape: rectangle
+}
+
+BlogSystem.NotificationContext: |md
+  ## 通知上下文
+  [容器]
+
+  提供通知服务
+| {
+  shape: rectangle
+}
+
+EmailSystem: |md
+  ## 邮件系统
+  [外部系统]
+
+  提供通知服务
+| {
+  shape: rectangle
+}
+
+User -> BlogSystem.SubscriptionContext: "订阅"
+BlogSystem.SubscriptionContext -> BlogSystem.NotificationContext: "事件通知"
+BlogSystem.NotificationContext -> EmailSystem: "反馈"
+EmailSystem -> User: "通知"
+
+
+
+

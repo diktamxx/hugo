@@ -576,12 +576,12 @@ video {
   margin-bottom: 1.2em;
 }
 
-/* diktam 移除超链接下划线样式 */
+/* diktam 移除超链接和下划线颜色 */
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: var(--tw-prose-links);
-  /* text-decoration: underline; */
+  /* color: var(--tw-prose-links); */
+  text-decoration: underline;
   font-weight: 500;
-  text-decoration-color: rgba(var(--color-primary-300), 1);
+  /* text-decoration-color: rgba(var(--color-primary-300), 1); */
 }
 
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):hover {
@@ -792,17 +792,18 @@ video {
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   color: var(--tw-prose-code);
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 0.875em;
+  font-style: italic;
 }
 
 /* diktam 去除code的左右标记 */
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
-  /* content: ""; */
+  content: "";
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
-  /* content: ""; */
+  content: "";
 }
 
 .prose :where(a code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -1186,6 +1187,7 @@ body:has(#menu-controller:checked) {
   font-weight: 400;
   --tw-text-opacity: 1;
   color: rgba(var(--color-neutral-700), var(--tw-text-opacity, 1));
+  text-decoration: none;
 }
 
 .toc a:is(.dark *) {
