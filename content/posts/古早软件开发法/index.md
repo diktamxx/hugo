@@ -395,7 +395,7 @@ Web 目录本身也是一个 Monorepo，它由 pnpm workspace 提供支持。
 
 ### 架构测试
 
-随着时间推移，原来定义的架构规则可能会变得面目全非。针对该问题，可以使用架构测试来解决。
+随着时间推移，原本定义的架构规则可能会变得面目全非。针对该问题，可以使用架构测试来解决。
 
 当前项目使用的架构测试库是 [ArchUnitTS](https://github.com/LukasNiessen/ArchUnitTS)。
 
