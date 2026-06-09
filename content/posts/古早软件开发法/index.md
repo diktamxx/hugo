@@ -1174,7 +1174,7 @@ pulumi update --yes
 
 一些人可能对（敏捷开发中）文档的概念不太了解。其实文档不一定非得是正式的文件，它们也可以是*工单（issue）中的某条留言，或者一段对话*、*一封抄送给团队的邮件*，甚至可以是*发在通信频道中的一张示意图*。而更重要是，需要知道如何让这些内容保持更新和发挥价值。其中一个比较有效的方案是，把相关内容放在显而易见且容易修改的地方。另外，如果读者曾经了解过或者参与过敏捷开发，那么很可能会见过 Jira 和 Slack 两款软件。前者用于*项目生命周期管理*，后者则是一款*以主题为中心的沟通工具*。它们能够很好地集成，相关内容支持互相引用和通知。能够满足几乎所有敏捷协作相关的需求。如果对此类协作方式感兴趣，还可以了解一下 [ChatOps](https://www.geeksforgeeks.org/devops/chatops/) 。
 
-> 值得一次，Slack 在去年（2025）已经停止对大中华区（包括：香港、澳门）进行直营服务。如果打算寻找替代品，可以考虑开源方案 [Mattermost](https://github.com/mattermost/mattermost)。而 Jira 则可以考虑 [Plane](https://github.com/makeplane/plane)。当然，如果确实有必要，也可以考虑国产的飞书和禅道。但个人其实并不是那么推荐国产软件。这并非崇洋媚外。而是作为用户，我更希望使用简单且有效的工具。但国内的产品经理，真实如出一辙。他们根本不理解什么是[少即是多（Less is More）](https://danslegris.com/zh/blogs/journal/less-is-more-or-less-is-a-bore)的产品理念。所以国产软件经常会充斥着各种乱七八糟的功能，以及反人类的设计。
+> 值得一次，Slack 在去年（2025）已经停止对大中华区（包括：香港、澳门）进行直营服务。如果打算寻找替代品，可以考虑开源方案 [Mattermost](https://github.com/mattermost/mattermost)。而 Jira 则可以考虑 [Plane](https://github.com/makeplane/plane)。当然，如果确实有必要的话，也可以考虑国产的飞书和禅道。但个人其实并不是那么推荐国产软件。这并非崇洋媚外。而是作为用户，我更希望使用简单且有效的工具。但国内的产品经理真是如出一辙，根本不理解什么是[少即是多（Less is More）](https://danslegris.com/zh/blogs/journal/less-is-more-or-less-is-a-bore)的产品理念。所以国产软件经常会充斥着各种乱七八糟的功能，以及反人类的设计。
 
 > 如果想了解更多关于敏捷开发文档的内容，建议阅读 《[活文档：与代码共同演进](https://book.douban.com/subject/35372829/)》一书。
 
