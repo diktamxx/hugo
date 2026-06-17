@@ -517,22 +517,6 @@ DDD 的关键是，落实并贯彻 *领域模型* 和 *通用语言*。不要让
 这是最终得到的回复模型。因为与评论概念存在差异，所以使用不同的模型来区分它们。另外可以看到，回复是一个实体，而不是值对象。这是因为它和评论一样，虽要被跟踪生命周期。
 ![](images/reply_entity.png)
 
-### 应用层
-
-应用层的主要职责是，编排用例和执行事务管理。但如果系统本身足够简单，那么它就不是必需的。此时可以把相关职责交给表现层来实现。譬如 Controller 或 Router。但若然需要支持多种网络通协议，那么相关逻辑就应该能够被复用。此时应用层的价值就会体现出来。而且从长远看，这绝对是一种良好的实践
-![](images/CommentApplicationService.png)
-
-我这里使用的是自定义事务管理器。其实大多数情况，根本没有必要使用复杂的框架。
-
-首先创建一个 DataSource 代理（静态或动态都可以），然后控制 getConnection() 的访问。
-![](images/ThreadLocalDataSourceProxy.png)
-
-> 这里使用 ThreadLocal 来实现事务管理的原因有两个，一是用例本身并不存在并发性 — Connection 始终位于同一条线程上。二是 ThreadLocal 能够方便地跨组件共享依赖。因为当前项目中，并非只有事务管理器在引用 DataSource，其实相关仓储（如：CommentRepository）也在引用它。
-
-然后再基于 Data Source 实现事务管理 API。
-![](images/ThreadLocalDataSourceTransactor.png)
-
-
 ### 渐进式数据库设计
 
 渐进式数据库设计使用*不可变脚本*来记录数据库变迁。
@@ -574,6 +558,21 @@ DDD 的关键是，落实并贯彻 *领域模型* 和 *通用语言*。不要让
 ![](images/JooqCommentRepository.png)
 
 > 并非只有分布式应用才需要分布式事务。只要涉及异步（跨上下文）协作，就需要确可靠和一致。而且该问题还不能一概而论，因为不同类型的系统对一致性的要求并不一样。譬如 CMS 对一致性的要求就不高。我这里使用分布式事务更多是因为写作需要，其次才是确保一致性。例子使用 *Outbox 模式*（国内又叫“本地事务表”）进行实现。它的原理比较简单，先用一张 Outbox 表记录待发送消息，然后让其他并发工作线程抓取这些消息，并将其发送到 EventBus 即可。该模式之所以可行，是因为 Outbox 表和聚合表位于同一个本地事务。
+
+### 应用层
+
+应用层的主要职责是，编排用例和执行事务管理。但如果系统本身足够简单，那么它就不是必需的。此时可以把相关职责交给表现层来实现。譬如 Controller 或 Router。但若然需要支持多种网络通协议，那么相关逻辑就应该能够被复用。此时应用层的价值就会体现出来。而且从长远看，这绝对是一种良好的实践
+![](images/CommentApplicationService.png)
+
+我这里使用的是自定义事务管理器。其实大多数情况，根本没有必要使用复杂的框架。
+
+首先创建一个 DataSource 代理（静态或动态都可以），然后控制 getConnection() 的访问。
+![](images/ThreadLocalDataSourceProxy.png)
+
+> 这里使用 ThreadLocal 来实现事务管理的原因有两个，一是用例本身并不存在并发性 — Connection 始终位于同一条线程上。二是 ThreadLocal 能够方便地跨组件共享依赖。因为当前项目中，并非只有事务管理器在引用 DataSource，其实相关仓储（如：CommentRepository）也在引用它。
+
+然后再基于 Data Source 实现事务管理 API。
+![](images/ThreadLocalDataSourceTransactor.png)
 
 ### 防腐层
 
