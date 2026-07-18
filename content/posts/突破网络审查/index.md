@@ -141,7 +141,7 @@ allowfullscreen></iframe>
 - 实况直播网站 [twitch.tv](https://twitch.tv)
 - 个人认为用户体验最好的音乐软件 [spotify.com](https://spotify.com)，可到淘宝购买会员资格
 - 电子书网站 [Z-Library](https://zh.z-lib.fm/) 和 [Anna’s Archive](https://zh.annas-archive.gl/)。可以在这找到大部分书籍（包括中文书，除非太新可能会找不到之外）
-- 影视作品 [iKanBot](https://ikanbot.com/)、[Ago影院](https://www.agoys.com/)、[Gimy剧迷](https://gimytw.cc)、[美剧屋](https://www.mjwu.cc)、[美剧窝](https://www.meijuwo.cc)、[韩剧网](https://2kor.com/)、[OnDemandChina](https://www.ondemandchina.com/zh-Hans)、[独播库](https://www.dbkk.cc/)、[AGE动漫](https://age.tv)、[西瓜卡通](https://www.xgcartoon.com/)、[奈飞工厂](https://www.netflixgc.org/)、[人人影视](https://kuaizi.cc/)、[小鸭看看](https://tw.xiaoyakankan.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
+- 影视作品 [iKanBot](https://ikanbot.com/)、[Ago影院](https://www.agoys.com/)、[Gimy剧迷](https://gimytw.cc)、[美剧屋](https://www.mjwu.cc)、[美剧窝](https://www.meijuwo.cc)、[韩剧网](https://hanjudada.com/)、[OnDemandChina](https://www.ondemandchina.com/zh-Hans)、[独播库](https://www.dbkk.cc/)、[AGE动漫](https://age.tv)、[西瓜卡通](https://www.xgcartoon.com/)、[奈飞工厂](https://www.netflixgc.org/)、[人人影视](https://kuaizi.cc/)、[小鸭看看](https://tw.xiaoyakankan.com/)。注意，很多影视网站会因为逃避版权追查而屏蔽特定地区的访问。当出现*无法访问（譬如提示地区被封锁）* 时，可以尝试通过切换节点来解决问题
 
 
 ## 拓展 - 1：将代理软件安装到Wi-Fi上，让所有连接Wi-Fi的设备都能够翻墙
