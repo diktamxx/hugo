@@ -70,7 +70,7 @@ showTableOfContents: true
 - 付费机场：[https://dash.pqjc.site](https://dash.pqjc.site)
 - 付费机场：[https://xn--9kq10e0y7h.site](https://xn--9kq10e0y7h.site)
 
-如果上面的*机场*已经无法访问，可以到 [https://github.com/DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) 中挑选一个。使用方面大同小异。
+如果上面的*机场*已经无法访问，可以到 [2026年便宜好用的翻墙机场推荐](https://jichangtuijian.uk/vpn/vpn.html) 中挑选一个。使用方面大同小异。
 
 ### 第2步：注册并购买节点套餐
 
