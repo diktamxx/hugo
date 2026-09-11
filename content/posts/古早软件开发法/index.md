@@ -598,7 +598,7 @@ Vert.x 的核心是一个基于 Netty 实现的 EventLoop 调度模型 —— �
 当前项目使用 Vert.x 的 Web 模块来处理网络请求。
 ![](images/CommentVerticle.png)
 
-因为是库，而非框架。所以使用起来十分灵活。开发人员完全可以根据需要来做一些基础性设计。譬如，根据使用模式抽象出一个 Endpoint 概念，用来规范 RESTful 请求处理。
+因为是库，而非框架，所以使用起来十分灵活。开发人员完全可以根据需要来做一些基础性的封装设计。譬如，根据使用模式抽象出一个 Endpoint 概念，用来规范 RESTful 请求处理。
 ![](images/Endpoint_abstract.png)
 
 ### 命令查询职责分离
