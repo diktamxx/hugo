@@ -4,7 +4,7 @@ slug: "vintage software development"
 summary: "我的第一个十年。"
 categories: ["软件工程"]
 tags: ["软件工程"]
-date: "2026-03-17"
+date: "2026-04-17"
 lastmod: "2026-06-06"
 cover: "images/cover.png"
 thumbnail: "images/cover.png"
