@@ -820,7 +820,7 @@ Pipeline 对于开发人员来说，我想不会太陌生。因为很多自称�
 
 **软件发布**
 
-软件发布时，需要从主分支（特定标签）创建一条 release 分支进行发布。如果发布后出现 BUG，不是修改 release 分支，而是先在主分支上进行修复，再通过 [cherry-pick](https://git-scm.com/docs/git-cherry-pick/zh_HANS-CN) 操作将该修复 commit 合并到 release 分支上，再进行发布。然而该流程可能会出现一个问题 —— 在此之前 BUG 已经被发现并修复，但目标 commit 包含当前 release 不兼容的内容。此时可以有几种选择：拆分 commit、通过调整代码来形成新的修复 commit、直接在 release 分支上修复。建议优先考虑第二种方案，其次是第三种。因为拆分 commit 会导致（commit）标识改变，这会破坏其他人的历史（除能够协调所有人）。
+软件发布时，需要从主分支（特定标签）创建一条 release 分支进行发布。如果发布后出现 BUG，不是修改 release 分支，而是先在主分支上进行修复，再通过 [cherry-pick](https://git-scm.com/docs/git-cherry-pick/zh_HANS-CN) 操作将该修复 commit 合并到 release 分支上，再进行发布。然而该流程可能会出现一个问题 —— 在此之前 BUG 已经被发现并修复，但目标 commit 包含当前 release 不兼容的内容。此时可以有几种选择：拆分 commit、通过调整代码来形成新的修复 commit、直接在 release 分支上修复。建议优先考虑后两种方案。因为拆分 commit 会导致 commit 标识改变，从而破坏分支历史（除非能够协调所有人）。
 
 **隐藏代码**
 
