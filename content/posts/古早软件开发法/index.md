@@ -844,7 +844,7 @@ TBD 比较难的部分是隐藏未完成的工作内容。因为主干需要处�
 
 个人认为，首先要确保 commit 具备原子性。只要体积足够小，message 编写起来就会变得容易，同时也有利于后续代码审查工作。我知道一些人喜欢用变基（rebase）来整理 Git log 。但这种行为应该适可而止。因为它本质上是在篡改历史。不要为了“好看”而撒谎，除非是想到了更好的描述方法。
 
-至于格式，比较好的方案是[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/) —— 一种旨在提高信息可读性的规范。它提倡使用以下规范来编写 commit message：
+至于格式方面，比较好的方案是[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/) —— 一种旨在提高信息可读性的规范。它提倡使用以下规范来编写 commit message：
 ![](images/git-messge_spec_format.png)
 
 遵循该规范，可以得到类似 Git log。
