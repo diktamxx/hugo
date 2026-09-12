@@ -850,7 +850,7 @@ TBD 比较难的部分是隐藏未完成的工作内容。因为主干需要处�
 遵循该规范，可以得到类似的 Git log。
 ![](images/git-log.png)
 
-如果想找参考例子，可以浏览 [Angular](https://github.com/angular/angular) 代码库，它是一个典范。另外，为了能够更好地落实规范，可以在 [Git hooks](https://git-scm.com/book/zh/v2/%e8%87%aa%e5%ae%9a%e4%b9%89-Git-Git-%e9%92%a9%e5%ad%90) 中添加相关校验规则。这样可以阻止不合规格的 commit。
+如果想找参考例子，可以浏览 [Angular](https://github.com/angular/angular) 代码库，它是一个典范。另外，为了能够更好地落实该规范，可以在 [Git hooks](https://git-scm.com/book/zh/v2/%e8%87%aa%e5%ae%9a%e4%b9%89-Git-Git-%e9%92%a9%e5%ad%90) 中添加相关校验规则。这样可以阻止不合规格的 commit。
 
 ### 集成管道
 
