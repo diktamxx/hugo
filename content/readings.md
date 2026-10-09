@@ -5,7 +5,7 @@ showDate: false
 title: "推荐读物"
 ---
 
-#### / 程序员的自我修养 /
+#### / 自我修养 /
 <em style="float:left;font-size: 0.8em;">《解析极限编程：拥抱变化》Kent Beck</em>\
 <em style="float:left;font-size: 0.8em;">《敏捷软件开发：原则、模式与实践》Robert C. Martin</em>\
 <em style="float:left;font-size: 0.8em;">《匠艺整洁之道：程序员的职业素养》Robert C. Martin</em>\
@@ -24,7 +24,7 @@ title: "推荐读物"
 <em style="float:left;font-size: 0.8em;">《领域驱动设计：软件核心复杂性应对之道》Eric Evans</em>\
 <em style="float:left;font-size: 0.8em;">《领域驱动设计精粹》Vaughn Vernon</em>\
 <em style="float:left;font-size: 0.8em;">《实现领域驱动设计》Vaughn Vernon</em>\
-<em style="float:left;font-size: 0.8em;">《领域驱动设计学习手册》Vlad Khononov</em> 
+<em style="float:left;font-size: 0.8em;">《领域驱动设计学习手册》Vlad Khononov</em>
 <br>
 
 #### / 应对遗留系统 /
@@ -40,7 +40,7 @@ Hammock Driven Development | Rich Hickey - YouTube](https://www.youtube.com/watc
 <em style="float:left;font-size: 0.8em;">开发者宣言：[敏捷](https://agilemanifesto.org/iso/zhchs/manifesto.html)、[反应式](https://www.reactivemanifesto.org/zh-CN)</em>\
 <em style="float:left;font-size: 0.8em;">架构决策记录：[Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)</em>\
 <em style="float:left;font-size: 0.8em;">API风格规范：[OpenAPI](https://github.com/OAI/OpenAPI-Specification)、[AsyncAPI](https://github.com/asyncapi/spec)、[GraphQL](https://graphql.org/learn/introduction/)、[Protocol Buffers](https://protobuf.dev/overview/)</em>\
-<em style="float:left;font-size: 0.8em;">关于命名：[Naming as a Process](https://www.digdeeproots.com/articles/naming-process/)</em>\
+<em style="float:left;font-size: 0.8em;">关于命名：[Naming as a Process](https://www.digdeeproots.com/articles/naming-process/)</em> \
 <em style="float:left;font-size: 0.8em;">CSS命名规范：[BEM](https://getbem.com/)</em>\
 <em style="float:left;font-size: 0.8em;">语义化版本号：[2.0.0](https://semver.org/lang/zh-CN/)</em>\
 <em style="float:left;font-size: 0.8em;">约定式提交：[1.0.0](https://www.conventionalcommits.org/zh-hans/v1.0.0/)</em>\
